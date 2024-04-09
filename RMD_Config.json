@@ -1,0 +1,93 @@
+{
+    "RendermanPath": "C:/Program Files/Pixar/RenderManProServer-25.2",
+    "RequiredAOV": [
+        "Ci",
+        "sampleCount",
+        "mse",
+        "albedo",
+        "albedo_var",
+        "albedo_mse",
+        "diffuse",
+        "diffuse_mse",
+        "specular",
+        "specular_mse",
+        "zfiltered",
+        "zfiltered_var",
+        "normal",
+        "normal_var",
+        "normal_mse",
+        "forward",
+        "backward",
+        "a"
+    ],
+    "DodgeList": [],
+    "AOVToRemove": [
+        "albedo_var",
+        "mse",
+        "sampleCount",
+        "albedo",
+        "albedo_var",
+        "albedo_mse",
+        "diffuse_mse",
+        "specular_mse",
+        "zfiltered",
+        "zfiltered_var",
+        "normal_var",
+        "normal_mse"
+    ],
+    "DenoisePasses": [
+        "albedo",
+        "color",
+        "specular",
+        "diffuse"
+    ],
+    "DenoiseKeywords": {
+        "a": [
+            "a"
+        ],
+        "albedo": [
+            "albedo",
+            "albedo_var",
+            "albedo_mse"
+        ],
+        "diffuse": [
+            "diffuse",
+            "Diffuse",
+            "diffuse_mse",
+            "normal",
+            "forward",
+            "backward"
+        ],
+        "specular": [
+            "specular",
+            "Specular",
+            "specular_mse"
+        ],
+        "color": [
+            "beauty",
+            "Ci",
+            "subsurface",
+            "glass",
+            "Glass",
+            "transmissive"
+        ],
+        "sampleCount": [
+            "sampleCount"
+        ],
+        "mse": [
+            "mse"
+        ],
+        "zfiltered": [
+            "zfiltered"
+        ],
+        "zfiltered_var": [
+            "zfiltered_var"
+        ],
+        "normal_var": [
+            "normal_var"
+        ],
+        "normal_mse": [
+            "normal_mse"
+        ]
+    }
+}
