@@ -122,14 +122,29 @@ class RMD_Application(App[None], DenoiseCore):
 		with open(os.path.join(os.getcwd(), "data/log.dll"), "a") as save_file:
 			save_file.write(line)
 
+	def display_notification_function(self, message):
+		self.notify(message, severity="warningcls", timeout=5)
+		print(colored(message, "cyan"))
+		self.program_log.append("[%s] - STATUS : %s"%(str(datetime.now()), message))
+		self.save_log_function("[%s] - STATUS : %s\n"%(str(datetime.now()), message))
+
 	def display_error_function(self, message):
-		self.notify(message, severity="error", timeout=5)
+		self.notify(message, severity="Error", timeout=5)
+		print(colored(message, "red"))
 		self.program_log.append("[%s] - ERROR : %s"%(str(datetime.now()), message))
-		#self.save_log_function("[%s] - ERROR : %s\n"%(str(datetime.now()), message))
-	def display_message_function(self, message):
+		self.save_log_function("[%s] - ERROR : %s\n"%(str(datetime.now()), message))
+
+	def display_success_function(self, message):
 		self.notify(message, timeout=5)
-		self.program_log.append("[%s] - NOTIFICATION : %s"%(str(datetime.now()), message))
-		#self.save_log_function("[%s] - NOTIFICATION : %s\n"%(str(datetime.now()), message))
+		print(colored(message, "white"))
+		self.program_log.append("[%s] - MESSAGE : %s"%(str(datetime.now()), message))
+		self.save_log_function("[%s] - MESSAGE : %s\n"%(str(datetime.now()), message))
+
+	def display_message_function(self, message):
+		self.notify(message, severity = "information", timeout=5)
+		print(colored(message, "green"))
+		self.program_log.append("[%s] - SUCCESS : %s"%(str(datetime.now()), message))
+		self.save_log_function("[%s] - SUCCESS : %s\n"%(str(datetime.now()), message))
 
 
 	def create_settings_function(self):
@@ -338,6 +353,58 @@ class RMD_Application(App[None], DenoiseCore):
 
 			
 	def on_button_pressed(self, event: Button.Pressed) -> None:
+
+
+		if event.button.id == "ManualCombine":
+		
+			if os.path.isdir(self.output_path) == False:
+				self.display_error_function("You have to define an existing output path")
+			else:
+				#reset variables
+				self.channel_selection_name = []
+				self.alpha_sequence_list = []
+				self.combined_sequence_list = []
+
+				with self.suspend():
+					
+					self.combine_exr_function()
+
+
+
+
+		if event.button.id == "ManualCompress":
+			#define the self.combined_sequence_list as the output folder
+			try:
+				content = os.listdir(self.sequence_path)
+			except:
+				self.display_error_function("Impossible to get the content of the input folder")
+				return 
+			else:
+				if os.path.isdir(self.output_path) != True:
+					self.display_error_function("You have to define output path")
+					return 
+				else:
+					self.channel_selection_name = []
+					self.combined_sequence_list = []
+					self.channel_selection = self.query_one("#channel_list").selected
+
+					for item in content:
+						if os.path.isfile(os.path.join(self.sequence_path, item)) == True:
+							self.display_message_function("Render added to compression list : %s"%os.path.join(self.sequence_path, item))
+							self.combined_sequence_list.append(os.path.join(self.sequence_path, item))
+				
+					for item in self.channel_selection:
+						self.channel_selection_name.append(self.input_channel_list[item])
+					#generate the json config from the input path
+					with self.suspend():
+						self.remove_useless_channels_function(self.output_path)
+			
+					
+					
+	
+
+
+
 		if event.button.id == "button_input_check":
 			
 			if (self.sequence_path != None) or (self.output_path != None):
@@ -385,10 +452,12 @@ class RMD_Application(App[None], DenoiseCore):
 
 		if event.button.id == "button_launch_denoiser":
 			if (self.sequence_path != None) or (self.output_path != None):
-				self.combined_sequence_list = []
+				
 				self.channel_selection = self.query_one("#channel_list").selected
+
 				self.channel_selection_name = []
 				self.alpha_sequence_list = []
+				self.combined_sequence_list = []
 
 				for item in self.channel_selection:
 					self.channel_selection_name.append(self.input_channel_list[item])

@@ -395,8 +395,10 @@ class DenoiseCore():
 
 	def combine_exr_function(self):
 
+			
+			self.display_notification_function("COMBINE EXR FUNCTION")
+
 			combined_sequence_data = {}
-			self.display_message_function("COMBINE EXR FUNCTION")
 			render_file_list = []
 			render_folder_list = []
 
@@ -415,6 +417,9 @@ class DenoiseCore():
 					render_folder_list.append(os.path.join(self.output_path,element))
 
 
+			self.display_notification_function("FOLDER LIST")
+			for folder in render_folder_list:
+				self.display_message_function(str(folder))
 			#print("\n\n\n")
 
 			i=0
@@ -425,15 +430,17 @@ class DenoiseCore():
 					break
 				else:
 					i+=1
+			self.display_notification_function("Ouput folder created : %s"%combined_path)
 
 			for render in render_file_list:
-				self.display_message_function("CHECKING RENDER : %s"%render)
+				self.display_notification_function("CHECKING RENDER : %s"%render)
 				combination_list = [render]
 
 				for folder in render_folder_list:
 					if (os.path.isfile(os.path.join(folder, os.path.basename(render)))==True) and (os.path.join(folder, os.path.basename(render)) not in combination_list):
 						#print("render added %s"%os.path.join(folder, os.path.basename(render)))
 						combination_list.append(os.path.join(folder, os.path.basename(render)))
+						self.display_message_function("Render added to combining list : %s"%os.path.join(folder, os.path.basename(render)))
 
 				#generate the command to use the renderman script
 				#C:\Program Files\Pixar\RenderManProServer-25.2\bin
@@ -445,6 +452,7 @@ class DenoiseCore():
 
 				start_merge = (datetime.now())
 
+				self.display_message_function("Launching combining command : %s"%command)
 				command = '"%s/bin/exrmerge.exe" %s %s/Combined_%s'%(self.config["RendermanPath"], command, combined_path, os.path.basename(render))
 				os.system(command)
 
@@ -452,7 +460,7 @@ class DenoiseCore():
 				if os.path.isfile("%s/Combined_%s"%(combined_path, os.path.basename(render))) == False:
 					self.display_error_function("Impossible to combine render : %s"%(os.path.basename(render)))
 				else:
-					self.display_message_function("Combined render created : %s"%(os.path.basename(render)))
+					self.display_success_function("Combined render created : %s"%(os.path.basename(render)))
 					self.combined_sequence_list.append("%s/Combined_%s"%(combined_path, os.path.basename(render)))
 
 					combined_sequence_data["Combined_%s"%os.path.basename(render)] = os.stat("%s/Combined_%s"%(combined_path, os.path.basename(render))).st_size / (1024 * 1024)
@@ -468,11 +476,14 @@ class DenoiseCore():
 
 
 
-	def remove_useless_channels_function(self):
+	def remove_useless_channels_function(self, output_folder = False):
 		combined_remove_sequence_data = {}
 		for file in self.combined_sequence_list:
 			#remove in each file the aovs present in remove useless channel list
-			value = self.remove_channel_function(file, file, self.channel_selection_name, True)
+			if output_folder == False:
+				value = self.remove_channel_function(file, file, self.channel_selection_name, True)
+			else:
+				value = self.remove_channel_function(file, os.path.join(output_folder, file), self.channel_selection_name,True)
 			combined_remove_sequence_data[os.path.basename(file)] = os.stat(file).st_size / (1024 * 1024)
 			if value == True:
 				self.display_message_function("Useless channel removed from final render : %s"%file)

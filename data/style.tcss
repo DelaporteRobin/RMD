@@ -11,7 +11,7 @@
 	background: #090909;
 }
 .main_leftcolumn {
-	max-width:30%;
+	max-width:40%;
 }
 
 
@@ -62,6 +62,7 @@ OptionList {
 }
 
 .log_t1 {
+	padding-left:5;
 	color: #FF8B2B;
 }
 
@@ -69,7 +70,7 @@ OptionList {
 	height:100%;
 }
 #channel_list {
-	height:85%;
+	height:90%;
 }
 
 
@@ -77,4 +78,8 @@ DirectoryTree, OptionList, SelectionList {
 	scrollbar-background: black;
 	scrollbar-color: #FF7028;
 	scrollbar-color-hover: #FF7023;
+}
+
+Checkbox {
+	width: 100%;
 }
