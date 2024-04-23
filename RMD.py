@@ -1,3 +1,18 @@
+import importlib.util 
+import os
+
+package_list = ["json", "textual", "pyfiglet", "datetime", "termcolor", "Imath", "asciichartpy", "plotext", "threading", "json", "colorama", "OpenEXR", "subprocess", "time", "numpy"]
+
+
+print("Checking packages...")
+
+for package in package_list:
+	spec = importlib.util.find_spec(package)
+	if spec == None:
+		print("INSTALLING %s"%package)
+		os.system("python -m pip install %s"%package)
+
+
 
 
 from textual.app import App, ComposeResult
@@ -10,7 +25,7 @@ from textual.containers import Horizontal, Vertical, Container, VerticalScroll
 from textual import on
 
 
-from DenoiserJson import DenoiseCore
+from data.DenoiserJson import DenoiseCore
 from datetime import datetime
 from pyfiglet import Figlet 
 from time import sleep
@@ -22,12 +37,14 @@ import Imath
 import asciichartpy as acp
 import plotext as plt
 import threading
-import os 
+
 import json 
 import colorama
 import OpenEXR
-
 colorama.init()
+
+
+
 
 
 
@@ -484,15 +501,17 @@ class RMD_Application(App[None], DenoiseCore):
 						sleep(2)
 				
 				self.display_message_function("Denoising done")
-				self.create_alpha_copy_function()
+				
 
 				if self.settings["CombineFinalRenders"] ==True:
+					self.create_alpha_copy_function()
 					#CALL COMBINE EXR FUNCTION
 					self.combine_exr_function()
-					self.combine_alpha_with_sequence_function()
+					
 
 					if self.settings["RemoveDenoiseChannels"] == True:
 						self.remove_useless_channels_function()
+					self.combine_alpha_with_sequence_function()
 			else:
 				self.display_error_function("You have to define input and output path!")
 				return
