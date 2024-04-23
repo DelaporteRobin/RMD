@@ -3,7 +3,7 @@
 
 
 .dir_explorer_t1 {
-	max-height: 15%;
+	max-height: 30%;
 }
 
 
@@ -24,7 +24,7 @@
 
 .main_title {
 	color: #FF7023;
-	max-height:10%;
+	height:8;
 }
 
 
@@ -54,9 +54,6 @@
 	border:heavy #090909;
 }
 
-.selection_compression_mode {
-	max-height:40%;
-}
 OptionList {
 	border:double #FF8B2B;
 }
@@ -82,4 +79,12 @@ DirectoryTree, OptionList, SelectionList {
 
 Checkbox {
 	width: 100%;
+}
+
+.left_settings_horizontal_container {
+	max-height: 40%;
+}
+
+.collapse_left_top, .collapse_left_bot {
+	max-height: 90%;
 }
