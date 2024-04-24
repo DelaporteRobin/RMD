@@ -338,16 +338,16 @@ class DenoiseCore():
 
 		self.display_message_function("Generation of dictionnary done")
 
-		if os.path.isfile(os.path.join(self.program_path, "final_config.json"))==True:
+		if os.path.isfile(os.path.join(self.program_path, "data/final_config.json"))==True:
 			try:
-				os.remove(os.path.join(self.program_path, "final_config.json"))
+				os.remove(os.path.join(self.program_path, "data/final_config.json"))
 				
 			except:
 				self.display_error_function("Impossible to remove old config")
 			else:
 				self.display_message_function("Old config removed")
 		try:
-			with open(os.path.join(self.program_path, "final_config.json"), "w") as save_config:
+			with open(os.path.join(self.program_path, "data/final_config.json"), "w") as save_config:
 				json.dump(config_dictionnary, save_config, indent=4)
 		
 		except:
@@ -355,7 +355,7 @@ class DenoiseCore():
 			return False
 		else:
 			self.display_message_function("JSON Config file generated")
-			return os.path.join(self.program_path, "final_config.json")
+			return os.path.join(self.program_path, "data/final_config.json")
 		
 
 
@@ -367,7 +367,7 @@ class DenoiseCore():
 
 		
 
-		#, os.path.join(self.program_path, "final_config.json")
+		#, os.path.join(self.program_path, "data/final_config.json")
 		if self.settings["CrossFrame"] == False:
 			self.display_message_function("Denoise without crossframe engaged")
 		else:
@@ -381,7 +381,7 @@ class DenoiseCore():
 			self.display_message_function("Denoise done")
 		
 		
-		#command = ["%s/bin/denoise_batch.exe"%self.config["RendermanPath"], "-cf", "-j", os.path.join(self.program_path, "final_config.json"), "-o", self.output_path]
+		#command = ["%s/bin/denoise_batch.exe"%self.config["RendermanPath"], "-cf", "-j", os.path.join(self.program_path, "data/final_config.json"), "-o", self.output_path]
 
 		#print(command)
 		#process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)

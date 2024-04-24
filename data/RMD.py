@@ -73,11 +73,10 @@ class RMD_Application(App[None], DenoiseCore):
 			print(colored("Impossible to load module", "red"))
 			return
 		"""
+		#print(os.getcwd())
 		self.config_path = os.path.join(os.getcwd(),"final_config.json")
 
-		self.starting_path = Path(" ")
-
-		self.version = "0.1"
+		self.starting_path = Path(".")
 
 		self.program_log = []
 		self.old_log = []
@@ -234,7 +233,7 @@ class RMD_Application(App[None], DenoiseCore):
 
 
 	def on_mount(self) -> None:
-		self.title = "RMD - Version %s - By Quazar"%self.version
+		self.title = "RMD - By Quazar"
 
 
 	def compose(self) -> ComposeResult:
