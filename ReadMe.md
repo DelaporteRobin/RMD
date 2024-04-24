@@ -5,6 +5,8 @@ You can read the documentation [HERE](https://www.notion.so/RMD-APP-DOCUMENTATIO
 
 
 ### TO DO FOR NEXT VERSIONS 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [ ] Fixing directory explorer root system
+- [ ] Dodge missing frames
+- [ ] Creating a custom range denoising system
+- [ ] UI review
+- [ ] Create a launcher
