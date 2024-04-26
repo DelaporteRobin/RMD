@@ -1,0 +1,147 @@
+{
+    "primary": [
+        "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+    ],
+    "aux": {
+        "a": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "a"
+                ]
+            }
+        ],
+        "albedo": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "albedo",
+                    "albedo_mse",
+                    "albedo_var"
+                ]
+            }
+        ],
+        "diffuse": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "diffuse",
+                    "diffuse_lgt_dome",
+                    "diffuse_lgt_fill",
+                    "diffuse_lgt_key",
+                    "diffuse_mse",
+                    "normal",
+                    "normal_mse",
+                    "normal_var",
+                    "forward",
+                    "backward"
+                ]
+            }
+        ],
+        "specular": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "specular",
+                    "specular_lgt_dome",
+                    "specular_lgt_fill",
+                    "specular_lgt_key",
+                    "specular_mse"
+                ]
+            }
+        ],
+        "color": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "Ci"
+                ]
+            }
+        ],
+        "sampleCount": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "sampleCount"
+                ]
+            }
+        ],
+        "mse": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "mse"
+                ]
+            }
+        ],
+        "zfiltered": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "zfiltered",
+                    "zfiltered_var"
+                ]
+            }
+        ],
+        "zfiltered_var": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "zfiltered_var"
+                ]
+            }
+        ],
+        "normal_var": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "normal_var"
+                ]
+            }
+        ],
+        "normal_mse": [
+            {
+                "paths": [
+                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                ],
+                "layers": [
+                    "normal_mse"
+                ]
+            }
+        ]
+    },
+    "config": {
+        "asymmetry": 0.0,
+        "flow": false,
+        "debug": false,
+        "output-dir": "\\render_test_output",
+        "passes": [
+            "albedo",
+            "color",
+            "specular",
+            "diffuse"
+        ],
+        "parameters": "C:/Program Files/Pixar/RenderManProServer-25.2/lib/denoise/20970-renderman.param",
+        "topology": "C:/Program Files/Pixar/RenderManProServer-25.2/lib/denoise/full_w7_4sv2_sym_gen2.topo"
+    }
+}

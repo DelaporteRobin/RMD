@@ -81,10 +81,17 @@ Checkbox {
 	width: 100%;
 }
 
-.left_settings_horizontal_container {
-	max-height: 40%;
+.container_denoise_options {
+	max-height:15;
 }
 
 .collapse_left_top, .collapse_left_bot {
-	max-height: 90%;
+	max-height: 80%;
+}
+
+.input_range {
+	max-width: 50%;
+}
+.container_range {
+	max-height:5;
 }

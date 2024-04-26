@@ -5,8 +5,8 @@ You can read the documentation [HERE](https://www.notion.so/RMD-APP-DOCUMENTATIO
 
 
 ### TO DO FOR NEXT VERSIONS 
-- [ ] Fixing directory explorer root system
 - [ ] Dodge missing frames
-- [ ] Creating a custom range denoising system
+- [x] Creating a custom range denoising system
 - [ ] UI review
-- [ ] Create a launcher
+- [x] Create a launcher
+- [ ] Clean the output path folder

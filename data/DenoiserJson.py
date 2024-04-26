@@ -142,33 +142,6 @@ class DenoiseCore():
 
 
 
-	def check_input_sequence_function(self):
-		"""
-		get the size of each file
-		check for missing frames
-		check creation delay between n and n+1 frame
-		"""
-		#get content in sequence path
-		sequence_frame = []
-		sequence_index = []
-		sequence_size = []
-		for item in os.listdir(self.sequence_path):
-		    if os.path.isfile(os.path.join(self.sequence_path, item))==True:
-		        if (os.path.splitext(item)[1] == ".exr") or (os.path.splitext(item)[1] == ".Exr"):
-		            sequence_frame.append(os.path.join(self.sequence_path, item))
-		            frame_size = os.stat(os.path.join(self.sequence_path, item)).st_size / (1024*1024)
-		            sequence_size.append(frame_size)
-
-		            splited_filename = os.path.splitext(item)[0].split(".")
-		            sequence_index.append(str(splited_filename[1]))
-
-		return plt.simple_bar(sequence_index, sequence_size, width=70, title="Sequence size data")
-		#plt.show()
-
-
-
-
-
 
 
 
@@ -180,6 +153,14 @@ class DenoiseCore():
 	def create_config_function(self):
 		#check if the folder path exists
 		#print(self.sequence_path)
+
+		#get min and max frames
+		#check if the values are correct in order to launch denoising function
+		self.display_message_function("%s : %s"%(self.max_frame, self.min_frame))
+		if (int(self.max_frame) < int(self.min_frame)):
+			self.display_error_function("You must enter a valid frame range!")
+			return
+
 		if os.path.isdir(self.sequence_path) == False:
 			self.display_error_function("Folder doesn't exist!")
 			return
@@ -192,9 +173,27 @@ class DenoiseCore():
 			if os.path.isfile(os.path.join(self.sequence_path,item)) == True:
 				#print(os.path.splitext(item)[1])
 				if (os.path.splitext(item)[1] == ".exr") or (os.path.splitext(item)[1] == ".Exr"):
-					print(os.path.join(self.sequence_path, item))
-					self.exr_list.append(os.path.join(self.sequence_path, item))
+					if self.query_one("#frame_range_checkbox").value == True:
+						#check if the index of the frame is contained in the frame range
+						splited_file = os.path.splitext(item)[0].split(".")
+						if (len(splited_file) != 2) or (splited_file[1].isdigit()==False):
+							self.display_error_function("Impossible to get that frame index: %s"%item)
+							return False
+						else:
+							#check if the frame index is contained in the interval
+							frame_index = int(splited_file[1])
 
+							#self.display_message_function("%s ; %s ; %s"%(frame_index, self.min_frame, self.max_frame))
+							if (int(frame_index) >= int(self.min_frame)) and (int(frame_index) <= int(self.max_frame)):
+								#print(os.path.join(self.sequence_path, item))
+								self.exr_list.append(os.path.join(self.sequence_path, item))
+					else:
+						self.exr_list.append(os.path.join(self.sequence_path, item))
+			
+
+		if len(self.exr_list) == 0:
+			self.display_message_function("No frame to denoise!")
+			return
 
 		#CHECK FOR EACH FILE OF THE EXR LIST THAT THERE IS REQUIRED AOVS
 		self.display_message_function("Checking AOV's in .exr files:")
@@ -210,10 +209,10 @@ class DenoiseCore():
 					if element.split(".")[0] not in exr_aov:
 						exr_aov.append(element.split(".")[0])
 
-		#check that all required aovs are in the exr file
-		for required_aov in self.required_aov:
-			if required_aov not in exr_aov:
-				self.display_error_function("REQUIRED AOV MISSING :\nAOV missing : %s\nEXR file : %s"%(required_aov, file))
+			#check that all required aovs are in the exr file
+			for required_aov in self.required_aov:
+				if required_aov not in exr_aov:
+					self.display_error_function("REQUIRED AOV MISSING :\nAOV missing : %s\nEXR file : %s"%(required_aov, file))
 
 
 
@@ -424,12 +423,22 @@ class DenoiseCore():
 
 			i=0
 			while True:
-				if os.path.isdir("%s/Output_Combined_%s"%(self.output_path, str(i)))==False:
-					os.mkdir("%s/Output_Combined_%s"%(self.output_path,str(i)))
-					combined_path = "%s/Output_Combined_%s"%(self.output_path,str(i))
-					break
+				if self.query_one("#frame_range_checkbox").value == False:
+					if os.path.isdir("%s/Denoised%s"%(self.output_path, str(i)))==False:
+						os.mkdir("%s/Denoised%s"%(self.output_path,str(i)))
+						combined_path = "%s/Denoised%s"%(self.output_path,str(i))
+						break
+					else:
+						i+=1
 				else:
-					i+=1
+					#get input path folder name
+
+					if os.path.isdir("%s/Denoised_[%s-%s]_%s_%s"%(self.output_path,self.min_frame, self.max_frame, os.path.basename(self.sequence_path),str(i)))==False:
+						os.mkdir("%s/Denoised_[%s-%s]_%s_%s"%(self.output_path,self.min_frame, self.max_frame, os.path.basename(self.sequence_path),str(i)))
+						combined_path = "%s/Denoised_[%s-%s]_%s_%s"%(self.output_path,self.min_frame, self.max_frame, os.path.basename(self.sequence_path),str(i))
+						break
+					else:
+						i+=1
 			self.display_notification_function("Ouput folder created : %s"%combined_path)
 
 			for render in render_file_list:
@@ -453,19 +462,19 @@ class DenoiseCore():
 				start_merge = (datetime.now())
 
 				self.display_message_function("Launching combining command : %s"%command)
-				command = '"%s/bin/exrmerge.exe" %s %s/Combined_%s'%(self.config["RendermanPath"], command, combined_path, os.path.basename(render))
+				command = '"%s/bin/exrmerge.exe" %s %s/Denoised_%s'%(self.config["RendermanPath"], command, combined_path, os.path.basename(render))
 				os.system(command)
 
 
-				if os.path.isfile("%s/Combined_%s"%(combined_path, os.path.basename(render))) == False:
+				if os.path.isfile("%s/Denoised_%s"%(combined_path, os.path.basename(render))) == False:
 					self.display_error_function("Impossible to combine render : %s"%(os.path.basename(render)))
 				else:
 					self.display_success_function("Combined render created : %s"%(os.path.basename(render)))
-					self.combined_sequence_list.append("%s/Combined_%s"%(combined_path, os.path.basename(render)))
+					self.combined_sequence_list.append("%s/Denoised_%s"%(combined_path, os.path.basename(render)))
 
-					combined_sequence_data["Combined_%s"%os.path.basename(render)] = os.stat("%s/Combined_%s"%(combined_path, os.path.basename(render))).st_size / (1024 * 1024)
+					combined_sequence_data["Denoised_%s"%os.path.basename(render)] = os.stat("%s/Denoised_%s"%(combined_path, os.path.basename(render))).st_size / (1024 * 1024)
 				
-				combined_frame_data[render] = (os.path.getmtime("%s/Combined_%s"%(combined_path, os.path.basename(render))) - os.path.getctime("%s/Combined_%s"%(combined_path, os.path.basename(render)))) / 60
+				combined_frame_data[render] = (os.path.getmtime("%s/Denoised_%s"%(combined_path, os.path.basename(render))) - os.path.getctime("%s/Denoised_%s"%(combined_path, os.path.basename(render)))) / 60
 			self.display_message_function("Combination of Main renders done!")
 
 			self.data["CombinedSequenceTime"] = combined_frame_data
@@ -588,7 +597,7 @@ class DenoiseCore():
 			self.display_message_function("Trying to combine final renders : %s ; %s"%(self.combined_sequence_list[i], self.alpha_sequence_list[i]))
 			#print("trying to combine alpha : %s ; %s"%(self.combined_sequence_list[i], self.alpha_sequence_list[i]))
 			#get the combined filename to check if matching with other sequence filename
-			combined_filename = os.path.basename(self.combined_sequence_list[i]).split("Combined_")[1]
+			combined_filename = os.path.basename(self.combined_sequence_list[i]).split("Denoised_")[1]
 			alpha_filename = os.path.basename(self.alpha_sequence_list[i])
 
 			if combined_filename == alpha_filename:
@@ -610,13 +619,24 @@ class DenoiseCore():
 			size_dictionnary = {}
 			global_size_informations = {}
 			average_size = 0
+			frame_list = []
+
+			if (self.min_frame >= self.max_frame):
+				self.display_error_function("You have to enter a valid frame range")
 
 			full_size_added = 0
 			full_size_item_number = 0
 
+			channel_compare_list = None
+
 			content = os.listdir(self.sequence_path)
+
 			for item in content:
 				if os.path.isfile(os.path.join(self.sequence_path, item))==True:
+					#get the frame index
+				
+
+
 					if (os.path.splitext(item)[1] == ".exr") or (os.path.splitext(item)[1] == ".Exr"):
 						#get the channel list
 						input_file = OpenEXR.InputFile(os.path.join(self.sequence_path, item))
@@ -626,13 +646,23 @@ class DenoiseCore():
 							if channel.split(".")[0] not in final_channel_list:
 								final_channel_list.append(channel.split(".")[0])
 
+						if channel_compare_list == None:
+							channel_compare_list = channel_list
+						else:
+							for channel in channel_list:
+								if channel not in channel_compare_list:
+									self.display_message_function("Missing channel [ %s ] on frame : %s"%(channel, os.path.join(self.sequence_path, item)))
 						#get the size of the file and add it to the full_size_added list
 						full_size_item_number += 1
 						size = os.stat(os.path.join(self.sequence_path, item)).st_size / (1024*1024)
 						full_size_added += size 
 						size_dictionnary[item] = size
 
-			average_size = full_size_added / full_size_item_number
+			try:
+				average_size = full_size_added / full_size_item_number
+			except ZeroDivisionError:
+				self.display_error_function("No frame contained in the folder!")
+				return
 
 			low_size_file_list = {}
 			no_size_file_list = {}
@@ -655,6 +685,32 @@ class DenoiseCore():
 			return False, False, False
 
 
+
+
+
+
+	def clean_output_folder_function(self):
+		#get the output path
+
+		output_content = os.listdir(self.output_path)
+		for item in output_content:
+			
+			item_path = os.path.join(self.output_path, item)
+
+			if item.startswith("Denoised_") == False:
+				if os.path.isfile(item_path)==True:
+					try:
+						os.remove(item_path)
+					except:
+						self.display_error_function("Impossible to delete file : %s"%item_path)
+				if os.path.isdir(item_path)==True:
+					try:
+						shutil.rmtree(item_path)
+					except:
+						self.display_error_function("Impossible to remove directory : %s"%item_path)
+
+
+		self.display_message_function("DONE")
 
 
 
