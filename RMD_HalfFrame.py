@@ -51,7 +51,7 @@ class Application:
 
 
 		
-		shutil.copy(os.path.join(self.input_path, content[0]), os.path.join(self.input_path, ".".join([os.path.splitext(content[0])[0].split(".")[0], str(int(os.path.splitext(content[0])[0].split(".")[1])-1)])+os.path.splitext(content[0])[1]))
+		#shutil.copy(os.path.join(self.input_path, content[0]), os.path.join(self.input_path, ".".join([os.path.splitext(content[0])[0].split(".")[0], str(int(os.path.splitext(content[0])[0].split(".")[1])-1)])+os.path.splitext(content[0])[1]))
 	
 
 
@@ -72,46 +72,42 @@ class Application:
 							print("REPLACE %s BY %s"%(index, str(int(index)+1)))
 
 							os.remove(os.path.join(self.input_path,content[i+1]))
-							shutil.copy(os.path.join(self.input_path, content[i]), os.path.join(self.input_path, content[i+1]))
+							#shutil.copy(os.path.join(self.input_path, content[i]), os.path.join(self.input_path, content[i+1]))
 						except IndexError:
 							pass
 		
 
-		"""
+
+		#get the new content of the folder
+
 		content = os.listdir(self.input_path)
+		
 		for i in range(len(content)):
 			if os.path.isfile(os.path.join(self.input_path, content[i]))==True:
 				splited_filename = os.path.splitext(content[i])[0].split(".")
 
-				if (len(splited_filename)==2) and (splited_filename[1].isdigit()==True):
-					index = splited_filename[1]
+				try:
+					next_splited_filename = os.path.splitext(content[i+1])[0].split(".")
+				except:
+					print("error : %s"%content[i])
+					break
+				else:
 
-					if int(index)%2==1:
-						os.remove(os.path.join(self.input_path, content[i]))
 
-		content = os.listdir(self.input_path)
-		for i in range(len(content)):
-			if os.path.isfile(os.path.join(self.input_path, content[i]))==True:
-				splited_filename = os.path.splitext(content[i])[0].split(".")
-				splited_next_filename = os.path.splitext(content[i+1])[0].split(".")
+					if (len(splited_filename) == 2) and (splited_filename[1].isdigit()==True):
+						index = splited_filename[1]
+						next_index = str(int(index)+1)
 
-				if (len(splited_filename)==2) and (splited_filename[1].isdigit()==True):
-					index = splited_filename[1]
-					next_index = splited_next_filename[1]
-
-					if int(next_index) != int(index) + 1:
-						#rename the next frame
-						next_filename = ".".join([splited_next_filename[0],str(int(index) + 1)])+os.path.splitext(content[i])[1]
-						os.rename(os.path.join(self.input_path, content[i]) ,os.path.join(self.input_path, next_filename))
+						
+						next_filename = ".".join([os.path.splitext(content[i+1])[0].split(".")[0], next_index])+os.path.splitext(content[i+1])[1]
+						print("%s  :  %s"%(content[i], next_filename))
+						
+						os.rename(os.path.join(self.input_path, content[i+1]), os.path.join(self.input_path, next_filename))
 						content[i+1] = next_filename
-		"""
+	
+		
+		
 
-
-
-
-
-
-		print(colored("DONE", "cyan"))
 
 
 					
