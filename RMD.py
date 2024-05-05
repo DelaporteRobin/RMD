@@ -254,16 +254,15 @@ class RMD_Application(App[None], DenoiseCore):
 				with Collapsible(classes="collapse_left_top", title="Input/Output", collapsed=True):
 					
 
-					self.static_input_sequence = Static("INPUT SEQUENCE", classes="indicator_t1")
-					self.static_output_sequence = Static("OUTPUT PATH", classes="indicator_t1")
 					self.explorer_input_sequence = DirectoryTree(self.starting_path, id="input_explorer", classes="dir_explorer_t1")
-					self.explorer_output_sequence = DirectoryTree(self.starting_path, id="output_explorer", classes="dir_explorer_t1")
+					self.explorer_input_sequence.border_title = "Input sequence folder"
 
-					yield Rule(line_style="double", classes="rule_t1")
-					yield self.static_input_sequence
+					self.explorer_output_sequence = DirectoryTree(self.starting_path, id="output_explorer", classes="dir_explorer_t1")
+					self.explorer_output_sequence.border_title = "Output sequence folder"
+
+					#yield Rule(line_style="double", classes="rule_t1")
 					yield self.explorer_input_sequence
-					yield Rule(line_style="double", classes="rule_t1")
-					yield self.static_output_sequence
+					#yield Rule(line_style="double", classes="rule_t1")
 					yield self.explorer_output_sequence
 
 

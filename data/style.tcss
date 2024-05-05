@@ -75,8 +75,12 @@ DirectoryTree, OptionList, SelectionList {
 	scrollbar-background: black;
 	scrollbar-color: #FF7028;
 	scrollbar-color-hover: #FF7023;
+	border-title-align:  left;
 }
 
+DirectoryTree {
+	border: tall #FF8B2B;
+}
 Checkbox {
 	width: 100%;
 }
