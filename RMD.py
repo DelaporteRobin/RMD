@@ -256,14 +256,21 @@ class RMD_Application(App[None], DenoiseCore):
 
 					self.explorer_input_sequence = DirectoryTree(self.starting_path, id="input_explorer", classes="dir_explorer_t1")
 					self.explorer_input_sequence.border_title = "Input sequence folder"
+					self.static_input_sequence = Static()
+
 
 					self.explorer_output_sequence = DirectoryTree(self.starting_path, id="output_explorer", classes="dir_explorer_t1")
 					self.explorer_output_sequence.border_title = "Output sequence folder"
+					self.static_output_sequence = Static()
 
-					#yield Rule(line_style="double", classes="rule_t1")
 					yield self.explorer_input_sequence
-					#yield Rule(line_style="double", classes="rule_t1")
+					yield self.static_input_sequence
+					yield Rule(line_style="heavy", classes="rule_t1")
+					
+					
 					yield self.explorer_output_sequence
+					yield self.static_output_sequence
+					yield Rule(line_style="heavy", classes="rule_t1")
 
 
 				with Collapsible(classes="collapse_left_bot", title="Denoiser Settings", collapsed=True):
