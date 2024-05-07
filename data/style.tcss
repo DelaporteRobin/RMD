@@ -12,6 +12,8 @@
 }
 .main_leftcolumn {
 	max-width:40%;
+	border: round #FF7023;
+	border-title-align: left;
 }
 
 

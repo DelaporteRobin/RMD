@@ -56,7 +56,11 @@ colorama.init()
 
 class RMD_Application(App[None], DenoiseCore):
 	
-	CSS_PATH = os.path.join(os.getcwd(), "data/style.tcss")
+	CSS_PATH = os.path.join(os.getcwd(), "data/style_v2.tcss")
+
+
+
+
 
 	def __init__(self):
 		super().__init__()
@@ -238,8 +242,7 @@ class RMD_Application(App[None], DenoiseCore):
 
 
 
-	def on_mount(self) -> None:
-		self.title = "RMD - By Quazar"
+	
 
 
 	def compose(self) -> ComposeResult:
@@ -248,7 +251,7 @@ class RMD_Application(App[None], DenoiseCore):
 
 
 		with Horizontal(classes="main_application_container"):
-			with VerticalScroll(classes="main_leftcolumn"):
+			with VerticalScroll(classes="main_leftcolumn", id="main_leftcolumn"):
 				yield Label(self.font_title.renderText("RMD Core"), classes="main_title")
 
 				with Collapsible(classes="collapse_left_top", title="Input/Output", collapsed=True):
@@ -350,6 +353,15 @@ class RMD_Application(App[None], DenoiseCore):
 
 		self.listen_thread = threading.Thread(target=self.thread_function, args=(), daemon=True)
 		self.listen_thread.start()
+
+
+	def on_mount(self) -> None:
+		self.title = "RMD - By Quazar"
+
+
+
+
+
 
 
 	def thread_function(self):
