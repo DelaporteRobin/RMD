@@ -697,7 +697,7 @@ class DenoiseCore():
 			
 			item_path = os.path.join(self.output_path, item)
 
-			if item.startswith("Denoised_") == False:
+			if item.startswith("Denoised") == False:
 				if os.path.isfile(item_path)==True:
 					try:
 						os.remove(item_path)
