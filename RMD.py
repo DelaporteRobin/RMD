@@ -298,7 +298,7 @@ class RMD_Application(App[None], DenoiseCore):
 							#yield self.static_input_channels
 							yield self.selection_input_channels
 
-						with VerticalScroll(classes="container_t1"):
+						with VerticalScroll(classes="main_container_denoise_settings"):
 							
 							with VerticalScroll(classes="container_denoise_options"):
 								yield Checkbox("Crossframe",True, id="CrossFrame")
