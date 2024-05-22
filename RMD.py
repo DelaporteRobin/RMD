@@ -1,5 +1,6 @@
 import importlib.util 
 import os
+import sys
 
 
 
@@ -503,8 +504,8 @@ class RMD_Application(App[None], DenoiseCore):
 					self.channel_selection_name.append(self.input_channel_list[item])
 				#generate the json config from the input path
 
-				
-				if (os.path.isdir(self.output_path)==False) and (os.path.isdir(self.input_path)==False):
+
+				if (self.sequence_path == None) or (self.output_path == None) or (os.path.isdir(self.output_path)==False) or (os.path.isdir(self.sequence_path)==False):
 					self.display_error_function("You must define input and output folder!")
 					return
 				value = self.create_config_function()
@@ -525,6 +526,9 @@ class RMD_Application(App[None], DenoiseCore):
 						except:
 							print(colored("Impossible to launch denoise"), "red")
 							sleep(2)
+
+
+						
 					
 					self.display_message_function("Denoising done")
 					

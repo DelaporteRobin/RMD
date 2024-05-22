@@ -1,12 +1,12 @@
 {
     "primary": [
-        "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+        "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
     ],
     "aux": {
         "a": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "a"
@@ -16,7 +16,7 @@
         "albedo": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "albedo",
@@ -28,13 +28,15 @@
         "diffuse": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "diffuse",
-                    "diffuse_lgt_dome",
-                    "diffuse_lgt_fill",
-                    "diffuse_lgt_key",
+                    "diffuse_lgt_LPE_01",
+                    "diffuse_lgt_LPE_02",
+                    "diffuse_lgt_LPE_03",
+                    "diffuse_lgt_LPE_04",
+                    "diffuse_lgt_LPE_05",
                     "diffuse_mse",
                     "normal",
                     "normal_mse",
@@ -47,13 +49,15 @@
         "specular": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "specular",
-                    "specular_lgt_dome",
-                    "specular_lgt_fill",
-                    "specular_lgt_key",
+                    "specular_lgt_LPE_01",
+                    "specular_lgt_LPE_02",
+                    "specular_lgt_LPE_03",
+                    "specular_lgt_LPE_04",
+                    "specular_lgt_LPE_05",
                     "specular_mse"
                 ]
             }
@@ -61,7 +65,7 @@
         "color": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "Ci"
@@ -71,7 +75,7 @@
         "sampleCount": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "sampleCount"
@@ -81,7 +85,7 @@
         "mse": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "mse"
@@ -91,7 +95,7 @@
         "zfiltered": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "zfiltered",
@@ -102,7 +106,7 @@
         "zfiltered_var": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "zfiltered_var"
@@ -112,7 +116,7 @@
         "normal_var": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "normal_var"
@@ -122,7 +126,7 @@
         "normal_mse": [
             {
                 "paths": [
-                    "\\render_test_input\\sq0022_sh0010_render_rat_publish_RL_rat_beauty_beauty.1001.exr"
+                    "\\render_test_input\\sq031_sh0020_render_v014_RL_env_beauty.1161.exr"
                 ],
                 "layers": [
                     "normal_mse"
