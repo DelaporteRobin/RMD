@@ -337,7 +337,9 @@ class RMD_Application(App[None], DenoiseCore):
 							self.compression_selection_list.highlighted = 1
 							self.compression_selection_list.action_select()
 
-							yield Button("Only compress", id="only_compress_button")
+							yield Button("Custom compress", id="only_compress_button")
+							yield Button("Combine output content", id="only_combine_button")
+							yield Button("Reinject alpha", id="reinject_alpha_button")
 
 					
 					yield Button("LAUNCH DENOISE", classes="button_t1", id="button_launch_denoiser")
