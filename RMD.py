@@ -257,24 +257,42 @@ class RMD_Application(App[None], DenoiseCore):
 
 				with Collapsible(classes="collapse_left_top", title="Input/Output", collapsed=True):
 					
+					with Horizontal(classes="input_output_container"):
+						with VerticalScroll(classes="input_container"):
+							self.explorer_input_sequence = DirectoryTree(self.starting_path, id="input_explorer", classes="dir_explorer_t1")
+							self.explorer_input_sequence.border_title = "Input sequence folder"
+							self.static_input_sequence = Static()
+							yield self.explorer_input_sequence
+							yield self.static_input_sequence
 
-					self.explorer_input_sequence = DirectoryTree(self.starting_path, id="input_explorer", classes="dir_explorer_t1")
-					self.explorer_input_sequence.border_title = "Input sequence folder"
-					self.static_input_sequence = Static()
+						with VerticalScroll(classes="output_container"):
+							self.explorer_output_sequence = DirectoryTree(self.starting_path, id="output_explorer", classes="dir_explorer_t1")
+							self.explorer_output_sequence.border_title = "Output sequence folder"
+							self.static_output_sequence = Static()
 
+						
+							yield self.explorer_output_sequence
+							yield self.static_output_sequence
 
-					self.explorer_output_sequence = DirectoryTree(self.starting_path, id="output_explorer", classes="dir_explorer_t1")
-					self.explorer_output_sequence.border_title = "Output sequence folder"
-					self.static_output_sequence = Static()
+					"""
+					with Horizontal(classes="input_output_container"):
+						with Vertical(classes="input_container"):
+							self.explorer_input_sequence = DirectoryTree(self.starting_path, id="input_explorer", classes="dir_explorer_t1")
+							self.explorer_input_sequence.border_title = "Input sequence folder"
+							self.static_input_sequence = Static()
+
+						with Vertical(classes="output_container"):
+							self.explorer_output_sequence = DirectoryTree(self.starting_path, id="output_explorer", classes="dir_explorer_t1")
+							self.explorer_output_sequence.border_title = "Output sequence folder"
+							self.static_output_sequence = Static()
 
 					yield self.explorer_input_sequence
 					yield self.static_input_sequence
-					yield Rule(line_style="heavy", classes="rule_t1")
 					
 					
 					yield self.explorer_output_sequence
 					yield self.static_output_sequence
-					yield Rule(line_style="heavy", classes="rule_t1")
+					"""
 
 
 				with Collapsible(classes="collapse_left_bot", title="Denoiser Settings", collapsed=True):
@@ -318,6 +336,8 @@ class RMD_Application(App[None], DenoiseCore):
 							yield self.compression_selection_list
 							self.compression_selection_list.highlighted = 1
 							self.compression_selection_list.action_select()
+
+							yield Button("Only compress", id="only_compress_button")
 
 					
 					yield Button("LAUNCH DENOISE", classes="button_t1", id="button_launch_denoiser")
@@ -554,6 +574,52 @@ class RMD_Application(App[None], DenoiseCore):
 			else:
 				self.display_error_function("You have to define input and output path!")
 				return
+
+
+
+		if event.button.id == "only_compress_button":
+			"""	
+			get the input path content
+			get the frame range ?
+			get the channel to remove list
+			for each frame launch the remove useless channels function
+			"""
+
+
+			self.channel_selection = self.query_one("#channel_list").selected
+			self.channel_selection_name = []
+			for item in self.channel_selection:
+				self.channel_selection_name.append(self.input_channel_list[item])
+
+
+			#get the content of the input path
+			if (self.sequence_path == None) or (os.path.isdir(self.sequence_path) == False):
+				self.display_error_function("You have to define an Input path first!")
+				self.display_error_function("The Input path represent the path of the images you want to compress!")
+				return
+			else:
+				self.combined_sequence_list = []
+				content = os.listdir(self.sequence_path)
+				for item in content:
+					if os.path.isfile(os.path.join(self.sequence_path, item))==True:
+						self.combined_sequence_list.append(os.path.join(self.sequence_path, item))
+				if len(self.combined_sequence_list) == 0:
+					self.display_error_function("No file to compress!")
+					return
+				elif len(self.channel_selection_name) == 0:
+					self.display_error_function("No channel to remove selected!")
+					return 
+				else:
+					with self.suspend():
+
+						try:
+							self.remove_useless_channels_function()
+						except:
+							print(colored("Impossible to launch file compression!", "red"))
+							sleep(2)
+
+			
+
 			
 			
 

@@ -41,8 +41,6 @@ DirectoryTree {
 
 
 
-
-
 /* Denoiser Settings Panel */
 #frame_range_checkbox {
 	width: 100%;
@@ -71,4 +69,22 @@ Button {
 }
 #CrossFrame, #CombineFinalRenders, #RemoveDenoiseChannels {
 	width: 100%;
+}
+
+.input_output_container {
+	padding-right: 2;
+}
+
+/*
+.input_container, .output_container {
+	border: round $accent;
+
+	max-height: 80%;
+}
+*/
+
+#input_explorer, #output_explorer {
+	border: round $accent;
+	border-title-color: $accent;
+	border-title-style:  bold;
 }
