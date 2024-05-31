@@ -611,8 +611,33 @@ class DenoiseCore():
 
 
 
+	"""
+	def check_input_sequence_function(self):
+
+		if os.path.isdir(self.sequence_path)==True:
+			if (self.min_frame >= self.max_frame):
+				self.display_error_function("You have to enter a valid frame range")
+				return
 
 
+			else:
+				input_folder_content = os.listdir(self.sequence_path)
+
+				data_dictionnary = {}
+				file_data_dictionnary = {}
+
+				for item in input_folder_content:
+					if os.path.isfile(os.path.join(self.sequence_path, item))==True:
+						#check if file is .exr
+						if os.path.splitext(os.path.join(self.sequence_path, item))[1] == ".exr":
+							file_size = os.path.getsize(os.path.join(self.sequence_path, item))
+							file_data_dictionnary[os.path.join(self.sequence_path)]
+	"""
+
+
+
+
+	
 	def check_input_function(self):
 		if os.path.isdir(self.sequence_path):
 			final_channel_list = []
@@ -672,6 +697,7 @@ class DenoiseCore():
 			global_size_informations["LowerSize"] = (average_size * 5)/100
 
 			for key, value in size_dictionnary.items():
+				
 				if (value <= global_size_informations["LowerSize"]):
 					low_size_file_list[key] = value
 				if value == 0:
@@ -683,6 +709,7 @@ class DenoiseCore():
 			return final_channel_list, global_size_informations, size_dictionnary
 		else:
 			return False, False, False
+	
 
 
 

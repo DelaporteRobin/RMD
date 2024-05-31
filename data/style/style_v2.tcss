@@ -2,7 +2,6 @@
 /* By Quazar */ 
 
 
-$accent: #FFB761 100%;
 .main_application_container {
 
 	background: #1A1817;
@@ -84,7 +83,7 @@ Button {
 */
 
 #input_explorer, #output_explorer {
-	border: round $accent;
-	border-title-color: $accent;
+	border: round $primary;
+	border-title-color: $primary;
 	border-title-style:  bold;
 }

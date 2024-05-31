@@ -53,11 +53,9 @@ colorama.init()
 
 
 
-
-
 class RMD_Application(App[None], DenoiseCore):
 	
-	CSS_PATH = [os.path.join(os.getcwd(), "data/style_global.tcss"),os.path.join(os.getcwd(), "data/style_v2.tcss") ]
+	CSS_PATH = [os.path.join(os.getcwd(),"data/style/style_global.tcss"), os.path.join(os.getcwd(), "data/style/style_v2.tcss")]
 
 
 
@@ -465,7 +463,16 @@ class RMD_Application(App[None], DenoiseCore):
 
 		if event.button.id == "button_input_check":
 			
+
+			#self.check_input_sequence_function()
+
+
+
+			
 			if (self.sequence_path != None) or (self.output_path != None):
+
+
+				
 			
 				self.input_channel_list, size_informations, size_dictionnary = self.check_input_function()
 
@@ -502,6 +509,7 @@ class RMD_Application(App[None], DenoiseCore):
 						#self.selection_input_channels.add_options((channel_list[i], i))
 			else:
 				self.display_error_function("You have to define input path!")
+			
 
 
 
