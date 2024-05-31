@@ -1,0 +1,90 @@
+/* Style TCSS for the main Renderman Denoising Application */
+/* By Quazar */ 
+
+
+$accent: #FFB761 100%;
+.main_application_container {
+
+	background: #1A1817;
+}
+.main_leftcolumn {
+	border: round #FFB761;
+}
+.main_rightcolumn {
+	max-width:45%;
+}
+
+.main_title {
+	color: $primary;
+}
+
+
+
+DirectoryTree, OptionList, VerticalScroll, SelectionList {
+	scrollbar-background: black;
+	scrollbar-color: $primary-darken-1;
+	scrollbar-color-hover: $primary;
+	border-title-align:  left;
+}
+
+Collapsible {
+	color: $primary;
+}
+
+Rule {
+	color: $primary;
+}
+
+DirectoryTree {
+	background: #1A1817;
+}
+
+
+
+/* Denoiser Settings Panel */
+#frame_range_checkbox {
+	width: 100%;
+}
+.input_range {
+	max-width: 50%;
+}
+.container_range {
+	height: 7;
+}
+.main_container_denoise_settings, .container_channel_list {
+	max-width:50%;
+	align: left top;
+}
+Button {
+	width: 100%;
+}
+#channel_list {
+	min-height:0;
+	max-height: 15;
+	border: round #FFB761;
+	background: $background-lighten-1;
+}
+.container_t2 {
+	max-height: 55%;
+}
+#CrossFrame, #CombineFinalRenders, #RemoveDenoiseChannels {
+	width: 100%;
+}
+
+.input_output_container {
+	padding-right: 2;
+}
+
+/*
+.input_container, .output_container {
+	border: round $accent;
+
+	max-height: 80%;
+}
+*/
+
+#input_explorer, #output_explorer {
+	border: round $accent;
+	border-title-color: $accent;
+	border-title-style:  bold;
+}

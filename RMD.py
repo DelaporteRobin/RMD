@@ -578,6 +578,9 @@ class RMD_Application(App[None], DenoiseCore):
 				return
 
 
+		if event.button.id in ["only_combine_button", "reinject_alpha_button"]:
+			self.display_message_function('Not available for now!')
+
 
 		if event.button.id == "only_compress_button":
 			"""	

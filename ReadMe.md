@@ -5,9 +5,8 @@ You can read the documentation [HERE](https://www.notion.so/RMD-APP-DOCUMENTATIO
 
 
 ### TO DO FOR NEXT VERSIONS 
-- [ ] Dodge missing frames
 - [x] Creating a custom range denoising system
 - [x] Automatically install missing python packages
-- [ ] UI review
-- [ ] Create a launcher
-- [ ] Clean the output path folder
+- [ ] UI review (WIP)
+- [x] Create a launcher
+- [x] Clean the output path folder

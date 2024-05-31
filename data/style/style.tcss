@@ -1,0 +1,103 @@
+/* Style TCSS for the main Renderman Denoising Application */
+/* By Quazar */ 
+
+
+.dir_explorer_t1 {
+	max-height: 30%;
+}
+
+
+.main_application_container {
+	background: #090909;
+}
+.main_leftcolumn {
+	max-width:40%;
+	border: round #FF7023;
+	border-title-align: left;
+}
+
+
+.log_t1 {
+	margin-top:2;
+	margin-bottom:2;
+	background:#090909;
+}
+/*'ascii', 'blank', 'dashed', 'double', 'heavy', 'hidden', 'hkey', 'inner', 'none', 'outer', 'panel', 'round', 'solid', 'tall', 'thick', 'vkey', or 'wide' */
+
+.main_title {
+	color: #FF7023;
+	height:8;
+}
+
+
+.rule_t1 {
+	color: #FF7023;
+}
+
+.indicator_t1 {
+	margin-bottom:1;
+	color: #FF7023;
+}
+
+.button_t1 {
+	background: #FF7023;
+	color: #0F0E11;
+	width:100%;
+
+	text-style:bold;
+
+	border:blank;
+}
+.button_t2 {
+	background: #FF7028;
+	width:70%;
+
+	text-style:bold;
+	border:heavy #090909;
+}
+
+OptionList {
+	border:double #FF8B2B;
+}
+
+.log_t1 {
+	padding-left:5;
+	color: #FF8B2B;
+}
+
+.container_channel_list {
+	height:100%;
+}
+#channel_list {
+	height:90%;
+}
+
+
+DirectoryTree, OptionList, SelectionList {
+	scrollbar-background: black;
+	scrollbar-color: #FF7028;
+	scrollbar-color-hover: #FF7023;
+	border-title-align:  left;
+}
+
+DirectoryTree {
+	border: tall #FF8B2B;
+}
+Checkbox {
+	width: 100%;
+}
+
+.container_denoise_options {
+	max-height:15;
+}
+
+.collapse_left_top, .collapse_left_bot {
+	max-height: 80%;
+}
+
+.input_range {
+	max-width: 50%;
+}
+.container_range {
+	max-height:5;
+}
