@@ -424,9 +424,9 @@ class DenoiseCore():
 			i=0
 			while True:
 				if self.query_one("#frame_range_checkbox").value == False:
-					if os.path.isdir("%s/Denoised%s"%(self.output_path, str(i)))==False:
-						os.mkdir("%s/Denoised%s"%(self.output_path,str(i)))
-						combined_path = "%s/Denoised%s"%(self.output_path,str(i))
+					if os.path.isdir("%s/Denoised_%s_%s"%(self.output_path, os.path.basename(self.sequence_path), str(i)))==False:
+						os.mkdir("%s/Denoised_%s_%s"%(self.output_path, os.path.basename(self.sequence_path), str(i)))
+						combined_path = "%s/Denoised_%s_%s"%(self.output_path, os.path.basename(self.sequence_path), str(i))
 						break
 					else:
 						i+=1

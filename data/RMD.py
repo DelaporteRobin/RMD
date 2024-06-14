@@ -433,8 +433,6 @@ class RMD_Application(App[None], DenoiseCore):
 
 
 	def on_checkbox_changed(self, event: Checkbox.Changed) -> None:
-
-
 		value = self.query_one("#%s"%event.checkbox.id).value
 		#self.display_message_function("%s : %s"%(event.checkbox.id, str(value)))
 		if event.checkbox.id == "frame_range_checkbox":
@@ -550,6 +548,8 @@ class RMD_Application(App[None], DenoiseCore):
 
 				if value != False:
 					#CALL DENOISE FUNCTION
+					#display global informations about denoising process
+					self.display_message_function("Denoising Informations : \nInput Path : %s\nOutput Path: %s"%(self.sequence_path, self.output_path))
 					with self.suspend():
 						try:
 							print(colored("LAUNCHING DENOISER", "magenta"))
@@ -620,9 +620,9 @@ class RMD_Application(App[None], DenoiseCore):
 				if len(self.combined_sequence_list) == 0:
 					self.display_error_function("No file to compress!")
 					return
-				elif len(self.channel_selection_name) == 0:
-					self.display_error_function("No channel to remove selected!")
-					return 
+				#elif len(self.channel_selection_name) == 0:
+				#	self.display_error_function("No channel to remove selected!")
+				#	return 
 				else:
 					with self.suspend():
 
