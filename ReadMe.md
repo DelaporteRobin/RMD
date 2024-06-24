@@ -15,3 +15,4 @@ You can read the documentation [HERE](https://www.notion.so/RMD-APP-DOCUMENTATIO
 ### Not available yet
 - [ ] Advanced statistics on .exr sequence and denoise
 - [ ] Remote denoising (still thinking about the way to do it)
+- [ ] Finish the custom denoising options system
