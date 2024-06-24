@@ -36,6 +36,7 @@ Rule {
 
 DirectoryTree {
 	background: #1A1817;
+	max-height: 50%;
 }
 
 
@@ -72,6 +73,10 @@ Button {
 
 .input_output_container {
 	padding-right: 2;
+}
+
+#main_log {
+	padding-left: 10;
 }
 
 /*

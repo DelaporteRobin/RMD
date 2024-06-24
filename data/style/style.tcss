@@ -17,10 +17,9 @@
 }
 
 
-.log_t1 {
-	margin-top:2;
-	margin-bottom:2;
+#main_log {
 	background:#090909;
+	color: red;
 }
 /*'ascii', 'blank', 'dashed', 'double', 'heavy', 'hidden', 'hkey', 'inner', 'none', 'outer', 'panel', 'round', 'solid', 'tall', 'thick', 'vkey', or 'wide' */
 
@@ -60,10 +59,6 @@ OptionList {
 	border:double #FF8B2B;
 }
 
-.log_t1 {
-	padding-left:5;
-	color: #FF8B2B;
-}
 
 .container_channel_list {
 	height:100%;

@@ -7,6 +7,7 @@ import sys
 package_list = ["pathlib", "json", "textual", "pyfiglet", "datetime", "termcolor", "Imath", "asciichartpy", "plotext", "threading", "json", "colorama", "OpenEXR", "subprocess", "time", "numpy"]
 
 
+"""
 print("Checking packages...")
 
 for package in package_list:
@@ -14,36 +15,51 @@ for package in package_list:
 	if spec == None:
 		print("INSTALLING %s"%package)
 		os.system("python -m pip install %s"%package)
+"""
 
 
+while True:
+	print("Loading packages ...")
+	try:
+		from pathlib import Path
+		from textual.app import App, ComposeResult
+		from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
+		from textual.widgets.option_list import Option, Separator
+		from textual.widgets.selection_list import Selection
+		from textual.screen import Screen 
+		from textual import events
+		from textual.containers import Horizontal, Vertical, Container, VerticalScroll
+		from textual import on
 
-from pathlib import Path
-from textual.app import App, ComposeResult
-from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
-from textual.widgets.option_list import Option, Separator
-from textual.widgets.selection_list import Selection
-from textual.screen import Screen 
-from textual import events
-from textual.containers import Horizontal, Vertical, Container, VerticalScroll
-from textual import on
 
+		from DenoiserJson import DenoiseCore
+		from datetime import datetime
+		from pyfiglet import Figlet 
+		from time import sleep
+		from datetime import datetime
+		from termcolor import *
 
-from DenoiserJson import DenoiseCore
-from datetime import datetime
-from pyfiglet import Figlet 
-from time import sleep
-from datetime import datetime
-from termcolor import *
+		import copy
+		import Imath
+		import asciichartpy as acp
+		import plotext as plt
+		import threading
 
-import copy
-import Imath
-import asciichartpy as acp
-import plotext as plt
-import threading
+		import json 
+		import colorama
+		import OpenEXR
+	except Exception as e:
+		print("Failing importing packages !")
+		print(e)
+		print("\nInstalling missing packages ...")
+		for package in package_list:
+			spec = importlib.util.find_spec(package)
+			if spec == None:
+				print("INSTALLING %s"%package)
+				os.system("python -m pip install %s"%package)
+	else:
+		break
 
-import json 
-import colorama
-import OpenEXR
 colorama.init()
 
 
@@ -65,8 +81,9 @@ class RMD_Application(App[None], DenoiseCore):
 	def __init__(self):
 		super().__init__()
 
-		self.font_title = Figlet(font="bloody")
-		self.font_subtitle = Figlet(font="digital")
+		self.font_title = Figlet(font="delta_corps_priest_1")
+		#self.font_title = Figlet(font="bloody")
+		self.font_subtitle = Figlet(font="bubble")
 
 
 		#create an instance of the denoise core class
@@ -252,9 +269,11 @@ class RMD_Application(App[None], DenoiseCore):
 
 		with Horizontal(classes="main_application_container"):
 			with VerticalScroll(classes="main_leftcolumn", id="main_leftcolumn"):
+				
 				yield Label(self.font_title.renderText("RMD Core"), classes="main_title")
+				#yield Label(self.font_subtitle.renderText("by Quazar"), classes="main_title")
 
-				with Collapsible(classes="collapse_left_top", title="Input/Output", collapsed=True):
+				with Collapsible(classes="collapse_left_top", title="INPUT / OUTPUT FOLDER", collapsed=True):
 					
 					with Horizontal(classes="input_output_container"):
 						with VerticalScroll(classes="input_container"):
@@ -294,7 +313,7 @@ class RMD_Application(App[None], DenoiseCore):
 					"""
 
 
-				with Collapsible(classes="collapse_left_bot", title="Denoiser Settings", collapsed=True):
+				with Collapsible(classes="collapse_left_bot", title="DENOISER SETTINGS", collapsed=True):
 					self.frame_range_checkbox = Checkbox("Frame range", value=False, id="frame_range_checkbox")
 					yield self.frame_range_checkbox
 					with Horizontal(classes="container_range"):
@@ -337,8 +356,8 @@ class RMD_Application(App[None], DenoiseCore):
 							self.compression_selection_list.action_select()
 
 							yield Button("Custom compress", id="only_compress_button")
-							yield Button("Combine output content", id="only_combine_button")
-							yield Button("Reinject alpha", id="reinject_alpha_button")
+							#yield Button("Combine output content", id="only_combine_button")
+							#yield Button("Reinject alpha", id="reinject_alpha_button")
 
 					
 					yield Button("LAUNCH DENOISE", classes="button_t1", id="button_launch_denoiser")
@@ -349,7 +368,7 @@ class RMD_Application(App[None], DenoiseCore):
 			with VerticalScroll(classes="main_rightcolumn"):
 				#with Collapsible(title="LOGS"):
 	
-				self.main_page_log = Log(classes="log_t1")
+				self.main_page_log = Log(classes="log_t1", id="main_log")
 				yield self.main_page_log
 
 				"""
@@ -440,15 +459,26 @@ class RMD_Application(App[None], DenoiseCore):
 			self.starting_frame_input.disabled = not value
 			self.ending_frame_input.disabled = not value
 			
-		else:
-			self.settings[event.checkbox.id] = value
+		#else:
+		#	self.settings[event.checkbox.id] = value
 
 
 		if event.checkbox.id == "CrossFrame":
 			#get the value of the checkbox
-			value = self.query_one("#%s"%event.checkbox.id).value 
+			#value = self.query_one("#%s"%event.checkbox.id).value 
 			self.display_message_function("Crossframe switched to : %s"%value)
 			self.settings["CrossFrame"] = value
+
+		if event.checkbox.id == "CombineFinalRenders":
+			self.display_message_function("Combine final renders switched to : %s"%value)
+			self.settings["CombineFinalRenders"] = value 
+
+		if event.checkbox.id == "RemoveDenoiseChannels":
+			self.display_message_function("Compress after denoise switched to : %s"%value)
+			self.settings["RemoveDenoiseChannels"] = value
+
+
+
 
 
 
