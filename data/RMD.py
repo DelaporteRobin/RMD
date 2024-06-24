@@ -444,6 +444,13 @@ class RMD_Application(App[None], DenoiseCore):
 			self.settings[event.checkbox.id] = value
 
 
+		if event.checkbox.id == "CrossFrame":
+			#get the value of the checkbox
+			value = self.query_one("#%s"%event.checkbox.id).value 
+			self.display_message_function("Crossframe switched to : %s"%value)
+			self.settings["CrossFrame"] = value
+
+
 
 	def on_option_list_option_selected (self, event: OptionList.OptionMessage) -> None:
 		if event.option_list.id == "selection_compression_mode":

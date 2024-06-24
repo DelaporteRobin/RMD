@@ -4,9 +4,14 @@
 You can read the documentation [HERE](https://www.notion.so/RMD-APP-DOCUMENTATION-d6a0277549054f9fbe69b322f65b444f?pvs=4)
 
 
-### TO DO FOR NEXT VERSIONS 
-- [x] Creating a custom range denoising system
-- [x] Automatically install missing python packages
-- [ ] UI review (WIP)
-- [x] Create a launcher
-- [x] Clean the output path folder
+### Features
+- [x] Custom range denoiser on .exr sequence
+- [x] Keeps AOV's and custom light group
+- [x] Restore undenoised alpha
+- [x] Final images compression with the picked algorythm
+- [x] Denoising Crossframe or not Crossframe
+- [x] Select the AOV's you want to keep in your final .exr post denoise
+
+### Not available yet
+- [ ] Advanced statistics on .exr sequence and denoise
+- [ ] Remote denoising (still thinking about the way to do it)
