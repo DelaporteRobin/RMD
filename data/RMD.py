@@ -18,47 +18,49 @@ for package in package_list:
 """
 
 
-for i in range(2):
-	print("Loading packages ...")
-	try:
-		from pathlib import Path
-		from textual.app import App, ComposeResult
-		from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
-		from textual.widgets.option_list import Option, Separator
-		from textual.widgets.selection_list import Selection
-		from textual.screen import Screen 
-		from textual import events
-		from textual.containers import Horizontal, Vertical, Container, VerticalScroll
-		from textual import on
+
+print("Loading packages ...")
+try:
+	from pathlib import Path
+	from textual.app import App, ComposeResult
+	from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
+	from textual.widgets.option_list import Option, Separator
+	from textual.widgets.selection_list import Selection
+	from textual.screen import Screen 
+	from textual import events
+	from textual.containers import Horizontal, Vertical, Container, VerticalScroll
+	from textual import on
 
 
-		from DenoiserJson import DenoiseCore
-		from datetime import datetime
-		from pyfiglet import Figlet 
-		from time import sleep
-		from datetime import datetime
-		from termcolor import *
+	from DenoiserJson import DenoiseCore
+	from datetime import datetime
+	from pyfiglet import Figlet 
+	from time import sleep
+	from datetime import datetime
+	from termcolor import *
 
-		import copy
-		import Imath
-		import asciichartpy as acp
-		import plotext as plt
-		import threading
+	import copy
+	import Imath
+	import asciichartpy as acp
+	import plotext as plt
+	import threading
 
-		import json 
-		import colorama
-		import OpenEXR
-	except Exception as e:
-		print("Failing importing packages !")
-		print(e)
-		print("\nInstalling missing packages ...")
-		for package in package_list:
-			spec = importlib.util.find_spec(package)
-			if spec == None:
-				print("INSTALLING %s"%package)
-				os.system("python -m pip install %s"%package)
-	else:
-		break
+	import json 
+	import colorama
+	import OpenEXR
+except Exception as e:
+	print("Failing importing packages !")
+	print(e)
+	print("\nInstalling missing packages ...")
+	for package in package_list:
+		spec = importlib.util.find_spec(package)
+		if spec == None:
+			print("INSTALLING %s"%package)
+			os.system("python -m pip install %s"%package)
+
+	os.system("python %s"%os.path.join(os.getcwd(), "RMD.py"))
+else:
+	pass
 
 colorama.init()
 
@@ -396,6 +398,9 @@ class RMD_Application(App[None], DenoiseCore):
 
 		self.listen_thread = threading.Thread(target=self.thread_function, args=(), daemon=True)
 		self.listen_thread.start()
+
+
+		#self.display_message_function(os.path.join(os.getcwd(), "RMD.py"))
 
 
 	def on_mount(self) -> None:
