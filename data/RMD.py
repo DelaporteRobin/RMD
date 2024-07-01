@@ -18,7 +18,7 @@ for package in package_list:
 """
 
 
-while True:
+for i in range(2):
 	print("Loading packages ...")
 	try:
 		from pathlib import Path
@@ -346,6 +346,8 @@ class RMD_Application(App[None], DenoiseCore):
 
 
 							self.compression_selection_list = OptionList(id="selection_compression_mode")
+
+							
 							for key in self.compression_mode_list.keys():
 								if key == self.compression_mode:
 									self.compression_selection_list.add_option(Option(key,))
@@ -355,7 +357,7 @@ class RMD_Application(App[None], DenoiseCore):
 							self.compression_selection_list.highlighted = 1
 							self.compression_selection_list.action_select()
 
-							yield Button("Custom compress", id="only_compress_button")
+							#yield Button("Custom compress", id="only_compress_button")
 							#yield Button("Combine output content", id="only_combine_button")
 							#yield Button("Reinject alpha", id="reinject_alpha_button")
 
