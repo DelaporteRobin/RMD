@@ -128,18 +128,6 @@ class DenoiseCore():
 
 
 
-	def save_log_function(self):
-		
-		with open(os.path.join(self.output_path, "DenoiserCore_LOG.txt"), "a") as save_file:
-			for line in self.program_log:
-				save_file.write(line)
-	
-	
-		self.display_message_function("LOG SAVED : %s"%os.path.join(self.output_path, "DenoiserCore_LOG.txt"))
-
-
-
-
 
 
 
@@ -164,6 +152,10 @@ class DenoiseCore():
 		if os.path.isdir(self.sequence_path) == False:
 			self.display_error_function("Folder doesn't exist!")
 			return
+		if os.path.isdir(self.output_path)==False:
+			self.display_error_function("Output folder doesn't exist!")
+			os.makedirs(self.output_path, exist_ok=True)
+			self.display_notification_function("Output folder created!")
 
 		#list all exr files in folder
 		folder_content = os.listdir(self.sequence_path)
@@ -656,6 +648,8 @@ class DenoiseCore():
 
 			content = os.listdir(self.sequence_path)
 
+
+
 			for item in content:
 				if os.path.isfile(os.path.join(self.sequence_path, item))==True:
 					#get the frame index
@@ -683,18 +677,26 @@ class DenoiseCore():
 						full_size_added += size 
 						size_dictionnary[item] = size
 
+
+
 			try:
 				average_size = full_size_added / full_size_item_number
 			except ZeroDivisionError:
 				self.display_error_function("No frame contained in the folder!")
 				return
 
+
+
 			low_size_file_list = {}
 			no_size_file_list = {}
+
+
 
 			global_size_informations["Average"] = average_size
 			#global_size_informations["UpperSize"] = (average_size * 95)/100
 			global_size_informations["LowerSize"] = (average_size * 5)/100
+
+
 
 			for key, value in size_dictionnary.items():
 				

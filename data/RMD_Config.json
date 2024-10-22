@@ -1,5 +1,5 @@
 {
-    "RendermanPath": "C:/Program Files/Pixar/RenderManProServer-25.2",
+    "RendermanPath": "C:/Program Files/Pixar/RenderManProServer-26.2",
     "RequiredAOV": [
         "Ci",
         "sampleCount",

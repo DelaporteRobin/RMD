@@ -4,8 +4,6 @@
 
 
 /* Defining all the colors for the application stylesheet */
-$primary: #FFB761;
-$primary-darken-1: #E1A45B;
-$primary-darken-2: #C39256;
-
-$background: #1A1817;
+$primary: #6bace9;
+$primary-darken-1: #3c82c4;
+$primary-darken-2: #2b69a3;

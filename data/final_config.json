@@ -1,12 +1,30 @@
 {
     "primary": [
-        "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+        "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
     ],
     "aux": {
         "a": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "a"
@@ -16,7 +34,16 @@
         "albedo": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "albedo",
@@ -28,13 +55,19 @@
         "diffuse": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "diffuse",
-                    "diffuse_lgt_dome",
-                    "diffuse_lgt_fill",
-                    "diffuse_lgt_key",
                     "diffuse_mse",
                     "normal",
                     "normal_mse",
@@ -47,13 +80,19 @@
         "specular": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "specular",
-                    "specular_lgt_dome",
-                    "specular_lgt_fill",
-                    "specular_lgt_key",
                     "specular_mse"
                 ]
             }
@@ -61,9 +100,21 @@
         "color": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
+                    "beauty_light1",
+                    "beauty_light2",
+                    "beauty_light3",
                     "Ci"
                 ]
             }
@@ -71,7 +122,16 @@
         "sampleCount": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "sampleCount"
@@ -81,7 +141,16 @@
         "mse": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "mse"
@@ -91,7 +160,16 @@
         "zfiltered": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "zfiltered",
@@ -102,7 +180,16 @@
         "zfiltered_var": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "zfiltered_var"
@@ -112,7 +199,16 @@
         "normal_var": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "normal_var"
@@ -122,7 +218,16 @@
         "normal_mse": [
             {
                 "paths": [
-                    "\\input\\merdouille_rat_mtp_masterLayer_beauty.1295.exr"
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "normal_mse"
@@ -134,14 +239,14 @@
         "asymmetry": 0.0,
         "flow": false,
         "debug": false,
-        "output-dir": "\\output",
+        "output-dir": "\\WORK\\LIGHTING\\RMD_TEST_BATCH_PROJECT\\maya\\images\\output_denoise",
         "passes": [
             "albedo",
             "color",
             "specular",
             "diffuse"
         ],
-        "parameters": "C:/Program Files/Pixar/RenderManProServer-25.2/lib/denoise/20973-renderman.param",
-        "topology": "C:/Program Files/Pixar/RenderManProServer-25.2/lib/denoise/full_w1_5s_sym_gen2.topo"
+        "parameters": "C:/Program Files/Pixar/RenderManProServer-26.2/lib/denoise/20970-renderman.param",
+        "topology": "C:/Program Files/Pixar/RenderManProServer-26.2/lib/denoise/full_w7_4sv2_sym_gen2.topo"
     }
 }

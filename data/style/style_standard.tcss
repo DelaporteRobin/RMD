@@ -1,0 +1,83 @@
+
+
+
+/* TCSS CODE FOR THE GLOBAL SIZING OF WIDGETS IN INTERFACE */
+
+
+
+/* GLOBAL WIDGET CODE */
+Checkbox, Button {
+	width: 1fr;
+}
+Button {
+	background: $surface;
+	color: $primary;
+	border: heavy $primary;
+}
+Checkbox {
+	border: $primary;
+}
+
+SelectionList {
+	min-height: 1fr;
+	height: 1fr;
+
+	background: $surface;
+}
+OptionList {
+	background: $surface;
+}
+DirectoryTree {
+	height: 90%;
+	background: $surface;
+}
+
+Collapsible {
+	border-top: heavy $primary;
+	border-bottom: heavy $primary;
+}
+
+Log {
+	margin-left: 5;
+	color: $primary;
+}
+
+
+
+/* CLASSED WIDGET CODE */
+.collapse_left_top {
+	max-height: 75%;
+}
+
+.collapse_left_bot {
+	max-height: 75%;	
+}
+
+.input_output_container {
+	width: 1fr;
+}
+
+.container_t2 {
+	height: 25;
+}
+
+.container_range {
+	width: 1fr;
+	height: 7;
+}
+
+.input_range {
+	width: 50%;
+}
+
+#button_launch_denoiser {
+	margin-bottom: 5;
+}
+
+#static_input_output {
+	background: red;
+}
+
+.main_title, #main_title {
+	color: $primary;
+}
