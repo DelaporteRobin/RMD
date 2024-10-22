@@ -164,11 +164,11 @@ class RMD_Application(App[None], DenoiseCore):
 
 	def load_settings_function(self):
 		try:
-			with open(os.path.join(os.getcwd(), "data/RMD_Config.json"), "r") as read_file:
+			with open(os.path.join(os.getcwd(), "data/Settings/RMD_Config.json"), "r") as read_file:
 				self.config = json.load(read_file)
 		except:
 			self.display_error_function("Impossible to open settings file")
-			self.config = self.create_settings_function()
+			self.create_settings_function()
 			self.display_message_function("Settings created")
 		else:
 			self.display_message_function("Settings loaded")
@@ -204,7 +204,7 @@ class RMD_Application(App[None], DenoiseCore):
 
 
 	def create_settings_function(self):
-		config = {
+		self.config = {
 			"RendermanPath": "C:/Program Files/Pixar/RenderManProServer-25.2",
 			"RequiredAOV": [
 				"Ci",
@@ -242,15 +242,22 @@ class RMD_Application(App[None], DenoiseCore):
 				"normal_mse":["normal_mse"],
 			}
 		}
+
+
+
+	def save_settings_function(self):
+
+		
 		try:
-			with open(os.path.join(os.getcwd(), "data/RMD_Config.json"), "w") as save_file:
-				json.dump(config, save_file, indent=4)
-		except:
-			self.display_error_function("Impossible to export settings")
-			return None
+			with open(os.path.join(os.getcwd(), "data/Settings/RMD_Config.json"), "w") as save_file:
+				json.dump(self.config, save_file, indent=4)
+		except Exception as e:
+			self.display_error_function("Impossible to export settings\n%s"%e)
+			#self.display_error_function(e)
+			return False
 		else:
 			self.display_message_function("Settings exported")
-			return config
+			return True
 
 
 
@@ -271,6 +278,9 @@ class RMD_Application(App[None], DenoiseCore):
 				
 				yield Label(self.font_title.renderText("RM Denoise"), classes="main_title")
 				#yield Label(self.font_subtitle.renderText("by Quazar"), classes="main_title")
+
+				self.input_renderman_path = Input(placeholder="Renderman path", id="input_renderman_path")
+				yield self.input_renderman_path
 
 				with Collapsible(classes="collapse_left_top", title="INPUT / OUTPUT FOLDER", collapsed=True):
 					
@@ -367,6 +377,11 @@ class RMD_Application(App[None], DenoiseCore):
 
 
 		self.load_settings_function()
+
+		if os.path.isdir(self.config["RendermanPath"])==False:
+			self.display_error_function("The Renderman Path doesn't exist on that computer\nPlease update that information!")
+
+		self.input_renderman_path.value = self.config["RendermanPath"]
 		self.required_aov = self.config["RequiredAOV"]
 
 		self.listen_thread = threading.Thread(target=self.thread_function, args=(), daemon=True)
@@ -416,6 +431,23 @@ class RMD_Application(App[None], DenoiseCore):
 				self.max_frame = self.query_one("#max_frame").value
 
 		#self.display_message_function("%s / %s"%(self.min_frame, self.max_frame))
+
+	def on_input_submitted(self, event:Input.Submitted) -> None:
+		if event.input.id == "input_renderman_path":
+			renderman_path = self.input_renderman_path.value 
+			if os.path.isdir(renderman_path)==False:
+				self.display_error_function("This renderman path doesn't exists on this computer!")
+				return
+			else:
+				#change the config file and update the renderman data
+				self.config["RendermanPath"] = renderman_path
+
+				value = self.save_settings_function()
+
+				if value == True:
+					self.display_message_function("Renderman path updated")
+				else:
+					self.display_error_function("Impossible to update Renderman path!")
 
 
 

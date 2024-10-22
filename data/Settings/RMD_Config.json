@@ -21,20 +21,6 @@
         "a"
     ],
     "DodgeList": [],
-    "AOVToRemove": [
-        "albedo_var",
-        "mse",
-        "sampleCount",
-        "albedo",
-        "albedo_var",
-        "albedo_mse",
-        "diffuse_mse",
-        "specular_mse",
-        "zfiltered",
-        "zfiltered_var",
-        "normal_var",
-        "normal_mse"
-    ],
     "DenoisePasses": [
         "albedo",
         "color",

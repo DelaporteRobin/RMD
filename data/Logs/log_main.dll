@@ -3259,3 +3259,62 @@ Output Path: \WORK\LIGHTING\RMD_TEST_BATCH_PROJECT\maya\images\output_denoise
 [2024-10-22 20:49:30.229859] - SUCCESS : RLE_COMPRESSION
 [2024-10-22 20:50:10.700680] - SUCCESS : Settings loaded
 [2024-10-22 20:50:10.893002] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 20:52:58.195043] - ERROR : Impossible to open settings file
+[2024-10-22 20:52:58.196041] - SUCCESS : Settings exported
+[2024-10-22 20:52:58.197038] - SUCCESS : Settings created
+[2024-10-22 20:52:58.384706] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 20:53:06.654880] - SUCCESS : Settings loaded
+[2024-10-22 20:53:06.837829] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 20:54:39.286711] - SUCCESS : Settings loaded
+[2024-10-22 20:54:39.473831] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 20:54:46.932814] - ERROR : Impossible to open settings file
+[2024-10-22 20:54:46.933812] - ERROR : The Renderman Path doesn't exist on that computer
+Please update that information!
+[2024-10-22 20:54:46.934808] - SUCCESS : Settings exported
+[2024-10-22 20:54:46.934808] - SUCCESS : Settings created
+[2024-10-22 20:54:47.122726] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 20:56:05.057968] - SUCCESS : Settings loaded
+[2024-10-22 20:56:05.244583] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 20:56:31.034890] - SUCCESS : Settings loaded
+[2024-10-22 20:56:31.223687] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 20:57:12.109262] - SUCCESS : Settings loaded
+[2024-10-22 20:57:28.157814] - SUCCESS : Settings loaded
+[2024-10-22 20:57:28.158812] - ERROR : The Renderman Path doesn't exist on that computer
+Please update that information!
+[2024-10-22 20:57:28.363470] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 20:58:39.354643] - SUCCESS : Settings loaded
+[2024-10-22 20:58:39.354643] - ERROR : The Renderman Path doesn't exist on that computer
+Please update that information!
+[2024-10-22 20:58:39.548755] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 20:58:41.179480] - SUCCESS : hello
+[2024-10-22 21:03:45.155734] - SUCCESS : Settings loaded
+[2024-10-22 21:03:45.155734] - ERROR : The Renderman Path doesn't exist on that computer
+Please update that information!
+[2024-10-22 21:03:45.354746] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 21:03:53.647046] - ERROR : Impossible to export settings
+[2024-10-22 21:03:53.648042] - ERROR : Impossible to update Renderman path!
+[2024-10-22 21:04:17.723960] - ERROR : Impossible to open settings file
+[2024-10-22 21:04:17.724957] - SUCCESS : Settings created
+[2024-10-22 21:04:17.724957] - ERROR : The Renderman Path doesn't exist on that computer
+Please update that information!
+[2024-10-22 21:04:17.927217] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 21:04:21.055718] - ERROR : Impossible to export settings
+[2024-10-22 21:04:21.055718] - ERROR : name 'config' is not defined
+[2024-10-22 21:04:21.056715] - ERROR : Impossible to update Renderman path!
+[2024-10-22 21:04:44.134262] - ERROR : Impossible to open settings file
+[2024-10-22 21:04:44.135259] - SUCCESS : Settings created
+[2024-10-22 21:04:44.136256] - ERROR : The Renderman Path doesn't exist on that computer
+Please update that information!
+[2024-10-22 21:04:44.326500] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 21:04:47.885250] - ERROR : Impossible to export settings
+name 'config' is not defined
+[2024-10-22 21:04:47.885250] - ERROR : Impossible to update Renderman path!
+[2024-10-22 21:05:07.192795] - ERROR : Impossible to open settings file
+[2024-10-22 21:05:07.193793] - SUCCESS : Settings created
+[2024-10-22 21:05:07.193793] - ERROR : The Renderman Path doesn't exist on that computer
+Please update that information!
+[2024-10-22 21:05:07.386642] - SUCCESS : RLE_COMPRESSION
+[2024-10-22 21:05:12.461438] - SUCCESS : Settings exported
+[2024-10-22 21:05:12.461438] - SUCCESS : Renderman path updated
+[2024-10-22 21:05:20.241607] - SUCCESS : Settings loaded
+[2024-10-22 21:05:20.433766] - SUCCESS : RLE_COMPRESSION
