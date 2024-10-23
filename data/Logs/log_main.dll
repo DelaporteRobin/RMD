@@ -3318,3 +3318,324 @@ Please update that information!
 [2024-10-22 21:05:12.461438] - SUCCESS : Renderman path updated
 [2024-10-22 21:05:20.241607] - SUCCESS : Settings loaded
 [2024-10-22 21:05:20.433766] - SUCCESS : RLE_COMPRESSION
+[2024-10-23 01:26:57.122560] - SUCCESS : Settings loaded
+[2024-10-23 01:26:57.310022] - SUCCESS : RLE_COMPRESSION
+[2024-10-23 01:27:04.633044] - SUCCESS : \WORK
+[2024-10-23 01:27:07.335754] - SUCCESS : \WORK\LIGHTING
+[2024-10-23 01:27:09.259279] - SUCCESS : \WORK\LIGHTING\RMD_TEST_BATCH_PROJECT
+[2024-10-23 01:27:10.374148] - SUCCESS : \WORK\LIGHTING\RMD_TEST_BATCH_PROJECT
+[2024-10-23 01:27:11.348499] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG
+[2024-10-23 01:27:12.168983] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya
+[2024-10-23 01:27:15.115177] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images
+[2024-10-23 01:27:16.460370] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render
+[2024-10-23 01:27:20.677457] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render
+[2024-10-23 01:27:21.143059] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\final_render
+[2024-10-23 01:27:33.999122] - SUCCESS : DISPLAY INFORMATIONS
+[2024-10-23 01:28:07.184739] - SUCCESS : DWAB_COMPRESSION
+[2024-10-23 01:28:08.377606] - ERROR : You must define input and output folder!
+[2024-10-23 01:28:10.610332] - ERROR : You must define input and output folder!
+[2024-10-23 01:28:43.014461] - SUCCESS : 1010 : 1001
+[2024-10-23 01:28:43.015458] - SUCCESS : Checking AOV's in .exr files:
+[2024-10-23 01:28:43.016455] - SUCCESS : Define the list of AOV to denoise in file : 
+[2024-10-23 01:28:43.017452] - SUCCESS : Create Json config dictionnary...
+
+
+
+[2024-10-23 01:28:43.018450] - SUCCESS : Generation of dictionnary done
+[2024-10-23 01:28:43.019448] - SUCCESS : Old config removed
+[2024-10-23 01:28:43.020445] - SUCCESS : JSON Config file generated
+[2024-10-23 01:28:43.020445] - SUCCESS : Denoising Informations : 
+Input Path : \WORK\LIGHTING\BEWAFFNUNG\maya\images\final_render
+Output Path: \WORK\LIGHTING\BEWAFFNUNG\maya\images\render
+[2024-10-23 01:31:00.472228] - SUCCESS : Denoising done
+[2024-10-23 01:31:00.473225] - SUCCESS : Alpha folder created
+[2024-10-23 01:31:00.474223] - SUCCESS : Compression type changed
+[2024-10-23 01:31:00.475221] - SUCCESS : Channel removed : Ci.b
+[2024-10-23 01:31:00.475221] - SUCCESS : Channel removed : Ci.g
+[2024-10-23 01:31:00.476218] - SUCCESS : Channel removed : Ci.r
+[2024-10-23 01:31:00.476218] - SUCCESS : Channel removed : albedo.b
+[2024-10-23 01:31:00.477215] - SUCCESS : Channel removed : albedo.g
+[2024-10-23 01:31:00.477215] - SUCCESS : Channel removed : albedo.r
+[2024-10-23 01:31:00.477215] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-23 01:31:00.478213] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-23 01:31:00.478213] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-23 01:31:00.479210] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-23 01:31:00.479210] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-23 01:31:00.480207] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-23 01:31:00.480207] - SUCCESS : Channel removed : backward.x
+[2024-10-23 01:31:00.481204] - SUCCESS : Channel removed : backward.y
+[2024-10-23 01:31:00.481204] - SUCCESS : Channel removed : backward.z
+[2024-10-23 01:31:00.481204] - SUCCESS : Channel removed : beauty_light1.b
+[2024-10-23 01:31:00.482202] - SUCCESS : Channel removed : beauty_light1.g
+[2024-10-23 01:31:00.482202] - SUCCESS : Channel removed : beauty_light1.r
+[2024-10-23 01:31:00.483199] - SUCCESS : Channel removed : beauty_light2.b
+[2024-10-23 01:31:00.483199] - SUCCESS : Channel removed : beauty_light2.g
+[2024-10-23 01:31:00.484196] - SUCCESS : Channel removed : beauty_light2.r
+[2024-10-23 01:31:00.484196] - SUCCESS : Channel removed : beauty_light3.b
+[2024-10-23 01:31:00.485194] - SUCCESS : Channel removed : beauty_light3.g
+[2024-10-23 01:31:00.485194] - SUCCESS : Channel removed : beauty_light3.r
+[2024-10-23 01:31:00.486191] - SUCCESS : Channel removed : beauty_light4.b
+[2024-10-23 01:31:00.486191] - SUCCESS : Channel removed : beauty_light4.g
+[2024-10-23 01:31:00.487188] - SUCCESS : Channel removed : beauty_light4.r
+[2024-10-23 01:31:00.487188] - SUCCESS : Channel removed : beauty_light6.b
+[2024-10-23 01:31:00.488185] - SUCCESS : Channel removed : beauty_light6.g
+[2024-10-23 01:31:00.488185] - SUCCESS : Channel removed : beauty_light6.r
+[2024-10-23 01:31:00.489183] - SUCCESS : Channel removed : beauty_light7.b
+[2024-10-23 01:31:00.489183] - SUCCESS : Channel removed : beauty_light7.g
+[2024-10-23 01:31:00.490180] - SUCCESS : Channel removed : beauty_light7.r
+[2024-10-23 01:31:00.490180] - SUCCESS : Channel removed : beauty_light8.b
+[2024-10-23 01:31:00.491177] - SUCCESS : Channel removed : beauty_light8.g
+[2024-10-23 01:31:00.491177] - SUCCESS : Channel removed : beauty_light8.r
+[2024-10-23 01:31:00.492174] - SUCCESS : Channel removed : beauty_light9.b
+[2024-10-23 01:31:00.492174] - SUCCESS : Channel removed : beauty_light9.g
+[2024-10-23 01:31:00.492174] - SUCCESS : Channel removed : beauty_light9.r
+[2024-10-23 01:31:00.493172] - SUCCESS : Channel removed : diffuse.b
+[2024-10-23 01:31:00.493172] - SUCCESS : Channel removed : diffuse.g
+[2024-10-23 01:31:00.494169] - SUCCESS : Channel removed : diffuse.r
+[2024-10-23 01:31:00.494169] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-23 01:31:00.495166] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-23 01:31:00.495166] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-23 01:31:00.496163] - SUCCESS : Channel removed : directDiffuse.b
+[2024-10-23 01:31:00.496163] - SUCCESS : Channel removed : directDiffuse.g
+[2024-10-23 01:31:00.497161] - SUCCESS : Channel removed : directDiffuse.r
+[2024-10-23 01:31:00.497161] - SUCCESS : Channel removed : directDiffuseLobe.b
+[2024-10-23 01:31:00.498158] - SUCCESS : Channel removed : directDiffuseLobe.g
+[2024-10-23 01:31:00.498158] - SUCCESS : Channel removed : directDiffuseLobe.r
+[2024-10-23 01:31:00.498158] - SUCCESS : Channel removed : directSpecular.b
+[2024-10-23 01:31:00.499156] - SUCCESS : Channel removed : directSpecular.g
+[2024-10-23 01:31:00.499156] - SUCCESS : Channel removed : directSpecular.r
+[2024-10-23 01:31:00.500153] - SUCCESS : Channel removed : directSpecularGlassLobe.b
+[2024-10-23 01:31:00.500153] - SUCCESS : Channel removed : directSpecularGlassLobe.g
+[2024-10-23 01:31:00.501150] - SUCCESS : Channel removed : directSpecularGlassLobe.r
+[2024-10-23 01:31:00.501150] - SUCCESS : Channel removed : directSpecularPrimaryLobe.b
+[2024-10-23 01:31:00.502147] - SUCCESS : Channel removed : directSpecularPrimaryLobe.g
+[2024-10-23 01:31:00.502147] - SUCCESS : Channel removed : directSpecularPrimaryLobe.r
+[2024-10-23 01:31:00.502147] - SUCCESS : Channel removed : forward.x
+[2024-10-23 01:31:00.503147] - SUCCESS : Channel removed : forward.y
+[2024-10-23 01:31:00.503147] - SUCCESS : Channel removed : forward.z
+[2024-10-23 01:31:00.504144] - SUCCESS : Channel removed : indirectDiffuse.b
+[2024-10-23 01:31:00.504144] - SUCCESS : Channel removed : indirectDiffuse.g
+[2024-10-23 01:31:00.505141] - SUCCESS : Channel removed : indirectDiffuse.r
+[2024-10-23 01:31:00.505141] - SUCCESS : Channel removed : indirectSpecular.b
+[2024-10-23 01:31:00.506138] - SUCCESS : Channel removed : indirectSpecular.g
+[2024-10-23 01:31:00.506138] - SUCCESS : Channel removed : indirectSpecular.r
+[2024-10-23 01:31:00.507135] - SUCCESS : Channel removed : mse.b
+[2024-10-23 01:31:00.507135] - SUCCESS : Channel removed : mse.g
+[2024-10-23 01:31:00.507135] - SUCCESS : Channel removed : mse.r
+[2024-10-23 01:31:00.508133] - SUCCESS : Channel removed : normal.x
+[2024-10-23 01:31:00.508133] - SUCCESS : Channel removed : normal.y
+[2024-10-23 01:31:00.509130] - SUCCESS : Channel removed : normal.z
+[2024-10-23 01:31:00.509130] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-23 01:31:00.510127] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-23 01:31:00.510127] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-23 01:31:00.511125] - SUCCESS : Channel removed : normal_var.x
+[2024-10-23 01:31:00.511125] - SUCCESS : Channel removed : normal_var.y
+[2024-10-23 01:31:00.512122] - SUCCESS : Channel removed : normal_var.z
+[2024-10-23 01:31:00.512122] - SUCCESS : Channel removed : sampleCount
+[2024-10-23 01:31:00.512122] - SUCCESS : Channel removed : specular.b
+[2024-10-23 01:31:00.513119] - SUCCESS : Channel removed : specular.g
+[2024-10-23 01:31:00.513119] - SUCCESS : Channel removed : specular.r
+[2024-10-23 01:31:00.514117] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-23 01:31:00.514117] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-23 01:31:00.515114] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-23 01:31:00.515114] - SUCCESS : Channel removed : subsurface.b
+[2024-10-23 01:31:00.516111] - SUCCESS : Channel removed : subsurface.g
+[2024-10-23 01:31:00.516111] - SUCCESS : Channel removed : subsurface.r
+[2024-10-23 01:31:00.516111] - SUCCESS : Channel removed : zfiltered
+[2024-10-23 01:31:00.517108] - SUCCESS : Channel removed : zfiltered_var
+[2024-10-23 01:31:01.292118] - SUCCESS : Alpha extracted in : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render
+[2024-10-23 01:31:01.293115] - SUCCESS : ALPHA SEQUENCE CREATED
+[2024-10-23 01:31:01.293115] - STATUS : COMBINE EXR FUNCTION
+[2024-10-23 01:31:01.296107] - STATUS : FOLDER LIST
+[2024-10-23 01:31:01.296107] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render\aux-albedo
+[2024-10-23 01:31:01.297105] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render\aux-color
+[2024-10-23 01:31:01.297105] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render\aux-diffuse
+[2024-10-23 01:31:01.298102] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render\aux-specular
+[2024-10-23 01:31:01.298102] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render\sequence_alpha_folder
+[2024-10-23 01:31:01.299099] - STATUS : Ouput folder created : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render/Denoised_final_render_0
+[2024-10-23 01:31:01.300097] - STATUS : CHECKING RENDER : \WORK\LIGHTING\BEWAFFNUNG\maya\images\render\renderTestEgg_lookdev.png
+[2024-10-23 01:31:01.301094] - SUCCESS : Launching combining command :  \WORK\LIGHTING\BEWAFFNUNG\maya\images\render\renderTestEgg_lookdev.png
+[2024-10-23 01:31:03.958550] - ERROR : Impossible to combine render : renderTestEgg_lookdev.png
+[2024-10-23 01:31:33.395320] - SUCCESS : Settings loaded
+[2024-10-23 01:31:33.583270] - SUCCESS : RLE_COMPRESSION
+[2024-10-23 01:31:42.804635] - SUCCESS : \WORK
+[2024-10-23 01:31:44.809126] - SUCCESS : \WORK\LIGHTING
+[2024-10-23 01:31:45.757832] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG
+[2024-10-23 01:31:46.956367] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya
+[2024-10-23 01:31:48.078535] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images
+[2024-10-23 01:31:50.619267] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\final_render
+[2024-10-23 01:32:18.221088] - SUCCESS : DISPLAY INFORMATIONS
+[2024-10-23 01:32:36.862887] - SUCCESS : DWAB_COMPRESSION
+[2024-10-23 01:32:38.114008] - SUCCESS : 1010 : 1001
+[2024-10-23 01:32:38.115005] - SUCCESS : Checking AOV's in .exr files:
+[2024-10-23 01:32:38.117000] - SUCCESS : Define the list of AOV to denoise in file : 
+[2024-10-23 01:32:38.117997] - SUCCESS : Create Json config dictionnary...
+
+
+
+[2024-10-23 01:32:38.117997] - SUCCESS : Generation of dictionnary done
+[2024-10-23 01:32:38.118994] - SUCCESS : Old config removed
+[2024-10-23 01:32:38.119992] - SUCCESS : JSON Config file generated
+[2024-10-23 01:32:38.120989] - SUCCESS : Denoising Informations : 
+Input Path : \WORK\LIGHTING\BEWAFFNUNG\maya\images\final_render
+Output Path: \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output
+[2024-10-23 01:34:57.903247] - SUCCESS : Denoising done
+[2024-10-23 01:34:57.904244] - SUCCESS : Alpha folder created
+[2024-10-23 01:34:57.905242] - SUCCESS : Compression type changed
+[2024-10-23 01:34:57.905242] - SUCCESS : Channel removed : Ci.b
+[2024-10-23 01:34:57.906239] - SUCCESS : Channel removed : Ci.g
+[2024-10-23 01:34:57.906239] - SUCCESS : Channel removed : Ci.r
+[2024-10-23 01:34:57.906239] - SUCCESS : Channel removed : albedo.b
+[2024-10-23 01:34:57.907237] - SUCCESS : Channel removed : albedo.g
+[2024-10-23 01:34:57.907237] - SUCCESS : Channel removed : albedo.r
+[2024-10-23 01:34:57.908234] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-23 01:34:57.908234] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-23 01:34:57.909231] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-23 01:34:57.909231] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-23 01:34:57.910229] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-23 01:34:57.910229] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-23 01:34:57.910229] - SUCCESS : Channel removed : backward.x
+[2024-10-23 01:34:57.911226] - SUCCESS : Channel removed : backward.y
+[2024-10-23 01:34:57.911226] - SUCCESS : Channel removed : backward.z
+[2024-10-23 01:34:57.912222] - SUCCESS : Channel removed : beauty_light1.b
+[2024-10-23 01:34:57.912222] - SUCCESS : Channel removed : beauty_light1.g
+[2024-10-23 01:34:57.913219] - SUCCESS : Channel removed : beauty_light1.r
+[2024-10-23 01:34:57.913219] - SUCCESS : Channel removed : beauty_light2.b
+[2024-10-23 01:34:57.914217] - SUCCESS : Channel removed : beauty_light2.g
+[2024-10-23 01:34:57.914217] - SUCCESS : Channel removed : beauty_light2.r
+[2024-10-23 01:34:57.915214] - SUCCESS : Channel removed : beauty_light3.b
+[2024-10-23 01:34:57.915214] - SUCCESS : Channel removed : beauty_light3.g
+[2024-10-23 01:34:57.916211] - SUCCESS : Channel removed : beauty_light3.r
+[2024-10-23 01:34:57.916211] - SUCCESS : Channel removed : beauty_light4.b
+[2024-10-23 01:34:57.917209] - SUCCESS : Channel removed : beauty_light4.g
+[2024-10-23 01:34:57.917209] - SUCCESS : Channel removed : beauty_light4.r
+[2024-10-23 01:34:57.918206] - SUCCESS : Channel removed : beauty_light6.b
+[2024-10-23 01:34:57.918206] - SUCCESS : Channel removed : beauty_light6.g
+[2024-10-23 01:34:57.918206] - SUCCESS : Channel removed : beauty_light6.r
+[2024-10-23 01:34:57.919203] - SUCCESS : Channel removed : beauty_light7.b
+[2024-10-23 01:34:57.919203] - SUCCESS : Channel removed : beauty_light7.g
+[2024-10-23 01:34:57.920201] - SUCCESS : Channel removed : beauty_light7.r
+[2024-10-23 01:34:57.920201] - SUCCESS : Channel removed : beauty_light8.b
+[2024-10-23 01:34:57.921198] - SUCCESS : Channel removed : beauty_light8.g
+[2024-10-23 01:34:57.921198] - SUCCESS : Channel removed : beauty_light8.r
+[2024-10-23 01:34:57.922195] - SUCCESS : Channel removed : beauty_light9.b
+[2024-10-23 01:34:57.922195] - SUCCESS : Channel removed : beauty_light9.g
+[2024-10-23 01:34:57.923193] - SUCCESS : Channel removed : beauty_light9.r
+[2024-10-23 01:34:57.923193] - SUCCESS : Channel removed : diffuse.b
+[2024-10-23 01:34:57.923193] - SUCCESS : Channel removed : diffuse.g
+[2024-10-23 01:34:57.924190] - SUCCESS : Channel removed : diffuse.r
+[2024-10-23 01:34:57.924190] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-23 01:34:57.925187] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-23 01:34:57.925187] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-23 01:34:57.926185] - SUCCESS : Channel removed : directDiffuse.b
+[2024-10-23 01:34:57.926185] - SUCCESS : Channel removed : directDiffuse.g
+[2024-10-23 01:34:57.926185] - SUCCESS : Channel removed : directDiffuse.r
+[2024-10-23 01:34:57.927182] - SUCCESS : Channel removed : directDiffuseLobe.b
+[2024-10-23 01:34:57.927182] - SUCCESS : Channel removed : directDiffuseLobe.g
+[2024-10-23 01:34:57.928180] - SUCCESS : Channel removed : directDiffuseLobe.r
+[2024-10-23 01:34:57.928180] - SUCCESS : Channel removed : directSpecular.b
+[2024-10-23 01:34:57.929177] - SUCCESS : Channel removed : directSpecular.g
+[2024-10-23 01:34:57.929177] - SUCCESS : Channel removed : directSpecular.r
+[2024-10-23 01:34:57.930174] - SUCCESS : Channel removed : directSpecularGlassLobe.b
+[2024-10-23 01:34:57.930174] - SUCCESS : Channel removed : directSpecularGlassLobe.g
+[2024-10-23 01:34:57.930174] - SUCCESS : Channel removed : directSpecularGlassLobe.r
+[2024-10-23 01:34:57.931171] - SUCCESS : Channel removed : directSpecularPrimaryLobe.b
+[2024-10-23 01:34:57.931171] - SUCCESS : Channel removed : directSpecularPrimaryLobe.g
+[2024-10-23 01:34:57.932169] - SUCCESS : Channel removed : directSpecularPrimaryLobe.r
+[2024-10-23 01:34:57.932169] - SUCCESS : Channel removed : forward.x
+[2024-10-23 01:34:57.933166] - SUCCESS : Channel removed : forward.y
+[2024-10-23 01:34:57.933166] - SUCCESS : Channel removed : forward.z
+[2024-10-23 01:34:57.934164] - SUCCESS : Channel removed : indirectDiffuse.b
+[2024-10-23 01:34:57.934164] - SUCCESS : Channel removed : indirectDiffuse.g
+[2024-10-23 01:34:57.934164] - SUCCESS : Channel removed : indirectDiffuse.r
+[2024-10-23 01:34:57.935161] - SUCCESS : Channel removed : indirectSpecular.b
+[2024-10-23 01:34:57.935161] - SUCCESS : Channel removed : indirectSpecular.g
+[2024-10-23 01:34:57.936158] - SUCCESS : Channel removed : indirectSpecular.r
+[2024-10-23 01:34:57.936158] - SUCCESS : Channel removed : mse.b
+[2024-10-23 01:34:57.937155] - SUCCESS : Channel removed : mse.g
+[2024-10-23 01:34:57.937661] - SUCCESS : Channel removed : mse.r
+[2024-10-23 01:34:57.937661] - SUCCESS : Channel removed : normal.x
+[2024-10-23 01:34:57.938168] - SUCCESS : Channel removed : normal.y
+[2024-10-23 01:34:57.938168] - SUCCESS : Channel removed : normal.z
+[2024-10-23 01:34:57.939161] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-23 01:34:57.939161] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-23 01:34:57.940159] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-23 01:34:57.940159] - SUCCESS : Channel removed : normal_var.x
+[2024-10-23 01:34:57.941156] - SUCCESS : Channel removed : normal_var.y
+[2024-10-23 01:34:57.941156] - SUCCESS : Channel removed : normal_var.z
+[2024-10-23 01:34:57.941156] - SUCCESS : Channel removed : sampleCount
+[2024-10-23 01:34:57.942154] - SUCCESS : Channel removed : specular.b
+[2024-10-23 01:34:57.942154] - SUCCESS : Channel removed : specular.g
+[2024-10-23 01:34:57.943151] - SUCCESS : Channel removed : specular.r
+[2024-10-23 01:34:57.943151] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-23 01:34:57.944149] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-23 01:34:57.945146] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-23 01:34:57.945146] - SUCCESS : Channel removed : subsurface.b
+[2024-10-23 01:34:57.946143] - SUCCESS : Channel removed : subsurface.g
+[2024-10-23 01:34:57.946143] - SUCCESS : Channel removed : subsurface.r
+[2024-10-23 01:34:57.947142] - SUCCESS : Channel removed : zfiltered
+[2024-10-23 01:34:57.947142] - SUCCESS : Channel removed : zfiltered_var
+[2024-10-23 01:34:58.715656] - SUCCESS : Alpha extracted in : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output
+[2024-10-23 01:34:58.715656] - SUCCESS : ALPHA SEQUENCE CREATED
+[2024-10-23 01:34:58.716653] - STATUS : COMBINE EXR FUNCTION
+[2024-10-23 01:34:58.718648] - STATUS : FOLDER LIST
+[2024-10-23 01:34:58.718648] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-albedo
+[2024-10-23 01:34:58.718648] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-color
+[2024-10-23 01:34:58.719710] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-diffuse
+[2024-10-23 01:34:58.719710] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-specular
+[2024-10-23 01:34:58.720642] - SUCCESS : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\sequence_alpha_folder
+[2024-10-23 01:34:58.721640] - STATUS : Ouput folder created : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output/Denoised_final_render_0
+[2024-10-23 01:34:58.721640] - STATUS : CHECKING RENDER : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\render_cristal_v001.0000.exr
+[2024-10-23 01:34:58.722637] - SUCCESS : Render added to combining list : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-albedo\render_cristal_v001.0000.exr
+[2024-10-23 01:34:58.722637] - SUCCESS : Render added to combining list : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-color\render_cristal_v001.0000.exr
+[2024-10-23 01:34:58.723634] - SUCCESS : Render added to combining list : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-diffuse\render_cristal_v001.0000.exr
+[2024-10-23 01:34:58.724632] - SUCCESS : Render added to combining list : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-specular\render_cristal_v001.0000.exr
+[2024-10-23 01:34:58.724632] - SUCCESS : Render added to combining list : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\sequence_alpha_folder\render_cristal_v001.0000.exr
+[2024-10-23 01:34:58.725629] - SUCCESS : Launching combining command :  \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\render_cristal_v001.0000.exr \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-albedo\render_cristal_v001.0000.exr \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-color\render_cristal_v001.0000.exr \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-diffuse\render_cristal_v001.0000.exr \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\aux-specular\render_cristal_v001.0000.exr \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\sequence_alpha_folder\render_cristal_v001.0000.exr
+[2024-10-23 01:35:02.827829] - MESSAGE : Combined render created : render_cristal_v001.0000.exr
+[2024-10-23 01:35:02.828826] - SUCCESS : Combination of Main renders done!
+[2024-10-23 01:35:02.829822] - SUCCESS : Compression type changed
+[2024-10-23 01:35:02.829822] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-23 01:35:02.830820] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-23 01:35:02.830820] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-23 01:35:02.830820] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-23 01:35:02.831817] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-23 01:35:02.831817] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-23 01:35:02.832814] - SUCCESS : Channel removed : backward.x
+[2024-10-23 01:35:02.832814] - SUCCESS : Channel removed : backward.y
+[2024-10-23 01:35:02.833812] - SUCCESS : Channel removed : backward.z
+[2024-10-23 01:35:02.833812] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-23 01:35:02.833812] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-23 01:35:02.834809] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-23 01:35:02.834809] - SUCCESS : Channel removed : forward.x
+[2024-10-23 01:35:02.835807] - SUCCESS : Channel removed : forward.y
+[2024-10-23 01:35:02.835807] - SUCCESS : Channel removed : forward.z
+[2024-10-23 01:35:02.836804] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-23 01:35:02.836804] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-23 01:35:02.837801] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-23 01:35:02.837801] - SUCCESS : Channel removed : normal_var.x
+[2024-10-23 01:35:02.838798] - SUCCESS : Channel removed : normal_var.y
+[2024-10-23 01:35:02.838798] - SUCCESS : Channel removed : normal_var.z
+[2024-10-23 01:35:02.838798] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-23 01:35:02.839796] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-23 01:35:02.839796] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-23 01:35:53.578881] - SUCCESS : Useless channel removed from final render : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output/Denoised_final_render_0/Denoised_render_cristal_v001.0000.exr
+[2024-10-23 01:35:53.578881] - SUCCESS : USELESS CHANNELS REMOVED FROM RENDER SEQUENCE
+[2024-10-23 01:35:53.579878] - SUCCESS : Trying to combine final renders : \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output/Denoised_final_render_0/Denoised_render_cristal_v001.0000.exr ; \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\sequence_alpha_folder/render_cristal_v001.0000.exr
+[2024-10-23 01:35:53.579878] - SUCCESS : Combining \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output/Denoised_final_render_0/Denoised_render_cristal_v001.0000.exr - \WORK\LIGHTING\BEWAFFNUNG\maya\images\denoise_output\sequence_alpha_folder/render_cristal_v001.0000.exr
+[2024-10-23 01:35:53.610566] - SUCCESS : ALPHA COMBINE DONE
+[2024-10-23 01:35:53.619517] - SUCCESS : DONE
+[2024-10-23 01:35:53.620514] - SUCCESS : Denoise done
+[2024-10-23 13:41:42.639158] - SUCCESS : Settings loaded
+[2024-10-23 13:41:44.028609] - SUCCESS : RLE_COMPRESSION
+[2024-10-23 13:43:20.451389] - SUCCESS : \Pixar
+[2024-10-23 13:43:23.176028] - SUCCESS : \Premiere Pro 2019
+[2024-10-23 13:43:27.382677] - SUCCESS : \WORK\ANGLAIS
+[2024-10-23 13:43:29.570961] - SUCCESS : \WORK
+[2024-10-23 13:43:31.271890] - SUCCESS : \WORK
+[2024-10-23 13:43:36.086727] - SUCCESS : \WORK\LIGHTING
+[2024-10-23 13:43:37.903618] - SUCCESS : \WORK\LIGHTING\BLACK_HOLE
+[2024-10-23 13:43:41.118744] - ERROR : You must define input and output folder!
+[2024-10-23 13:43:49.055539] - ERROR : You must define input and output folder!
+[2024-10-23 13:44:16.963385] - SUCCESS : Settings loaded
+[2024-10-23 13:44:17.148892] - SUCCESS : RLE_COMPRESSION

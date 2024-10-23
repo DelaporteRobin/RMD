@@ -601,7 +601,7 @@ class RMD_Application(App[None], DenoiseCore):
 				#generate the json config from the input path
 
 
-				if (self.sequence_path == None) or (self.output_path == None) or (os.path.isdir(self.output_path)==False) or (os.path.isdir(self.sequence_path)==False):
+				if (self.sequence_path == None) or (self.output_path == None):
 					self.display_error_function("You must define input and output folder!")
 					return
 				value = self.create_config_function()
@@ -648,7 +648,7 @@ class RMD_Application(App[None], DenoiseCore):
 						self.clean_output_folder_function()
 
 						self.display_message_function("Denoise done")
-						return
+						returnY
 
 				else:
 					self.display_error_function("Impossible to launch denoise!")
