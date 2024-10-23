@@ -284,6 +284,9 @@ class RMD_Application(App[None], DenoiseCore):
 
 				with Collapsible(classes="collapse_left_top", title="INPUT / OUTPUT FOLDER", collapsed=True):
 					
+					self.input_starting_folder = Input(placeholder="Starting folder", id="input_starting_folder")
+					yield self.input_starting_folder
+
 					with Horizontal(classes="input_output_container"):
 						with VerticalScroll(classes="input_container"):
 							self.explorer_input_sequence = DirectoryTree(self.starting_path, id="input_explorer", classes="dir_explorer_t1")
@@ -430,9 +433,20 @@ class RMD_Application(App[None], DenoiseCore):
 			else:
 				self.max_frame = self.query_one("#max_frame").value
 
-		#self.display_message_function("%s / %s"%(self.min_frame, self.max_frame))
+
+
 
 	def on_input_submitted(self, event:Input.Submitted) -> None:
+		if event.input.id == "input_starting_folder":
+			self.display_message_function("checking")
+			if os.path.isdir(self.input_starting_folder.value)==True:
+				self.explorer_input_sequence.path = self.input_starting_folder.value 
+				self.explorer_output_sequence.path = self.input_starting_folder.value
+				self.display_message_function("Path updated")
+			else:
+				self.display_error_function("Path doesn't exists!")
+
+
 		if event.input.id == "input_renderman_path":
 			renderman_path = self.input_renderman_path.value 
 			if os.path.isdir(renderman_path)==False:
@@ -531,26 +545,8 @@ class RMD_Application(App[None], DenoiseCore):
 			
 				self.input_channel_list, size_informations, size_dictionnary = self.check_input_function()
 				
-				self.display_message_function("DISPLAY INFORMATIONS")
-				for key, value in size_informations.items():
-					self.program_log.append("[%s] - %s"%(key,value))
+
 				#self.display_message_function("%s\n%s"%(self.font_subtitle.renderText("\nAverage frame size"), "%s\n"%str(size_informations["Average"])))
-
-
-				"""
-				if "LowSizeFiles" in size_dictionnary:
-					#self.display_error_function(self.font_subtitle.renderText("LOW SIZE FILES DETECTED "))
-					for key, value in size_informations["LowSizeFiles"].items():
-						self.display_message_function("%s : %s" % (key, value))
-				else:
-					self.display_message_function("No low size frames detected")
-				if "NoSizeFiles" in size_dictionnary:
-					#self.display_error_function(self.font_subtitle.renderText("0 SIZE FILES DETECTED "))
-					for key, value in size_informations["NoSizeFiles"].items():
-						self.display_message_function("%s : %s" % (key, value))
-				else:
-					self.display_message_function("No 0 size frames detected")
-				"""
 
 
 
@@ -560,7 +556,6 @@ class RMD_Application(App[None], DenoiseCore):
 				else:
 					
 				
-					self.program_log.append(acp.plot(list(size_dictionnary.values())))
 					
 					self.selection_input_channels.clear_options()
 					for i in range(len(self.input_channel_list)):

@@ -603,33 +603,95 @@ class DenoiseCore():
 
 
 
-	"""
-	def check_input_sequence_function(self):
+	def check_input_function(self):
+		#check if sequence path exists
+		if os.path.isdir(self.sequence_path) == True:
+			final_channel_list = []
+			channel_compare_list = None
 
-		if os.path.isdir(self.sequence_path)==True:
-			if (self.min_frame >= self.max_frame):
+			if self.min_frame >= self.max_frame:
 				self.display_error_function("You have to enter a valid frame range")
 				return
 
 
-			else:
-				input_folder_content = os.listdir(self.sequence_path)
+			sequence_folder_content = os.listdir(self.sequence_path)
+			channel_list = []
 
-				data_dictionnary = {}
-				file_data_dictionnary = {}
+			self.display_message_function("CHECKING SEQUENCE FOLDER")
+			self.display_message_function(self.sequence_path)
 
-				for item in input_folder_content:
-					if os.path.isfile(os.path.join(self.sequence_path, item))==True:
-						#check if file is .exr
-						if os.path.splitext(os.path.join(self.sequence_path, item))[1] == ".exr":
-							file_size = os.path.getsize(os.path.join(self.sequence_path, item))
-							file_data_dictionnary[os.path.join(self.sequence_path)]
+
+			full_sequence_size = 0
+			full_sequence_length = 0
+			full_sequence_items = []
+
+
+			for file in sequence_folder_content:
+				self.display_message_function("Checking %s"%file)
+
+				#check channels 
+				if (os.path.splitext(file)[1] != ".exr") and (os.path.splitext(file)[1] != ".Exr"):
+					self.display_error_function("	file isn't .exr")
+					continue
+				else:
+					#get channels
+					input_file = OpenEXR.InputFile(os.path.join(self.sequence_path,file))
+					channel_list = input_file.header()["channels"].keys()
+
+					for channel in channel_list:
+						if channel.split(".")[0] not in final_channel_list:
+							final_channel_list.append(channel.split(".")[0])
+
+						
+						
+						#compare channels
+						if channel_compare_list == None:
+							channel_compare_list = channel_list
+						else:
+							#convert list into set to substract them and obtain differences
+							diff = list(set(channel_list) - set(channel_compare_list))
+							if len(diff) != 0:
+								for c in diff:
+									self.display_error_function("	CHANNEL DIFFERENCE : %s"%c)
+
+
+					#get the size of the file in bytes
+					file_size = (os.stat(os.path.join(self.sequence_path, file))).st_size
+
+					if file_size == 0:
+						self.display_error_function("	This file has no data contained : %s"%file_size)
+					else:
+						full_sequence_size += file_size
+						full_sequence_length += 1
+						full_sequence_items.append(os.path.join(self.sequence_path, file))
+
+			
+			#get average values
+			full_sequence_average = full_sequence_size / full_sequence_length
+
+			self.display_message_function("Checking final sequence files")
+			self.display_message_function("Average file size in sequence : %s"%full_sequence_average)
+			self.display_message_function("Number of images in sequence : %a"%len(full_sequence_items))
+
+			for file in full_sequence_items:
+				#get file size position
+				file_size = (os.stat(file).st_size)
+				file_position = (100 * file_size) / full_sequence_average
+
+				if file_position < 20:
+					self.display_error_function("Low file size detected in sequence, the file might be corrupted")
+					self.display_error_function("[%s] %s / %s"%(os.path.basename(file), file_size, full_sequence_average))
+
+
+
+			return final_channel_list, False, False
+
+
+
+
+
+
 	"""
-
-
-
-
-	
 	def check_input_function(self):
 		if os.path.isdir(self.sequence_path):
 			final_channel_list = []
@@ -711,6 +773,7 @@ class DenoiseCore():
 			return final_channel_list, global_size_informations, size_dictionnary
 		else:
 			return False, False, False
+	"""
 	
 
 

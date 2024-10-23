@@ -1,12 +1,30 @@
 {
     "primary": [
-        "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
     ],
     "aux": {
         "a": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "a"
@@ -16,7 +34,16 @@
         "albedo": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "albedo",
@@ -28,14 +55,20 @@
         "diffuse": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "diffuse",
                     "diffuse_mse",
-                    "directDiffuse",
-                    "directDiffuseLobe",
-                    "indirectDiffuse",
                     "normal",
                     "normal_mse",
                     "normal_var",
@@ -47,42 +80,58 @@
         "specular": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "specular",
-                    "specular_mse",
-                    "directSpecular",
-                    "directSpecularGlassLobe",
-                    "directSpecularPrimaryLobe",
-                    "indirectSpecular"
+                    "specular_mse"
                 ]
             }
         ],
         "color": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "beauty_light1",
                     "beauty_light2",
                     "beauty_light3",
-                    "beauty_light4",
-                    "beauty_light6",
-                    "beauty_light7",
-                    "beauty_light8",
-                    "beauty_light9",
-                    "Ci",
-                    "subsurface",
-                    "directSpecularGlassLobe"
+                    "Ci"
                 ]
             }
         ],
         "sampleCount": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "sampleCount"
@@ -92,7 +141,16 @@
         "mse": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "mse"
@@ -102,7 +160,16 @@
         "zfiltered": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "zfiltered",
@@ -113,7 +180,16 @@
         "zfiltered_var": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "zfiltered_var"
@@ -123,7 +199,16 @@
         "normal_var": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "normal_var"
@@ -133,7 +218,16 @@
         "normal_mse": [
             {
                 "paths": [
-                    "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\final_render\\render_cristal_v001.0000.exr"
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0004.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0005.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0006.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0007.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0008.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0009.exr",
+                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0010.exr"
                 ],
                 "layers": [
                     "normal_mse"
@@ -145,7 +239,7 @@
         "asymmetry": 0.0,
         "flow": false,
         "debug": false,
-        "output-dir": "\\WORK\\LIGHTING\\BEWAFFNUNG\\maya\\images\\denoise_output",
+        "output-dir": "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\output_denoise",
         "passes": [
             "albedo",
             "color",
