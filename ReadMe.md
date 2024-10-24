@@ -16,6 +16,7 @@ The TUI design was made using the Textual library, go check their [WEBSITE](http
 - [ ] Include independant combine process (without using Denoise algorythm)
 - [ ] Include independant compress process (without using Denoise algorythm)
 - [ ] Return if wanted a full data set about the input sequence informations
+- [ ] Create a "Single Render Denoise" mode, instead of trying to denoise a sequence
 
 
 

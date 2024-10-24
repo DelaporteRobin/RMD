@@ -138,13 +138,14 @@ class DenoiseCore():
 
 
 
-	def create_config_function(self):
+	def create_config_function(self, file_list):
 		#check if the folder path exists
 		#print(self.sequence_path)
 
 		#get min and max frames
 		#check if the values are correct in order to launch denoising function
-		self.display_message_function("%s : %s"%(self.max_frame, self.min_frame))
+		
+		#self.display_message_function("%s : %s"%(self.max_frame, self.min_frame))
 		if (int(self.max_frame) < int(self.min_frame)):
 			self.display_error_function("You must enter a valid frame range!")
 			return
@@ -158,37 +159,47 @@ class DenoiseCore():
 			self.display_notification_function("Output folder created!")
 
 		#list all exr files in folder
-		folder_content = os.listdir(self.sequence_path)
+		#folder_content = os.listdir(self.sequence_path)
 		
 
-		for item in folder_content:
-			if os.path.isfile(os.path.join(self.sequence_path,item)) == True:
-				#print(os.path.splitext(item)[1])
-				if (os.path.splitext(item)[1] == ".exr") or (os.path.splitext(item)[1] == ".Exr"):
-					if self.query_one("#frame_range_checkbox").value == True:
-						#check if the index of the frame is contained in the frame range
-						splited_file = os.path.splitext(item)[0].split(".")
-						if (len(splited_file) != 2) or (splited_file[1].isdigit()==False):
-							self.display_error_function("Impossible to get that frame index: %s"%item)
-							return False
-						else:
-							#check if the frame index is contained in the interval
-							frame_index = int(splited_file[1])
 
-							#self.display_message_function("%s ; %s ; %s"%(frame_index, self.min_frame, self.max_frame))
-							if (int(frame_index) >= int(self.min_frame)) and (int(frame_index) <= int(self.max_frame)):
-								#print(os.path.join(self.sequence_path, item))
-								self.exr_list.append(os.path.join(self.sequence_path, item))
+		#reset the exr list
+		#how can I be so stupid!!!
+		self.exr_list = []
+
+
+		for item in file_list:
+			#self.display_message_function(item)
+			if os.path.isfile(item) == True:
+				#print(os.path.splitext(item)[1])
+				#if (os.path.splitext(item)[1] == ".exr") or (os.path.splitext(item)[1] == ".Exr"):
+				if self.query_one("#frame_range_checkbox").value == True:
+					#check if the index of the frame is contained in the frame range
+					splited_file = os.path.splitext(os.path.basename(item))[0].split(".")
+					if (len(splited_file) != 2) or (splited_file[1].isdigit()==False):
+						self.display_error_function("Impossible to get that frame index: %s"%item)
+						return False
 					else:
-						self.exr_list.append(os.path.join(self.sequence_path, item))
+						#check if the frame index is contained in the interval
+						frame_index = int(splited_file[1])
+
+						#self.display_message_function("%s ; %s ; %s"%(frame_index, self.min_frame, self.max_frame))
+						if (int(frame_index) >= int(self.min_frame)) and (int(frame_index) <= int(self.max_frame)):
+							#print(os.path.join(self.sequence_path, item))
+							self.exr_list.append(item)
+				else:
+					self.exr_list.append(item)
+		
 			
 
 		if len(self.exr_list) == 0:
-			self.display_message_function("No frame to denoise!")
+			self.display_error_function("No frame to denoise!")
 			return
 
 		#CHECK FOR EACH FILE OF THE EXR LIST THAT THERE IS REQUIRED AOVS
-		self.display_message_function("Checking AOV's in .exr files:")
+		#self.display_message_function("Checking AOV's in .exr files:")
+
+
 		for file in self.exr_list:
 			render_file = exr.InputFile(file)
 			render_data = render_file.header()["channels"]
@@ -213,7 +224,7 @@ class DenoiseCore():
 
 
 
-		self.display_message_function("Define the list of AOV to denoise in file : ")
+		#self.display_message_function("Define the list of AOV to denoise in file : ")
 		#LAUNCH CREATIION OF THE JSON DICTIONNARY FROM THE FIRST EXR OF THE SEQUENCE
 		#define the list of aovs contained in the first exr 
 		#and remove the dodge list from the aov list 
@@ -241,7 +252,7 @@ class DenoiseCore():
 
 		
 
-		self.display_message_function("Create Json config dictionnary...\n\n\n")
+		#self.display_message_function("\nCreate Json config dictionnary...\n\n\n")
 
 		
 		config_dictionnary = {}
@@ -292,6 +303,8 @@ class DenoiseCore():
 
 
 
+
+
 		#FINISH THE DICTIONNARY WITH FINAL INFORMATIONS
 		config_dictionnary["primary"] = self.exr_list
 		config_dictionnary["aux"] = aux_dictionnary
@@ -327,7 +340,7 @@ class DenoiseCore():
 				"topology": "%s/lib/denoise/full_w1_5s_sym_gen2.topo"%self.config["RendermanPath"]
 			}
 
-		self.display_message_function("Generation of dictionnary done")
+		#self.display_message_function("Generation of dictionnary done")
 
 		if os.path.isfile(os.path.join(self.program_path, "data/final_config.json"))==True:
 			try:
@@ -336,18 +349,30 @@ class DenoiseCore():
 			except:
 				self.display_error_function("Impossible to remove old config")
 			else:
-				self.display_message_function("Old config removed")
+				pass
+				#self.display_message_function("Old config removed")
 		try:
 			with open(os.path.join(self.program_path, "data/final_config.json"), "w") as save_config:
 				json.dump(config_dictionnary, save_config, indent=4)
 		
 		except:
-			self.display_error_function("Impossible to save JSON Config file")
+			#self.display_error_function("Impossible to save JSON Config file")
 			return False
 		else:
-			self.display_message_function("JSON Config file generated")
+			#self.display_success_function("JSON Config file generated")
+			#self.display_message_function(os.path.join(self.program_path, "data/final_config.json"))
 			return os.path.join(self.program_path, "data/final_config.json")
 		
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -478,6 +503,7 @@ class DenoiseCore():
 
 
 	def remove_useless_channels_function(self, output_folder = False):
+		self.display_notification_function("REMOVE USELESS CHANNELS FUNCTION")
 		combined_remove_sequence_data = {}
 		for file in self.combined_sequence_list:
 			#remove in each file the aovs present in remove useless channel list
@@ -500,8 +526,9 @@ class DenoiseCore():
 
 
 	def create_alpha_copy_function(self):
+		self.display_notification_function("EXTRACTING ALPHA")
 		os.makedirs(os.path.join(self.output_path, "sequence_alpha_folder"), exist_ok=True)
-		self.display_message_function("Alpha folder created")
+		self.display_success_function("Alpha folder created")
 
 		#for each file of the original sequence
 		#call the remove channnel function (with alpha)
@@ -514,12 +541,14 @@ class DenoiseCore():
 			else:
 				self.display_error_function("Impossible to extract alpha from : %s"%file)
 
-		self.display_message_function("ALPHA SEQUENCE CREATED")
+		self.display_success_function("ALPHA SEQUENCE CREATED")
 
 
 
 
 	def remove_channel_function(self, file, output_file, remove_list, value=False):
+
+		self.display_message_function("Removing channels\n%s"%remove_list)
 		try:
 
 			#if value == False -> delete all channels not in list
@@ -574,6 +603,8 @@ class DenoiseCore():
 
 	def combine_alpha_with_sequence_function(self):
 		
+
+		self.display_notification_function("COMBINE ALPHA WITH SEQUENCE FUNCTION")
 		#print(self.combined_sequence_list)
 		#print(self.alpha_sequence_list)
 
@@ -673,7 +704,41 @@ class DenoiseCore():
 			self.display_message_function("Average file size in sequence : %s"%full_sequence_average)
 			self.display_message_function("Number of images in sequence : %a"%len(full_sequence_items))
 
+
+			sequence_dictionnary = {}
+
+
 			for file in full_sequence_items:
+
+				"""
+				class files from sequence in a dictionnary
+				to split the denoising process depending of the filename proximity
+				"""
+				#get the filename without extension
+				filename, extension = os.path.splitext(os.path.basename(file))
+				#split the filename with .
+				splited_filename = filename.split(".")
+				
+				if len(splited_filename) > 1:
+					for i in range(len(splited_filename)):
+						if splited_filename[i].isdigit():
+							splited_filename[i] = "x"
+
+					filename_key = ".".join(splited_filename)
+
+				else:
+					filename_key = filename
+
+
+				if filename_key in sequence_dictionnary:
+					filelist = sequence_dictionnary[filename_key]
+					filelist.append(file)
+					sequence_dictionnary[filename_key] = filelist
+				else:
+					sequence_dictionnary[filename_key] = [file]
+
+
+
 				#get file size position
 				file_size = (os.stat(file).st_size)
 				file_position = (100 * file_size) / full_sequence_average
@@ -684,7 +749,7 @@ class DenoiseCore():
 
 
 
-			return final_channel_list, False, False
+			return final_channel_list, sequence_dictionnary, False, False
 
 
 
@@ -784,6 +849,7 @@ class DenoiseCore():
 	def clean_output_folder_function(self):
 		#get the output path
 
+		self.display_notification_function("CLEAN OUTPUT FOLDER FUNCTION")
 		output_content = os.listdir(self.output_path)
 		for item in output_content:
 			

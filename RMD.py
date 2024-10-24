@@ -103,6 +103,9 @@ class RMD_Application(App[None], DenoiseCore):
 		#print(os.getcwd())
 		self.config_path = os.path.join(os.getcwd(),"data/final_config.json")
 
+
+		self.sequence_dictionnary = {}
+
 		#get the path of the current drive root
 		self.starting_path = Path("/")
 
@@ -184,7 +187,7 @@ class RMD_Application(App[None], DenoiseCore):
 		self.program_log.append("[%s] - STATUS : %s"%(str(datetime.now()), message))
 		self.save_log_function("[%s] - STATUS : %s\n"%(str(datetime.now()), message))
 
-	def display_error_function(self, message):
+	def display_error_function(self, message, value=True):
 		self.notify(message, severity="Error", timeout=5)
 		print(colored(message, "red"))
 		self.program_log.append("[%s] - ERROR : %s"%(str(datetime.now()), message))
@@ -192,13 +195,14 @@ class RMD_Application(App[None], DenoiseCore):
 
 	def display_success_function(self, message):
 		self.notify(message, timeout=5)
-		print(colored(message, "white"))
+		print(colored(message, "green"))
 		self.program_log.append("[%s] - MESSAGE : %s"%(str(datetime.now()), message))
 		self.save_log_function("[%s] - MESSAGE : %s\n"%(str(datetime.now()), message))
 
-	def display_message_function(self, message):
-		self.notify(message, severity = "information", timeout=5)
-		print(colored(message, "green"))
+	def display_message_function(self, message, value=False):
+		if value ==True:
+			self.notify(message, severity = "information", timeout=5)
+		print(colored(message))
 		self.program_log.append("[%s] - SUCCESS : %s"%(str(datetime.now()), message))
 		self.save_log_function("[%s] - SUCCESS : %s\n"%(str(datetime.now()), message))
 
@@ -543,12 +547,19 @@ class RMD_Application(App[None], DenoiseCore):
 
 				
 			
-				self.input_channel_list, size_informations, size_dictionnary = self.check_input_function()
+				self.input_channel_list, self.sequence_dictionnary, size_informations, size_dictionnary = self.check_input_function()
 				
 
 				#self.display_message_function("%s\n%s"%(self.font_subtitle.renderText("\nAverage frame size"), "%s\n"%str(size_informations["Average"])))
+				"""
+				sequence_message = "\n"
+				for file_key, file_data in self.sequence_dictionnary.items():
+					sequence_message += "- %s\n"%file_key
 
-
+					for file in file_data:
+						sequence_message += "	- %s\n"%file
+				self.display_message_function(sequence_message)
+				"""
 
 				
 				if self.input_channel_list == False:
@@ -584,6 +595,7 @@ class RMD_Application(App[None], DenoiseCore):
 
 		if event.button.id == "button_launch_denoiser":
 			if (self.sequence_path != None) or (self.output_path != None):
+				self.display_message_function("Denoise Process...\n\n")
 				
 				self.channel_selection = self.query_one("#channel_list").selected
 
@@ -599,6 +611,84 @@ class RMD_Application(App[None], DenoiseCore):
 				if (self.sequence_path == None) or (self.output_path == None):
 					self.display_error_function("You must define input and output folder!")
 					return
+
+
+
+				if self.sequence_dictionnary == {}:
+					self.display_error_function("You must check your sequence")
+					return
+				else:
+
+
+					dictionnary_length = len(list(self.sequence_dictionnary.keys()))
+					i = 0
+
+					for file_key, file_data in self.sequence_dictionnary.items():
+
+						message = "Creating Denoise Config for sequence:\n"
+						for file in file_data:
+							message += "	- %s\n"%file
+
+						self.display_message_function(message, False)
+
+
+						value = self.create_config_function(file_data)
+
+
+						if os.path.isfile(value)==True:
+							self.display_success_function("Config for denoise created\n 	%s"%value)
+
+
+							self.set_timer(2)
+
+
+							with self.suspend():
+								try:
+									print()
+									print(colored(pyfiglet.figlet_format("Denoise Running\n%s/%s"%(i, dictionnary_length), font="ansi_shadow"), "cyan"))
+
+									for file in file_data:
+										print("	denoising %s"%file)
+									os.system('"%s/bin/denoise_batch.exe" -j %s'%(self.config["RendermanPath"], self.config_path))
+									
+
+									if self.settings["CombineFinalRenders"] ==True:
+										self.create_alpha_copy_function()
+										#CALL COMBINE EXR FUNCTION
+										self.combine_exr_function()
+										
+
+										if self.settings["RemoveDenoiseChannels"] == True:
+											self.remove_useless_channels_function()
+										self.combine_alpha_with_sequence_function()
+
+										#remove useless content from output folder
+										self.clean_output_folder_function()
+
+									
+											
+									print("Task %s Done"%i)
+
+
+								except Exception as e:
+									print(colored("Impossible to launch denoise process", "red"))
+									os.system("pause")
+
+							self.display_message_function("Denoising process done...")
+
+							
+
+
+						else:
+							self.display_error_function("Impossible to create the denoise Config!")
+							continue
+
+						i+=1
+
+
+						
+
+				"""
 				value = self.create_config_function()
 
 				#return
@@ -643,10 +733,10 @@ class RMD_Application(App[None], DenoiseCore):
 						self.clean_output_folder_function()
 
 						self.display_message_function("Denoise done")
-						returnY
+						return
+				"""
 
-				else:
-					self.display_error_function("Impossible to launch denoise!")
+				
 			else:
 				self.display_error_function("You have to define input and output path!")
 				return
