@@ -9831,3 +9831,891 @@ D:\work\python\rmd\data/final_config.json
 [2024-10-24 23:09:23.391254] - STATUS : CLEAN OUTPUT FOLDER FUNCTION
 [2024-10-24 23:09:23.398238] - SUCCESS : DONE
 [2024-10-24 23:09:23.399236] - SUCCESS : Denoising process done...
+[2024-10-25 14:27:09.579725] - SUCCESS : Settings loaded
+[2024-10-25 14:27:10.446652] - SUCCESS : RLE_COMPRESSION
+[2024-10-25 20:15:26.376324] - SUCCESS : Settings loaded
+[2024-10-25 20:15:26.623838] - SUCCESS : RLE_COMPRESSION
+[2024-10-25 20:15:35.836016] - SUCCESS : checking
+[2024-10-25 20:15:35.837012] - SUCCESS : Path updated
+[2024-10-25 20:15:38.523359] - SUCCESS : d:\work\lighting\bewaffnung\blender
+[2024-10-25 20:15:39.236262] - SUCCESS : d:\work\lighting\bewaffnung\blender
+[2024-10-25 20:15:39.968748] - SUCCESS : d:\work\lighting\bewaffnung\photoshop
+[2024-10-25 20:15:41.714573] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input
+[2024-10-25 20:15:42.489060] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\pre_denoise
+[2024-10-25 20:16:03.419531] - SUCCESS : CHECKING SEQUENCE FOLDER
+[2024-10-25 20:16:03.420554] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\pre_denoise
+[2024-10-25 20:16:03.420554] - SUCCESS : Checking render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:16:03.422523] - SUCCESS : Checking render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:16:03.589319] - SUCCESS : Checking render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:16:03.702724] - SUCCESS : Checking render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:16:03.786932] - SUCCESS : Checking final sequence files
+[2024-10-25 20:16:03.786932] - SUCCESS : Average file size in sequence : 177762566.0
+[2024-10-25 20:16:03.787931] - SUCCESS : Number of images in sequence : 4
+[2024-10-25 20:16:30.307472] - SUCCESS : DWAB_COMPRESSION
+[2024-10-25 20:16:31.172889] - SUCCESS : Crossframe switched to : False
+[2024-10-25 20:16:32.289264] - SUCCESS : Denoise Process...
+
+
+[2024-10-25 20:16:32.291244] - SUCCESS : Creating Denoise Config for sequence:
+	- d:\work\lighting\bewaffnung\photoshop\input\pre_denoise\render_grenadeHeadCandys_v001.1001.exr
+
+[2024-10-25 20:16:32.291244] - ERROR : Output folder doesn't exist!
+[2024-10-25 20:16:32.292241] - STATUS : Output folder created!
+[2024-10-25 20:16:32.295233] - MESSAGE : Config for denoise created
+ 	D:\work\python\rmd\data/final_config.json
+[2024-10-25 20:20:54.962147] - STATUS : EXTRACTING ALPHA
+[2024-10-25 20:20:54.963145] - MESSAGE : Alpha folder created
+[2024-10-25 20:20:54.964142] - SUCCESS : Removing channels
+['a', 'A']
+[2024-10-25 20:20:54.965139] - SUCCESS : Compression type changed
+[2024-10-25 20:20:54.965139] - SUCCESS : Channel removed : Ci.b
+[2024-10-25 20:20:54.966136] - SUCCESS : Channel removed : Ci.g
+[2024-10-25 20:20:54.966136] - SUCCESS : Channel removed : Ci.r
+[2024-10-25 20:20:54.967134] - SUCCESS : Channel removed : albedo.b
+[2024-10-25 20:20:54.967134] - SUCCESS : Channel removed : albedo.g
+[2024-10-25 20:20:54.968131] - SUCCESS : Channel removed : albedo.r
+[2024-10-25 20:20:54.968131] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-25 20:20:54.969129] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-25 20:20:54.969129] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-25 20:20:54.970126] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-25 20:20:54.970126] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-25 20:20:54.970126] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-25 20:20:54.971123] - SUCCESS : Channel removed : backward.x
+[2024-10-25 20:20:54.971123] - SUCCESS : Channel removed : backward.y
+[2024-10-25 20:20:54.988082] - SUCCESS : Channel removed : backward.z
+[2024-10-25 20:20:54.988082] - SUCCESS : Channel removed : beauty_light1.b
+[2024-10-25 20:20:54.989080] - SUCCESS : Channel removed : beauty_light1.g
+[2024-10-25 20:20:54.989080] - SUCCESS : Channel removed : beauty_light1.r
+[2024-10-25 20:20:54.990077] - SUCCESS : Channel removed : beauty_light2.b
+[2024-10-25 20:20:54.990077] - SUCCESS : Channel removed : beauty_light2.g
+[2024-10-25 20:20:54.991083] - SUCCESS : Channel removed : beauty_light2.r
+[2024-10-25 20:20:54.991083] - SUCCESS : Channel removed : beauty_light3.b
+[2024-10-25 20:20:54.992075] - SUCCESS : Channel removed : beauty_light3.g
+[2024-10-25 20:20:54.992075] - SUCCESS : Channel removed : beauty_light3.r
+[2024-10-25 20:20:54.993074] - SUCCESS : Channel removed : beauty_light4.b
+[2024-10-25 20:20:54.993074] - SUCCESS : Channel removed : beauty_light4.g
+[2024-10-25 20:20:54.994070] - SUCCESS : Channel removed : beauty_light4.r
+[2024-10-25 20:20:54.994070] - SUCCESS : Channel removed : beauty_light6.b
+[2024-10-25 20:20:54.995068] - SUCCESS : Channel removed : beauty_light6.g
+[2024-10-25 20:20:54.995068] - SUCCESS : Channel removed : beauty_light6.r
+[2024-10-25 20:20:54.996065] - SUCCESS : Channel removed : beauty_light7.b
+[2024-10-25 20:20:54.996065] - SUCCESS : Channel removed : beauty_light7.g
+[2024-10-25 20:20:54.997062] - SUCCESS : Channel removed : beauty_light7.r
+[2024-10-25 20:20:54.997062] - SUCCESS : Channel removed : beauty_light8.b
+[2024-10-25 20:20:54.998059] - SUCCESS : Channel removed : beauty_light8.g
+[2024-10-25 20:20:54.998059] - SUCCESS : Channel removed : beauty_light8.r
+[2024-10-25 20:20:54.999058] - SUCCESS : Channel removed : beauty_light9.b
+[2024-10-25 20:20:54.999058] - SUCCESS : Channel removed : beauty_light9.g
+[2024-10-25 20:20:55.000054] - SUCCESS : Channel removed : beauty_light9.r
+[2024-10-25 20:20:55.000054] - SUCCESS : Channel removed : diffuse.b
+[2024-10-25 20:20:55.001058] - SUCCESS : Channel removed : diffuse.g
+[2024-10-25 20:20:55.001058] - SUCCESS : Channel removed : diffuse.r
+[2024-10-25 20:20:55.001058] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-25 20:20:55.002052] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-25 20:20:55.002052] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-25 20:20:55.003050] - SUCCESS : Channel removed : directDiffuse.b
+[2024-10-25 20:20:55.003050] - SUCCESS : Channel removed : directDiffuse.g
+[2024-10-25 20:20:55.004047] - SUCCESS : Channel removed : directDiffuse.r
+[2024-10-25 20:20:55.004047] - SUCCESS : Channel removed : directDiffuseLobe.b
+[2024-10-25 20:20:55.005044] - SUCCESS : Channel removed : directDiffuseLobe.g
+[2024-10-25 20:20:55.005044] - SUCCESS : Channel removed : directDiffuseLobe.r
+[2024-10-25 20:20:55.006042] - SUCCESS : Channel removed : directSpecular.b
+[2024-10-25 20:20:55.006042] - SUCCESS : Channel removed : directSpecular.g
+[2024-10-25 20:20:55.007039] - SUCCESS : Channel removed : directSpecular.r
+[2024-10-25 20:20:55.007039] - SUCCESS : Channel removed : directSpecularGlassLobe.b
+[2024-10-25 20:20:55.007039] - SUCCESS : Channel removed : directSpecularGlassLobe.g
+[2024-10-25 20:20:55.008036] - SUCCESS : Channel removed : directSpecularGlassLobe.r
+[2024-10-25 20:20:55.008036] - SUCCESS : Channel removed : directSpecularPrimaryLobe.b
+[2024-10-25 20:20:55.009034] - SUCCESS : Channel removed : directSpecularPrimaryLobe.g
+[2024-10-25 20:20:55.009034] - SUCCESS : Channel removed : directSpecularPrimaryLobe.r
+[2024-10-25 20:20:55.010031] - SUCCESS : Channel removed : forward.x
+[2024-10-25 20:20:55.010031] - SUCCESS : Channel removed : forward.y
+[2024-10-25 20:20:55.010031] - SUCCESS : Channel removed : forward.z
+[2024-10-25 20:20:55.011029] - SUCCESS : Channel removed : indirectDiffuse.b
+[2024-10-25 20:20:55.011029] - SUCCESS : Channel removed : indirectDiffuse.g
+[2024-10-25 20:20:55.012026] - SUCCESS : Channel removed : indirectDiffuse.r
+[2024-10-25 20:20:55.012026] - SUCCESS : Channel removed : indirectSpecular.b
+[2024-10-25 20:20:55.013023] - SUCCESS : Channel removed : indirectSpecular.g
+[2024-10-25 20:20:55.013023] - SUCCESS : Channel removed : indirectSpecular.r
+[2024-10-25 20:20:55.014020] - SUCCESS : Channel removed : mse.b
+[2024-10-25 20:20:55.014020] - SUCCESS : Channel removed : mse.g
+[2024-10-25 20:20:55.015017] - SUCCESS : Channel removed : mse.r
+[2024-10-25 20:20:55.015017] - SUCCESS : Channel removed : normal.x
+[2024-10-25 20:20:55.016015] - SUCCESS : Channel removed : normal.y
+[2024-10-25 20:20:55.016015] - SUCCESS : Channel removed : normal.z
+[2024-10-25 20:20:55.017013] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-25 20:20:55.017013] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-25 20:20:55.017013] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-25 20:20:55.018010] - SUCCESS : Channel removed : normal_var.x
+[2024-10-25 20:20:55.018010] - SUCCESS : Channel removed : normal_var.y
+[2024-10-25 20:20:55.019007] - SUCCESS : Channel removed : normal_var.z
+[2024-10-25 20:20:55.019007] - SUCCESS : Channel removed : sampleCount
+[2024-10-25 20:20:55.020004] - SUCCESS : Channel removed : specular.b
+[2024-10-25 20:20:55.020004] - SUCCESS : Channel removed : specular.g
+[2024-10-25 20:20:55.021008] - SUCCESS : Channel removed : specular.r
+[2024-10-25 20:20:55.021008] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-25 20:20:55.022003] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-25 20:20:55.022003] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-25 20:20:55.022003] - SUCCESS : Channel removed : subsurface.b
+[2024-10-25 20:20:55.023000] - SUCCESS : Channel removed : subsurface.g
+[2024-10-25 20:20:55.023000] - SUCCESS : Channel removed : subsurface.r
+[2024-10-25 20:20:55.023998] - SUCCESS : Channel removed : zfiltered
+[2024-10-25 20:20:55.023998] - SUCCESS : Channel removed : zfiltered_var
+[2024-10-25 20:20:58.779908] - SUCCESS : Alpha extracted in : d:\work\lighting\bewaffnung\photoshop\input\output_denoise
+[2024-10-25 20:20:58.779908] - MESSAGE : ALPHA SEQUENCE CREATED
+[2024-10-25 20:20:58.780905] - STATUS : COMBINE EXR FUNCTION
+[2024-10-25 20:20:58.782900] - STATUS : FOLDER LIST
+[2024-10-25 20:20:58.782900] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo
+[2024-10-25 20:20:58.783897] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color
+[2024-10-25 20:20:58.783897] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse
+[2024-10-25 20:20:58.784894] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular
+[2024-10-25 20:20:58.784894] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder
+[2024-10-25 20:20:58.785891] - STATUS : Ouput folder created : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0
+[2024-10-25 20:20:58.786889] - STATUS : CHECKING RENDER : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:20:58.786889] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:20:58.787886] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:20:58.787886] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:20:58.788884] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:20:58.789881] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:20:58.789881] - SUCCESS : Launching combining command :  d:\work\lighting\bewaffnung\photoshop\input\output_denoise\render_grenadeHeadCandys_v001.1001.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\render_grenadeHeadCandys_v001.1001.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\render_grenadeHeadCandys_v001.1001.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\render_grenadeHeadCandys_v001.1001.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\render_grenadeHeadCandys_v001.1001.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:21:14.681568] - MESSAGE : Combined render created : render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:21:14.682566] - SUCCESS : Combination of Main renders done!
+[2024-10-25 20:21:14.683565] - STATUS : REMOVE USELESS CHANNELS FUNCTION
+[2024-10-25 20:21:14.683565] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:21:14.684560] - SUCCESS : Compression type changed
+[2024-10-25 20:21:14.685558] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-25 20:21:14.685558] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-25 20:21:14.686555] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-25 20:21:14.686555] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-25 20:21:14.687755] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-25 20:21:14.688246] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-25 20:21:14.688246] - SUCCESS : Channel removed : backward.x
+[2024-10-25 20:21:14.688246] - SUCCESS : Channel removed : backward.y
+[2024-10-25 20:21:14.689245] - SUCCESS : Channel removed : backward.z
+[2024-10-25 20:21:14.689245] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-25 20:21:14.690242] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-25 20:21:14.690242] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-25 20:21:14.691240] - SUCCESS : Channel removed : forward.x
+[2024-10-25 20:21:14.691240] - SUCCESS : Channel removed : forward.y
+[2024-10-25 20:21:14.692237] - SUCCESS : Channel removed : forward.z
+[2024-10-25 20:21:14.692237] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-25 20:21:14.693234] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-25 20:21:14.693234] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-25 20:21:14.694231] - SUCCESS : Channel removed : normal_var.x
+[2024-10-25 20:21:14.694231] - SUCCESS : Channel removed : normal_var.y
+[2024-10-25 20:21:14.695229] - SUCCESS : Channel removed : normal_var.z
+[2024-10-25 20:21:14.695229] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-25 20:21:14.696226] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-25 20:21:14.696226] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-25 20:24:56.062461] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:24:56.062461] - SUCCESS : USELESS CHANNELS REMOVED FROM RENDER SEQUENCE
+[2024-10-25 20:24:56.063459] - STATUS : COMBINE ALPHA WITH SEQUENCE FUNCTION
+[2024-10-25 20:24:56.064456] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:24:56.064456] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:24:56.074430] - SUCCESS : ALPHA COMBINE DONE
+[2024-10-25 20:24:56.074430] - STATUS : CLEAN OUTPUT FOLDER FUNCTION
+[2024-10-25 20:24:56.098805] - SUCCESS : DONE
+[2024-10-25 20:24:56.101657] - SUCCESS : Denoising process done...
+[2024-10-25 20:24:56.102654] - SUCCESS : Creating Denoise Config for sequence:
+	- d:\work\lighting\bewaffnung\photoshop\input\pre_denoise\render_grenadeHeadCristal_v002.1002.exr
+
+[2024-10-25 20:24:56.107640] - MESSAGE : Config for denoise created
+ 	D:\work\python\rmd\data/final_config.json
+[2024-10-25 20:29:20.440417] - STATUS : EXTRACTING ALPHA
+[2024-10-25 20:29:20.441414] - MESSAGE : Alpha folder created
+[2024-10-25 20:29:20.441414] - SUCCESS : Removing channels
+['a', 'A']
+[2024-10-25 20:29:20.442411] - SUCCESS : Compression type changed
+[2024-10-25 20:29:20.443408] - SUCCESS : Channel removed : Ci.b
+[2024-10-25 20:29:20.443408] - SUCCESS : Channel removed : Ci.g
+[2024-10-25 20:29:20.444405] - SUCCESS : Channel removed : Ci.r
+[2024-10-25 20:29:20.444405] - SUCCESS : Channel removed : albedo.b
+[2024-10-25 20:29:20.445403] - SUCCESS : Channel removed : albedo.g
+[2024-10-25 20:29:20.445403] - SUCCESS : Channel removed : albedo.r
+[2024-10-25 20:29:20.446400] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-25 20:29:20.446400] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-25 20:29:20.447397] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-25 20:29:20.447397] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-25 20:29:20.448395] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-25 20:29:20.448395] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-25 20:29:20.449392] - SUCCESS : Channel removed : backward.x
+[2024-10-25 20:29:20.449392] - SUCCESS : Channel removed : backward.y
+[2024-10-25 20:29:20.450088] - SUCCESS : Channel removed : backward.z
+[2024-10-25 20:29:20.450088] - SUCCESS : Channel removed : beauty_light1.b
+[2024-10-25 20:29:20.451056] - SUCCESS : Channel removed : beauty_light1.g
+[2024-10-25 20:29:20.451056] - SUCCESS : Channel removed : beauty_light1.r
+[2024-10-25 20:29:20.452053] - SUCCESS : Channel removed : beauty_light2.b
+[2024-10-25 20:29:20.452053] - SUCCESS : Channel removed : beauty_light2.g
+[2024-10-25 20:29:20.453050] - SUCCESS : Channel removed : beauty_light2.r
+[2024-10-25 20:29:20.453050] - SUCCESS : Channel removed : beauty_light3.b
+[2024-10-25 20:29:20.454048] - SUCCESS : Channel removed : beauty_light3.g
+[2024-10-25 20:29:20.454048] - SUCCESS : Channel removed : beauty_light3.r
+[2024-10-25 20:29:20.455045] - SUCCESS : Channel removed : beauty_light4.b
+[2024-10-25 20:29:20.455045] - SUCCESS : Channel removed : beauty_light4.g
+[2024-10-25 20:29:20.456042] - SUCCESS : Channel removed : beauty_light4.r
+[2024-10-25 20:29:20.456042] - SUCCESS : Channel removed : beauty_light6.b
+[2024-10-25 20:29:20.456042] - SUCCESS : Channel removed : beauty_light6.g
+[2024-10-25 20:29:20.457040] - SUCCESS : Channel removed : beauty_light6.r
+[2024-10-25 20:29:20.457040] - SUCCESS : Channel removed : beauty_light7.b
+[2024-10-25 20:29:20.458037] - SUCCESS : Channel removed : beauty_light7.g
+[2024-10-25 20:29:20.458037] - SUCCESS : Channel removed : beauty_light7.r
+[2024-10-25 20:29:20.459034] - SUCCESS : Channel removed : beauty_light8.b
+[2024-10-25 20:29:20.459034] - SUCCESS : Channel removed : beauty_light8.g
+[2024-10-25 20:29:20.460032] - SUCCESS : Channel removed : beauty_light8.r
+[2024-10-25 20:29:20.460032] - SUCCESS : Channel removed : beauty_light9.b
+[2024-10-25 20:29:20.461029] - SUCCESS : Channel removed : beauty_light9.g
+[2024-10-25 20:29:20.461029] - SUCCESS : Channel removed : beauty_light9.r
+[2024-10-25 20:29:20.462026] - SUCCESS : Channel removed : diffuse.b
+[2024-10-25 20:29:20.462026] - SUCCESS : Channel removed : diffuse.g
+[2024-10-25 20:29:20.463024] - SUCCESS : Channel removed : diffuse.r
+[2024-10-25 20:29:20.463024] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-25 20:29:20.463024] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-25 20:29:20.464021] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-25 20:29:20.464021] - SUCCESS : Channel removed : directDiffuse.b
+[2024-10-25 20:29:20.465018] - SUCCESS : Channel removed : directDiffuse.g
+[2024-10-25 20:29:20.466040] - SUCCESS : Channel removed : directDiffuse.r
+[2024-10-25 20:29:20.466040] - SUCCESS : Channel removed : directDiffuseLobe.b
+[2024-10-25 20:29:20.467013] - SUCCESS : Channel removed : directDiffuseLobe.g
+[2024-10-25 20:29:20.467013] - SUCCESS : Channel removed : directDiffuseLobe.r
+[2024-10-25 20:29:20.468010] - SUCCESS : Channel removed : directSpecular.b
+[2024-10-25 20:29:20.468010] - SUCCESS : Channel removed : directSpecular.g
+[2024-10-25 20:29:20.469010] - SUCCESS : Channel removed : directSpecular.r
+[2024-10-25 20:29:20.469010] - SUCCESS : Channel removed : directSpecularGlassLobe.b
+[2024-10-25 20:29:20.469010] - SUCCESS : Channel removed : directSpecularGlassLobe.g
+[2024-10-25 20:29:20.470005] - SUCCESS : Channel removed : directSpecularGlassLobe.r
+[2024-10-25 20:29:20.470005] - SUCCESS : Channel removed : directSpecularPrimaryLobe.b
+[2024-10-25 20:29:20.471002] - SUCCESS : Channel removed : directSpecularPrimaryLobe.g
+[2024-10-25 20:29:20.471002] - SUCCESS : Channel removed : directSpecularPrimaryLobe.r
+[2024-10-25 20:29:20.472000] - SUCCESS : Channel removed : forward.x
+[2024-10-25 20:29:20.472000] - SUCCESS : Channel removed : forward.y
+[2024-10-25 20:29:20.472997] - SUCCESS : Channel removed : forward.z
+[2024-10-25 20:29:20.472997] - SUCCESS : Channel removed : indirectDiffuse.b
+[2024-10-25 20:29:20.473994] - SUCCESS : Channel removed : indirectDiffuse.g
+[2024-10-25 20:29:20.473994] - SUCCESS : Channel removed : indirectDiffuse.r
+[2024-10-25 20:29:20.474992] - SUCCESS : Channel removed : indirectSpecular.b
+[2024-10-25 20:29:20.474992] - SUCCESS : Channel removed : indirectSpecular.g
+[2024-10-25 20:29:20.474992] - SUCCESS : Channel removed : indirectSpecular.r
+[2024-10-25 20:29:20.475989] - SUCCESS : Channel removed : mse.b
+[2024-10-25 20:29:20.475989] - SUCCESS : Channel removed : mse.g
+[2024-10-25 20:29:20.476986] - SUCCESS : Channel removed : mse.r
+[2024-10-25 20:29:20.476986] - SUCCESS : Channel removed : normal.x
+[2024-10-25 20:29:20.477984] - SUCCESS : Channel removed : normal.y
+[2024-10-25 20:29:20.477984] - SUCCESS : Channel removed : normal.z
+[2024-10-25 20:29:20.477984] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-25 20:29:20.478981] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-25 20:29:20.478981] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-25 20:29:20.479978] - SUCCESS : Channel removed : normal_var.x
+[2024-10-25 20:29:20.479978] - SUCCESS : Channel removed : normal_var.y
+[2024-10-25 20:29:20.480976] - SUCCESS : Channel removed : normal_var.z
+[2024-10-25 20:29:20.480976] - SUCCESS : Channel removed : sampleCount
+[2024-10-25 20:29:20.481973] - SUCCESS : Channel removed : specular.b
+[2024-10-25 20:29:20.481973] - SUCCESS : Channel removed : specular.g
+[2024-10-25 20:29:20.481973] - SUCCESS : Channel removed : specular.r
+[2024-10-25 20:29:20.482970] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-25 20:29:20.482970] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-25 20:29:20.483968] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-25 20:29:20.483968] - SUCCESS : Channel removed : subsurface.b
+[2024-10-25 20:29:20.484965] - SUCCESS : Channel removed : subsurface.g
+[2024-10-25 20:29:20.484965] - SUCCESS : Channel removed : subsurface.r
+[2024-10-25 20:29:20.485962] - SUCCESS : Channel removed : zfiltered
+[2024-10-25 20:29:20.485962] - SUCCESS : Channel removed : zfiltered_var
+[2024-10-25 20:29:24.292441] - SUCCESS : Alpha extracted in : d:\work\lighting\bewaffnung\photoshop\input\output_denoise
+[2024-10-25 20:29:24.292441] - MESSAGE : ALPHA SEQUENCE CREATED
+[2024-10-25 20:29:24.293467] - STATUS : COMBINE EXR FUNCTION
+[2024-10-25 20:29:24.295435] - STATUS : FOLDER LIST
+[2024-10-25 20:29:24.295435] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo
+[2024-10-25 20:29:24.295435] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color
+[2024-10-25 20:29:24.296433] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse
+[2024-10-25 20:29:24.296433] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular
+[2024-10-25 20:29:24.297430] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_0
+[2024-10-25 20:29:24.297430] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder
+[2024-10-25 20:29:24.299309] - STATUS : Ouput folder created : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1
+[2024-10-25 20:29:24.299309] - STATUS : CHECKING RENDER : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:29:24.300306] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:29:24.300306] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:29:24.301278] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:29:24.302300] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:29:24.302300] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:29:24.303299] - SUCCESS : Launching combining command :  d:\work\lighting\bewaffnung\photoshop\input\output_denoise\render_grenadeHeadCristal_v002.1002.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\render_grenadeHeadCristal_v002.1002.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\render_grenadeHeadCristal_v002.1002.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\render_grenadeHeadCristal_v002.1002.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\render_grenadeHeadCristal_v002.1002.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:29:39.622946] - MESSAGE : Combined render created : render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:29:39.623943] - SUCCESS : Combination of Main renders done!
+[2024-10-25 20:29:39.623943] - STATUS : REMOVE USELESS CHANNELS FUNCTION
+[2024-10-25 20:29:39.624940] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:29:39.625943] - SUCCESS : Compression type changed
+[2024-10-25 20:31:04.157010] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:31:04.157010] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:31:04.158008] - SUCCESS : Compression type changed
+[2024-10-25 20:31:04.159005] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-25 20:31:04.159005] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-25 20:31:04.160003] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-25 20:31:04.160003] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-25 20:31:04.160994] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-25 20:31:04.160994] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-25 20:31:04.161994] - SUCCESS : Channel removed : backward.x
+[2024-10-25 20:31:04.161994] - SUCCESS : Channel removed : backward.y
+[2024-10-25 20:31:04.162991] - SUCCESS : Channel removed : backward.z
+[2024-10-25 20:31:04.162991] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-25 20:31:04.163988] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-25 20:31:04.163988] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-25 20:31:04.163988] - SUCCESS : Channel removed : forward.x
+[2024-10-25 20:31:04.164986] - SUCCESS : Channel removed : forward.y
+[2024-10-25 20:31:04.164986] - SUCCESS : Channel removed : forward.z
+[2024-10-25 20:31:04.165983] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-25 20:31:04.165983] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-25 20:31:04.166980] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-25 20:31:04.166980] - SUCCESS : Channel removed : normal_var.x
+[2024-10-25 20:31:04.168041] - SUCCESS : Channel removed : normal_var.y
+[2024-10-25 20:31:04.168041] - SUCCESS : Channel removed : normal_var.z
+[2024-10-25 20:31:04.168975] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-25 20:31:04.168975] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-25 20:31:04.169973] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-25 20:34:43.873907] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1/Denoised_render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:34:43.873907] - SUCCESS : USELESS CHANNELS REMOVED FROM RENDER SEQUENCE
+[2024-10-25 20:34:43.874907] - STATUS : COMBINE ALPHA WITH SEQUENCE FUNCTION
+[2024-10-25 20:34:43.874907] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:34:43.875930] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:34:43.884880] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1/Denoised_render_grenadeHeadCristal_v002.1002.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:34:43.884880] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1/Denoised_render_grenadeHeadCristal_v002.1002.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:34:43.893857] - SUCCESS : ALPHA COMBINE DONE
+[2024-10-25 20:34:43.894854] - STATUS : CLEAN OUTPUT FOLDER FUNCTION
+[2024-10-25 20:34:43.911519] - SUCCESS : DONE
+[2024-10-25 20:34:43.912515] - SUCCESS : Denoising process done...
+[2024-10-25 20:34:43.913513] - SUCCESS : Creating Denoise Config for sequence:
+	- d:\work\lighting\bewaffnung\photoshop\input\pre_denoise\render_grenadeHeadGrape_v001.1003.exr
+
+[2024-10-25 20:34:43.916505] - MESSAGE : Config for denoise created
+ 	D:\work\python\rmd\data/final_config.json
+[2024-10-25 20:39:09.195571] - STATUS : EXTRACTING ALPHA
+[2024-10-25 20:39:09.196568] - MESSAGE : Alpha folder created
+[2024-10-25 20:39:09.197565] - SUCCESS : Removing channels
+['a', 'A']
+[2024-10-25 20:39:09.198563] - SUCCESS : Compression type changed
+[2024-10-25 20:39:09.198563] - SUCCESS : Channel removed : Ci.b
+[2024-10-25 20:39:09.199560] - SUCCESS : Channel removed : Ci.g
+[2024-10-25 20:39:09.199560] - SUCCESS : Channel removed : Ci.r
+[2024-10-25 20:39:09.200557] - SUCCESS : Channel removed : albedo.b
+[2024-10-25 20:39:09.200557] - SUCCESS : Channel removed : albedo.g
+[2024-10-25 20:39:09.201554] - SUCCESS : Channel removed : albedo.r
+[2024-10-25 20:39:09.201554] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-25 20:39:09.201554] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-25 20:39:09.202552] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-25 20:39:09.239454] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-25 20:39:09.240450] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-25 20:39:09.240450] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-25 20:39:09.241448] - SUCCESS : Channel removed : backward.x
+[2024-10-25 20:39:09.241448] - SUCCESS : Channel removed : backward.y
+[2024-10-25 20:39:09.242445] - SUCCESS : Channel removed : backward.z
+[2024-10-25 20:39:09.242445] - SUCCESS : Channel removed : beauty_light1.b
+[2024-10-25 20:39:09.243442] - SUCCESS : Channel removed : beauty_light1.g
+[2024-10-25 20:39:09.243442] - SUCCESS : Channel removed : beauty_light1.r
+[2024-10-25 20:39:09.244440] - SUCCESS : Channel removed : beauty_light2.b
+[2024-10-25 20:39:09.244440] - SUCCESS : Channel removed : beauty_light2.g
+[2024-10-25 20:39:09.245438] - SUCCESS : Channel removed : beauty_light2.r
+[2024-10-25 20:39:09.245438] - SUCCESS : Channel removed : beauty_light3.b
+[2024-10-25 20:39:09.245438] - SUCCESS : Channel removed : beauty_light3.g
+[2024-10-25 20:39:09.246434] - SUCCESS : Channel removed : beauty_light3.r
+[2024-10-25 20:39:09.246434] - SUCCESS : Channel removed : beauty_light4.b
+[2024-10-25 20:39:09.247432] - SUCCESS : Channel removed : beauty_light4.g
+[2024-10-25 20:39:09.247907] - SUCCESS : Channel removed : beauty_light4.r
+[2024-10-25 20:39:09.248429] - SUCCESS : Channel removed : beauty_light6.b
+[2024-10-25 20:39:09.248429] - SUCCESS : Channel removed : beauty_light6.g
+[2024-10-25 20:39:09.249427] - SUCCESS : Channel removed : beauty_light6.r
+[2024-10-25 20:39:09.249427] - SUCCESS : Channel removed : beauty_light7.b
+[2024-10-25 20:39:09.249427] - SUCCESS : Channel removed : beauty_light7.g
+[2024-10-25 20:39:09.250780] - SUCCESS : Channel removed : beauty_light7.r
+[2024-10-25 20:39:09.250780] - SUCCESS : Channel removed : beauty_light8.b
+[2024-10-25 20:39:09.251775] - SUCCESS : Channel removed : beauty_light8.g
+[2024-10-25 20:39:09.251775] - SUCCESS : Channel removed : beauty_light8.r
+[2024-10-25 20:39:09.252772] - SUCCESS : Channel removed : beauty_light9.b
+[2024-10-25 20:39:09.252772] - SUCCESS : Channel removed : beauty_light9.g
+[2024-10-25 20:39:09.253770] - SUCCESS : Channel removed : beauty_light9.r
+[2024-10-25 20:39:09.253770] - SUCCESS : Channel removed : diffuse.b
+[2024-10-25 20:39:09.254768] - SUCCESS : Channel removed : diffuse.g
+[2024-10-25 20:39:09.254768] - SUCCESS : Channel removed : diffuse.r
+[2024-10-25 20:39:09.254768] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-25 20:39:09.255764] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-25 20:39:09.255764] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-25 20:39:09.256762] - SUCCESS : Channel removed : directDiffuse.b
+[2024-10-25 20:39:09.256762] - SUCCESS : Channel removed : directDiffuse.g
+[2024-10-25 20:39:09.257759] - SUCCESS : Channel removed : directDiffuse.r
+[2024-10-25 20:39:09.257759] - SUCCESS : Channel removed : directDiffuseLobe.b
+[2024-10-25 20:39:09.258756] - SUCCESS : Channel removed : directDiffuseLobe.g
+[2024-10-25 20:39:09.258756] - SUCCESS : Channel removed : directDiffuseLobe.r
+[2024-10-25 20:39:09.259754] - SUCCESS : Channel removed : directSpecular.b
+[2024-10-25 20:39:09.259754] - SUCCESS : Channel removed : directSpecular.g
+[2024-10-25 20:39:09.259754] - SUCCESS : Channel removed : directSpecular.r
+[2024-10-25 20:39:09.260751] - SUCCESS : Channel removed : directSpecularGlassLobe.b
+[2024-10-25 20:39:09.260751] - SUCCESS : Channel removed : directSpecularGlassLobe.g
+[2024-10-25 20:39:09.261748] - SUCCESS : Channel removed : directSpecularGlassLobe.r
+[2024-10-25 20:39:09.261748] - SUCCESS : Channel removed : directSpecularPrimaryLobe.b
+[2024-10-25 20:39:09.262746] - SUCCESS : Channel removed : directSpecularPrimaryLobe.g
+[2024-10-25 20:39:09.262746] - SUCCESS : Channel removed : directSpecularPrimaryLobe.r
+[2024-10-25 20:39:09.263743] - SUCCESS : Channel removed : forward.x
+[2024-10-25 20:39:09.263743] - SUCCESS : Channel removed : forward.y
+[2024-10-25 20:39:09.267732] - SUCCESS : Channel removed : forward.z
+[2024-10-25 20:39:09.267732] - SUCCESS : Channel removed : indirectDiffuse.b
+[2024-10-25 20:39:09.268730] - SUCCESS : Channel removed : indirectDiffuse.g
+[2024-10-25 20:39:09.268730] - SUCCESS : Channel removed : indirectDiffuse.r
+[2024-10-25 20:39:09.269727] - SUCCESS : Channel removed : indirectSpecular.b
+[2024-10-25 20:39:09.269727] - SUCCESS : Channel removed : indirectSpecular.g
+[2024-10-25 20:39:09.270724] - SUCCESS : Channel removed : indirectSpecular.r
+[2024-10-25 20:39:09.270724] - SUCCESS : Channel removed : mse.b
+[2024-10-25 20:39:09.271722] - SUCCESS : Channel removed : mse.g
+[2024-10-25 20:39:09.271722] - SUCCESS : Channel removed : mse.r
+[2024-10-25 20:39:09.272719] - SUCCESS : Channel removed : normal.x
+[2024-10-25 20:39:09.272719] - SUCCESS : Channel removed : normal.y
+[2024-10-25 20:39:09.272719] - SUCCESS : Channel removed : normal.z
+[2024-10-25 20:39:09.273716] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-25 20:39:09.273716] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-25 20:39:09.274714] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-25 20:39:09.274714] - SUCCESS : Channel removed : normal_var.x
+[2024-10-25 20:39:09.275711] - SUCCESS : Channel removed : normal_var.y
+[2024-10-25 20:39:09.275711] - SUCCESS : Channel removed : normal_var.z
+[2024-10-25 20:39:09.276708] - SUCCESS : Channel removed : sampleCount
+[2024-10-25 20:39:09.276708] - SUCCESS : Channel removed : specular.b
+[2024-10-25 20:39:09.276708] - SUCCESS : Channel removed : specular.g
+[2024-10-25 20:39:09.277706] - SUCCESS : Channel removed : specular.r
+[2024-10-25 20:39:09.277706] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-25 20:39:09.278703] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-25 20:39:09.278703] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-25 20:39:09.279700] - SUCCESS : Channel removed : subsurface.b
+[2024-10-25 20:39:09.279700] - SUCCESS : Channel removed : subsurface.g
+[2024-10-25 20:39:09.280698] - SUCCESS : Channel removed : subsurface.r
+[2024-10-25 20:39:09.280698] - SUCCESS : Channel removed : zfiltered
+[2024-10-25 20:39:09.280698] - SUCCESS : Channel removed : zfiltered_var
+[2024-10-25 20:39:13.185665] - SUCCESS : Alpha extracted in : d:\work\lighting\bewaffnung\photoshop\input\output_denoise
+[2024-10-25 20:39:13.186638] - MESSAGE : ALPHA SEQUENCE CREATED
+[2024-10-25 20:39:13.187635] - STATUS : COMBINE EXR FUNCTION
+[2024-10-25 20:39:13.189629] - STATUS : FOLDER LIST
+[2024-10-25 20:39:13.189629] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo
+[2024-10-25 20:39:13.190627] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color
+[2024-10-25 20:39:13.190627] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse
+[2024-10-25 20:39:13.191624] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular
+[2024-10-25 20:39:13.191624] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_0
+[2024-10-25 20:39:13.192622] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_1
+[2024-10-25 20:39:13.192622] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder
+[2024-10-25 20:39:13.194822] - STATUS : Ouput folder created : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_2
+[2024-10-25 20:39:13.194822] - STATUS : CHECKING RENDER : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:39:13.195821] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:39:13.195821] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:39:13.196818] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:39:13.203653] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:39:13.204386] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:39:13.204386] - SUCCESS : Launching combining command :  d:\work\lighting\bewaffnung\photoshop\input\output_denoise\render_grenadeHeadGrape_v001.1003.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\render_grenadeHeadGrape_v001.1003.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\render_grenadeHeadGrape_v001.1003.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\render_grenadeHeadGrape_v001.1003.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\render_grenadeHeadGrape_v001.1003.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:39:30.229367] - MESSAGE : Combined render created : render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:39:30.229367] - SUCCESS : Combination of Main renders done!
+[2024-10-25 20:39:30.230364] - STATUS : REMOVE USELESS CHANNELS FUNCTION
+[2024-10-25 20:39:30.230364] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:39:30.231361] - SUCCESS : Compression type changed
+[2024-10-25 20:40:55.938092] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:40:55.939265] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:40:55.940262] - SUCCESS : Compression type changed
+[2024-10-25 20:42:20.244232] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1/Denoised_render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:42:20.244232] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:42:20.245784] - SUCCESS : Compression type changed
+[2024-10-25 20:42:20.245784] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-25 20:42:20.245784] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-25 20:42:20.246783] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-25 20:42:20.246783] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-25 20:42:20.247780] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-25 20:42:20.247780] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-25 20:42:20.248778] - SUCCESS : Channel removed : backward.x
+[2024-10-25 20:42:20.248778] - SUCCESS : Channel removed : backward.y
+[2024-10-25 20:42:20.249775] - SUCCESS : Channel removed : backward.z
+[2024-10-25 20:42:20.249775] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-25 20:42:20.250988] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-25 20:42:20.250988] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-25 20:42:20.251770] - SUCCESS : Channel removed : forward.x
+[2024-10-25 20:42:20.251770] - SUCCESS : Channel removed : forward.y
+[2024-10-25 20:42:20.252767] - SUCCESS : Channel removed : forward.z
+[2024-10-25 20:42:20.252767] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-25 20:42:20.253764] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-25 20:42:20.253764] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-25 20:42:20.254762] - SUCCESS : Channel removed : normal_var.x
+[2024-10-25 20:42:20.254762] - SUCCESS : Channel removed : normal_var.y
+[2024-10-25 20:42:20.255786] - SUCCESS : Channel removed : normal_var.z
+[2024-10-25 20:42:20.255786] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-25 20:42:20.256756] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-25 20:42:20.256756] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-25 20:46:27.946357] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_2/Denoised_render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:46:27.947355] - SUCCESS : USELESS CHANNELS REMOVED FROM RENDER SEQUENCE
+[2024-10-25 20:46:27.947355] - STATUS : COMBINE ALPHA WITH SEQUENCE FUNCTION
+[2024-10-25 20:46:27.948353] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:46:27.949349] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:46:27.959324] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1/Denoised_render_grenadeHeadCristal_v002.1002.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:46:27.960321] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1/Denoised_render_grenadeHeadCristal_v002.1002.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:46:27.969296] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_2/Denoised_render_grenadeHeadGrape_v001.1003.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:46:27.970294] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_2/Denoised_render_grenadeHeadGrape_v001.1003.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:46:27.979270] - SUCCESS : ALPHA COMBINE DONE
+[2024-10-25 20:46:27.979270] - STATUS : CLEAN OUTPUT FOLDER FUNCTION
+[2024-10-25 20:46:28.004206] - SUCCESS : DONE
+[2024-10-25 20:46:28.005202] - SUCCESS : Denoising process done...
+[2024-10-25 20:46:28.006200] - SUCCESS : Creating Denoise Config for sequence:
+	- d:\work\lighting\bewaffnung\photoshop\input\pre_denoise\render_grenadeHeadParfume_v001.1004.exr
+
+[2024-10-25 20:46:28.010189] - MESSAGE : Config for denoise created
+ 	D:\work\python\rmd\data/final_config.json
+[2024-10-25 20:51:12.405953] - STATUS : EXTRACTING ALPHA
+[2024-10-25 20:51:12.406950] - MESSAGE : Alpha folder created
+[2024-10-25 20:51:12.407947] - SUCCESS : Removing channels
+['a', 'A']
+[2024-10-25 20:51:12.408945] - SUCCESS : Compression type changed
+[2024-10-25 20:51:12.408945] - SUCCESS : Channel removed : Ci.b
+[2024-10-25 20:51:12.409942] - SUCCESS : Channel removed : Ci.g
+[2024-10-25 20:51:12.409942] - SUCCESS : Channel removed : Ci.r
+[2024-10-25 20:51:12.410939] - SUCCESS : Channel removed : albedo.b
+[2024-10-25 20:51:12.410939] - SUCCESS : Channel removed : albedo.g
+[2024-10-25 20:51:12.411937] - SUCCESS : Channel removed : albedo.r
+[2024-10-25 20:51:12.411937] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-25 20:51:12.412934] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-25 20:51:12.413258] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-25 20:51:12.413931] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-25 20:51:12.413931] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-25 20:51:12.414713] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-25 20:51:12.414713] - SUCCESS : Channel removed : backward.x
+[2024-10-25 20:51:12.415709] - SUCCESS : Channel removed : backward.y
+[2024-10-25 20:51:12.415709] - SUCCESS : Channel removed : backward.z
+[2024-10-25 20:51:12.416706] - SUCCESS : Channel removed : beauty_light1.b
+[2024-10-25 20:51:12.416706] - SUCCESS : Channel removed : beauty_light1.g
+[2024-10-25 20:51:12.417704] - SUCCESS : Channel removed : beauty_light1.r
+[2024-10-25 20:51:12.417704] - SUCCESS : Channel removed : beauty_light2.b
+[2024-10-25 20:51:12.418701] - SUCCESS : Channel removed : beauty_light2.g
+[2024-10-25 20:51:12.418701] - SUCCESS : Channel removed : beauty_light2.r
+[2024-10-25 20:51:12.419698] - SUCCESS : Channel removed : beauty_light3.b
+[2024-10-25 20:51:12.419698] - SUCCESS : Channel removed : beauty_light3.g
+[2024-10-25 20:51:12.420696] - SUCCESS : Channel removed : beauty_light3.r
+[2024-10-25 20:51:12.420696] - SUCCESS : Channel removed : beauty_light4.b
+[2024-10-25 20:51:12.421535] - SUCCESS : Channel removed : beauty_light4.g
+[2024-10-25 20:51:12.421535] - SUCCESS : Channel removed : beauty_light4.r
+[2024-10-25 20:51:12.422529] - SUCCESS : Channel removed : beauty_light6.b
+[2024-10-25 20:51:12.422529] - SUCCESS : Channel removed : beauty_light6.g
+[2024-10-25 20:51:12.423526] - SUCCESS : Channel removed : beauty_light6.r
+[2024-10-25 20:51:12.423526] - SUCCESS : Channel removed : beauty_light7.b
+[2024-10-25 20:51:12.424523] - SUCCESS : Channel removed : beauty_light7.g
+[2024-10-25 20:51:12.424523] - SUCCESS : Channel removed : beauty_light7.r
+[2024-10-25 20:51:12.425521] - SUCCESS : Channel removed : beauty_light8.b
+[2024-10-25 20:51:12.425521] - SUCCESS : Channel removed : beauty_light8.g
+[2024-10-25 20:51:12.426518] - SUCCESS : Channel removed : beauty_light8.r
+[2024-10-25 20:51:12.426518] - SUCCESS : Channel removed : beauty_light9.b
+[2024-10-25 20:51:12.427515] - SUCCESS : Channel removed : beauty_light9.g
+[2024-10-25 20:51:12.427515] - SUCCESS : Channel removed : beauty_light9.r
+[2024-10-25 20:51:12.428514] - SUCCESS : Channel removed : diffuse.b
+[2024-10-25 20:51:12.428514] - SUCCESS : Channel removed : diffuse.g
+[2024-10-25 20:51:12.428514] - SUCCESS : Channel removed : diffuse.r
+[2024-10-25 20:51:12.429510] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-25 20:51:12.429510] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-25 20:51:12.430508] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-25 20:51:12.430508] - SUCCESS : Channel removed : directDiffuse.b
+[2024-10-25 20:51:12.431505] - SUCCESS : Channel removed : directDiffuse.g
+[2024-10-25 20:51:12.431505] - SUCCESS : Channel removed : directDiffuse.r
+[2024-10-25 20:51:12.432502] - SUCCESS : Channel removed : directDiffuseLobe.b
+[2024-10-25 20:51:12.432502] - SUCCESS : Channel removed : directDiffuseLobe.g
+[2024-10-25 20:51:12.433500] - SUCCESS : Channel removed : directDiffuseLobe.r
+[2024-10-25 20:51:12.433500] - SUCCESS : Channel removed : directSpecular.b
+[2024-10-25 20:51:12.434497] - SUCCESS : Channel removed : directSpecular.g
+[2024-10-25 20:51:12.434497] - SUCCESS : Channel removed : directSpecular.r
+[2024-10-25 20:51:12.435494] - SUCCESS : Channel removed : directSpecularGlassLobe.b
+[2024-10-25 20:51:12.435494] - SUCCESS : Channel removed : directSpecularGlassLobe.g
+[2024-10-25 20:51:12.436491] - SUCCESS : Channel removed : directSpecularGlassLobe.r
+[2024-10-25 20:51:12.436491] - SUCCESS : Channel removed : directSpecularPrimaryLobe.b
+[2024-10-25 20:51:12.437489] - SUCCESS : Channel removed : directSpecularPrimaryLobe.g
+[2024-10-25 20:51:12.437489] - SUCCESS : Channel removed : directSpecularPrimaryLobe.r
+[2024-10-25 20:51:12.438486] - SUCCESS : Channel removed : forward.x
+[2024-10-25 20:51:12.438486] - SUCCESS : Channel removed : forward.y
+[2024-10-25 20:51:12.439484] - SUCCESS : Channel removed : forward.z
+[2024-10-25 20:51:12.439484] - SUCCESS : Channel removed : indirectDiffuse.b
+[2024-10-25 20:51:12.439484] - SUCCESS : Channel removed : indirectDiffuse.g
+[2024-10-25 20:51:12.440481] - SUCCESS : Channel removed : indirectDiffuse.r
+[2024-10-25 20:51:12.440481] - SUCCESS : Channel removed : indirectSpecular.b
+[2024-10-25 20:51:12.441478] - SUCCESS : Channel removed : indirectSpecular.g
+[2024-10-25 20:51:12.441478] - SUCCESS : Channel removed : indirectSpecular.r
+[2024-10-25 20:51:12.442475] - SUCCESS : Channel removed : mse.b
+[2024-10-25 20:51:12.442475] - SUCCESS : Channel removed : mse.g
+[2024-10-25 20:51:12.443473] - SUCCESS : Channel removed : mse.r
+[2024-10-25 20:51:12.443473] - SUCCESS : Channel removed : normal.x
+[2024-10-25 20:51:12.444470] - SUCCESS : Channel removed : normal.y
+[2024-10-25 20:51:12.444470] - SUCCESS : Channel removed : normal.z
+[2024-10-25 20:51:12.445467] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-25 20:51:12.445467] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-25 20:51:12.446466] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-25 20:51:12.446466] - SUCCESS : Channel removed : normal_var.x
+[2024-10-25 20:51:12.446466] - SUCCESS : Channel removed : normal_var.y
+[2024-10-25 20:51:12.447462] - SUCCESS : Channel removed : normal_var.z
+[2024-10-25 20:51:12.447462] - SUCCESS : Channel removed : sampleCount
+[2024-10-25 20:51:12.448460] - SUCCESS : Channel removed : specular.b
+[2024-10-25 20:51:12.448460] - SUCCESS : Channel removed : specular.g
+[2024-10-25 20:51:12.449457] - SUCCESS : Channel removed : specular.r
+[2024-10-25 20:51:12.449457] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-25 20:51:12.450454] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-25 20:51:12.450454] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-25 20:51:12.451230] - SUCCESS : Channel removed : subsurface.b
+[2024-10-25 20:51:12.451230] - SUCCESS : Channel removed : subsurface.g
+[2024-10-25 20:51:12.452209] - SUCCESS : Channel removed : subsurface.r
+[2024-10-25 20:51:12.452209] - SUCCESS : Channel removed : zfiltered
+[2024-10-25 20:51:12.453095] - SUCCESS : Channel removed : zfiltered_var
+[2024-10-25 20:51:16.321775] - SUCCESS : Alpha extracted in : d:\work\lighting\bewaffnung\photoshop\input\output_denoise
+[2024-10-25 20:51:16.322746] - MESSAGE : ALPHA SEQUENCE CREATED
+[2024-10-25 20:51:16.322746] - STATUS : COMBINE EXR FUNCTION
+[2024-10-25 20:51:16.324740] - STATUS : FOLDER LIST
+[2024-10-25 20:51:16.325738] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo
+[2024-10-25 20:51:16.325738] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color
+[2024-10-25 20:51:16.326743] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse
+[2024-10-25 20:51:16.327733] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular
+[2024-10-25 20:51:16.327733] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_0
+[2024-10-25 20:51:16.328744] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_1
+[2024-10-25 20:51:16.328744] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_2
+[2024-10-25 20:51:16.329727] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder
+[2024-10-25 20:51:16.332211] - STATUS : Ouput folder created : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_3
+[2024-10-25 20:51:16.332211] - STATUS : CHECKING RENDER : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:51:16.333237] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:51:16.333237] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:51:16.334208] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:51:16.335427] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:51:16.335427] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:51:16.336426] - SUCCESS : Launching combining command :  d:\work\lighting\bewaffnung\photoshop\input\output_denoise\render_grenadeHeadParfume_v001.1004.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\render_grenadeHeadParfume_v001.1004.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\render_grenadeHeadParfume_v001.1004.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\render_grenadeHeadParfume_v001.1004.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\render_grenadeHeadParfume_v001.1004.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:51:32.481026] - MESSAGE : Combined render created : render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:51:32.482002] - SUCCESS : Combination of Main renders done!
+[2024-10-25 20:51:32.482998] - STATUS : REMOVE USELESS CHANNELS FUNCTION
+[2024-10-25 20:51:32.484018] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:51:32.484994] - SUCCESS : Compression type changed
+[2024-10-25 20:52:57.122359] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:52:57.123357] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:52:57.123357] - SUCCESS : Compression type changed
+[2024-10-25 20:54:18.781568] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1/Denoised_render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:54:18.781568] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:54:18.782592] - SUCCESS : Compression type changed
+[2024-10-25 20:55:51.128833] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_2/Denoised_render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:55:51.129831] - SUCCESS : Removing channels
+['backward', 'albedo_var', 'albedo_mse', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-25 20:55:51.130663] - SUCCESS : Compression type changed
+[2024-10-25 20:55:51.131248] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-25 20:55:51.131643] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-25 20:55:51.131643] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-25 20:55:51.132640] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-25 20:55:51.132640] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-25 20:55:51.133638] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-25 20:55:51.133638] - SUCCESS : Channel removed : backward.x
+[2024-10-25 20:55:51.134635] - SUCCESS : Channel removed : backward.y
+[2024-10-25 20:55:51.134635] - SUCCESS : Channel removed : backward.z
+[2024-10-25 20:55:51.135632] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-25 20:55:51.135632] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-25 20:55:51.136630] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-25 20:55:51.136630] - SUCCESS : Channel removed : forward.x
+[2024-10-25 20:55:51.136630] - SUCCESS : Channel removed : forward.y
+[2024-10-25 20:55:51.137627] - SUCCESS : Channel removed : forward.z
+[2024-10-25 20:55:51.137627] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-25 20:55:51.138624] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-25 20:55:51.138624] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-25 20:55:51.139622] - SUCCESS : Channel removed : normal_var.x
+[2024-10-25 20:55:51.139622] - SUCCESS : Channel removed : normal_var.y
+[2024-10-25 20:55:51.140619] - SUCCESS : Channel removed : normal_var.z
+[2024-10-25 20:55:51.140619] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-25 20:55:51.141191] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-25 20:55:51.141191] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-25 20:59:36.467331] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_3/Denoised_render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:59:36.468329] - SUCCESS : USELESS CHANNELS REMOVED FROM RENDER SEQUENCE
+[2024-10-25 20:59:36.468329] - STATUS : COMBINE ALPHA WITH SEQUENCE FUNCTION
+[2024-10-25 20:59:36.469326] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:59:36.470323] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_0/Denoised_render_grenadeHeadCandys_v001.1001.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCandys_v001.1001.exr
+[2024-10-25 20:59:36.478374] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1/Denoised_render_grenadeHeadCristal_v002.1002.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:59:36.479299] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_1/Denoised_render_grenadeHeadCristal_v002.1002.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadCristal_v002.1002.exr
+[2024-10-25 20:59:36.487331] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_2/Denoised_render_grenadeHeadGrape_v001.1003.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:59:36.488328] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_2/Denoised_render_grenadeHeadGrape_v001.1003.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadGrape_v001.1003.exr
+[2024-10-25 20:59:36.497304] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_3/Denoised_render_grenadeHeadParfume_v001.1004.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:59:36.497304] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_pre_denoise_3/Denoised_render_grenadeHeadParfume_v001.1004.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/render_grenadeHeadParfume_v001.1004.exr
+[2024-10-25 20:59:36.507278] - SUCCESS : ALPHA COMBINE DONE
+[2024-10-25 20:59:36.507278] - STATUS : CLEAN OUTPUT FOLDER FUNCTION
+[2024-10-25 20:59:36.525590] - SUCCESS : DONE
+[2024-10-25 20:59:36.526591] - SUCCESS : Denoising process done...
+[2024-10-26 02:12:00.554050] - SUCCESS : Settings loaded
+[2024-10-26 02:12:01.344597] - SUCCESS : RLE_COMPRESSION
+[2024-10-26 02:12:09.615384] - SUCCESS : checking
+[2024-10-26 02:12:09.616381] - SUCCESS : Path updated
+[2024-10-26 02:12:11.460771] - SUCCESS : d:\work\lighting\bewaffnung\photoshop
+[2024-10-26 02:12:13.115963] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input
+[2024-10-26 02:12:14.863063] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\lego_head
+[2024-10-26 02:12:19.163455] - SUCCESS : CHECKING SEQUENCE FOLDER
+[2024-10-26 02:12:19.164453] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\lego_head
+[2024-10-26 02:12:19.164453] - SUCCESS : Checking item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:12:19.167360] - SUCCESS : Checking final sequence files
+[2024-10-26 02:12:19.167360] - SUCCESS : Average file size in sequence : 173964855.0
+[2024-10-26 02:12:19.168359] - SUCCESS : Number of images in sequence : 1
+[2024-10-26 02:12:36.831616] - SUCCESS : DWAB_COMPRESSION
+[2024-10-26 02:12:37.432280] - SUCCESS : Crossframe switched to : False
+[2024-10-26 02:12:38.695863] - SUCCESS : Denoise Process...
+
+
+[2024-10-26 02:12:38.696861] - SUCCESS : Creating Denoise Config for sequence:
+	- d:\work\lighting\bewaffnung\photoshop\input\lego_head\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+
+[2024-10-26 02:12:38.699853] - MESSAGE : Config for denoise created
+ 	D:\work\python\rmd\data/final_config.json
+[2024-10-26 02:17:25.027582] - STATUS : EXTRACTING ALPHA
+[2024-10-26 02:17:25.028579] - MESSAGE : Alpha folder created
+[2024-10-26 02:17:25.028579] - SUCCESS : Removing channels
+['a', 'A']
+[2024-10-26 02:17:25.029576] - SUCCESS : Compression type changed
+[2024-10-26 02:17:25.030574] - SUCCESS : Channel removed : Ci.b
+[2024-10-26 02:17:25.030574] - SUCCESS : Channel removed : Ci.g
+[2024-10-26 02:17:25.031571] - SUCCESS : Channel removed : Ci.r
+[2024-10-26 02:17:25.031571] - SUCCESS : Channel removed : albedo.b
+[2024-10-26 02:17:25.032568] - SUCCESS : Channel removed : albedo.g
+[2024-10-26 02:17:25.032568] - SUCCESS : Channel removed : albedo.r
+[2024-10-26 02:17:25.033566] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-26 02:17:25.033566] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-26 02:17:25.034563] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-26 02:17:25.034563] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-26 02:17:25.035614] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-26 02:17:25.035614] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-26 02:17:25.036558] - SUCCESS : Channel removed : backward.x
+[2024-10-26 02:17:25.036558] - SUCCESS : Channel removed : backward.y
+[2024-10-26 02:17:25.037555] - SUCCESS : Channel removed : backward.z
+[2024-10-26 02:17:25.037952] - SUCCESS : Channel removed : beauty_light1.b
+[2024-10-26 02:17:25.037952] - SUCCESS : Channel removed : beauty_light1.g
+[2024-10-26 02:17:25.038553] - SUCCESS : Channel removed : beauty_light1.r
+[2024-10-26 02:17:25.038553] - SUCCESS : Channel removed : beauty_light2.b
+[2024-10-26 02:17:25.039550] - SUCCESS : Channel removed : beauty_light2.g
+[2024-10-26 02:17:25.039550] - SUCCESS : Channel removed : beauty_light2.r
+[2024-10-26 02:17:25.040547] - SUCCESS : Channel removed : beauty_light3.b
+[2024-10-26 02:17:25.040547] - SUCCESS : Channel removed : beauty_light3.g
+[2024-10-26 02:17:25.041544] - SUCCESS : Channel removed : beauty_light3.r
+[2024-10-26 02:17:25.041544] - SUCCESS : Channel removed : beauty_light4.b
+[2024-10-26 02:17:25.042541] - SUCCESS : Channel removed : beauty_light4.g
+[2024-10-26 02:17:25.042541] - SUCCESS : Channel removed : beauty_light4.r
+[2024-10-26 02:17:25.043539] - SUCCESS : Channel removed : beauty_light6.b
+[2024-10-26 02:17:25.043539] - SUCCESS : Channel removed : beauty_light6.g
+[2024-10-26 02:17:25.044537] - SUCCESS : Channel removed : beauty_light6.r
+[2024-10-26 02:17:25.044537] - SUCCESS : Channel removed : beauty_light7.b
+[2024-10-26 02:17:25.045534] - SUCCESS : Channel removed : beauty_light7.g
+[2024-10-26 02:17:25.045534] - SUCCESS : Channel removed : beauty_light7.r
+[2024-10-26 02:17:25.046531] - SUCCESS : Channel removed : beauty_light8.b
+[2024-10-26 02:17:25.046531] - SUCCESS : Channel removed : beauty_light8.g
+[2024-10-26 02:17:25.046531] - SUCCESS : Channel removed : beauty_light8.r
+[2024-10-26 02:17:25.047529] - SUCCESS : Channel removed : beauty_light9.b
+[2024-10-26 02:17:25.048040] - SUCCESS : Channel removed : beauty_light9.g
+[2024-10-26 02:17:25.048040] - SUCCESS : Channel removed : beauty_light9.r
+[2024-10-26 02:17:25.049031] - SUCCESS : Channel removed : diffuse.b
+[2024-10-26 02:17:25.049031] - SUCCESS : Channel removed : diffuse.g
+[2024-10-26 02:17:25.050029] - SUCCESS : Channel removed : diffuse.r
+[2024-10-26 02:17:25.050029] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-26 02:17:25.051026] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-26 02:17:25.051026] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-26 02:17:25.052024] - SUCCESS : Channel removed : directDiffuse.b
+[2024-10-26 02:17:25.052024] - SUCCESS : Channel removed : directDiffuse.g
+[2024-10-26 02:17:25.053021] - SUCCESS : Channel removed : directDiffuse.r
+[2024-10-26 02:17:25.053021] - SUCCESS : Channel removed : directDiffuseLobe.b
+[2024-10-26 02:17:25.053021] - SUCCESS : Channel removed : directDiffuseLobe.g
+[2024-10-26 02:17:25.054018] - SUCCESS : Channel removed : directDiffuseLobe.r
+[2024-10-26 02:17:25.054018] - SUCCESS : Channel removed : directSpecular.b
+[2024-10-26 02:17:25.055015] - SUCCESS : Channel removed : directSpecular.g
+[2024-10-26 02:17:25.055015] - SUCCESS : Channel removed : directSpecular.r
+[2024-10-26 02:17:25.056012] - SUCCESS : Channel removed : directSpecularGlassLobe.b
+[2024-10-26 02:17:25.056012] - SUCCESS : Channel removed : directSpecularGlassLobe.g
+[2024-10-26 02:17:25.057009] - SUCCESS : Channel removed : directSpecularGlassLobe.r
+[2024-10-26 02:17:25.057009] - SUCCESS : Channel removed : directSpecularPrimaryLobe.b
+[2024-10-26 02:17:25.058007] - SUCCESS : Channel removed : directSpecularPrimaryLobe.g
+[2024-10-26 02:17:25.058007] - SUCCESS : Channel removed : directSpecularPrimaryLobe.r
+[2024-10-26 02:17:25.059004] - SUCCESS : Channel removed : forward.x
+[2024-10-26 02:17:25.059004] - SUCCESS : Channel removed : forward.y
+[2024-10-26 02:17:25.060002] - SUCCESS : Channel removed : forward.z
+[2024-10-26 02:17:25.060002] - SUCCESS : Channel removed : indirectDiffuse.b
+[2024-10-26 02:17:25.060999] - SUCCESS : Channel removed : indirectDiffuse.g
+[2024-10-26 02:17:25.060999] - SUCCESS : Channel removed : indirectDiffuse.r
+[2024-10-26 02:17:25.060999] - SUCCESS : Channel removed : indirectSpecular.b
+[2024-10-26 02:17:25.061996] - SUCCESS : Channel removed : indirectSpecular.g
+[2024-10-26 02:17:25.061996] - SUCCESS : Channel removed : indirectSpecular.r
+[2024-10-26 02:17:25.062993] - SUCCESS : Channel removed : mse.b
+[2024-10-26 02:17:25.062993] - SUCCESS : Channel removed : mse.g
+[2024-10-26 02:17:25.063991] - SUCCESS : Channel removed : mse.r
+[2024-10-26 02:17:25.063991] - SUCCESS : Channel removed : normal.x
+[2024-10-26 02:17:25.064988] - SUCCESS : Channel removed : normal.y
+[2024-10-26 02:17:25.064988] - SUCCESS : Channel removed : normal.z
+[2024-10-26 02:17:25.064988] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-26 02:17:25.066049] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-26 02:17:25.066049] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-26 02:17:25.066983] - SUCCESS : Channel removed : normal_var.x
+[2024-10-26 02:17:25.066983] - SUCCESS : Channel removed : normal_var.y
+[2024-10-26 02:17:25.067980] - SUCCESS : Channel removed : normal_var.z
+[2024-10-26 02:17:25.067980] - SUCCESS : Channel removed : sampleCount
+[2024-10-26 02:17:25.068977] - SUCCESS : Channel removed : specular.b
+[2024-10-26 02:17:25.068977] - SUCCESS : Channel removed : specular.g
+[2024-10-26 02:17:25.069975] - SUCCESS : Channel removed : specular.r
+[2024-10-26 02:17:25.069975] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-26 02:17:25.070974] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-26 02:17:25.070974] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-26 02:17:25.071971] - SUCCESS : Channel removed : subsurface.b
+[2024-10-26 02:17:25.071971] - SUCCESS : Channel removed : subsurface.g
+[2024-10-26 02:17:25.072968] - SUCCESS : Channel removed : subsurface.r
+[2024-10-26 02:17:25.072968] - SUCCESS : Channel removed : zfiltered
+[2024-10-26 02:17:25.073971] - SUCCESS : Channel removed : zfiltered_var
+[2024-10-26 02:17:28.700584] - SUCCESS : Alpha extracted in : d:\work\lighting\bewaffnung\photoshop\input\output_denoise
+[2024-10-26 02:17:28.701583] - MESSAGE : ALPHA SEQUENCE CREATED
+[2024-10-26 02:17:28.701583] - STATUS : COMBINE EXR FUNCTION
+[2024-10-26 02:17:28.704573] - STATUS : FOLDER LIST
+[2024-10-26 02:17:28.704573] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo
+[2024-10-26 02:17:28.705571] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color
+[2024-10-26 02:17:28.705571] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse
+[2024-10-26 02:17:28.706568] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular
+[2024-10-26 02:17:28.706568] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_0
+[2024-10-26 02:17:28.707565] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_1
+[2024-10-26 02:17:28.708503] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_2
+[2024-10-26 02:17:28.708562] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\Denoised_pre_denoise_3
+[2024-10-26 02:17:28.709560] - SUCCESS : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder
+[2024-10-26 02:17:28.710557] - STATUS : Ouput folder created : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_lego_head_0
+[2024-10-26 02:17:28.710557] - STATUS : CHECKING RENDER : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:17:28.712001] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:17:28.712001] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:17:28.713000] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:17:28.713000] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:17:28.713997] - SUCCESS : Render added to combining list : d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:17:28.714995] - SUCCESS : Launching combining command :  d:\work\lighting\bewaffnung\photoshop\input\output_denoise\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-albedo\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-color\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-diffuse\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\aux-specular\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:17:45.433045] - MESSAGE : Combined render created : item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:17:45.435042] - SUCCESS : Combination of Main renders done!
+[2024-10-26 02:17:45.435042] - STATUS : REMOVE USELESS CHANNELS FUNCTION
+[2024-10-26 02:17:45.436037] - SUCCESS : Removing channels
+['albedo_mse', 'albedo_var', 'backward', 'diffuse_mse', 'forward', 'mse', 'normal_mse', 'normal_var', 'sampleCount', 'specular_mse', 'zfiltered', 'zfiltered_var']
+[2024-10-26 02:17:45.437034] - SUCCESS : Compression type changed
+[2024-10-26 02:17:45.438031] - SUCCESS : Channel removed : albedo_mse.b
+[2024-10-26 02:17:45.439029] - SUCCESS : Channel removed : albedo_mse.g
+[2024-10-26 02:17:45.439029] - SUCCESS : Channel removed : albedo_mse.r
+[2024-10-26 02:17:45.440026] - SUCCESS : Channel removed : albedo_var.b
+[2024-10-26 02:17:45.440026] - SUCCESS : Channel removed : albedo_var.g
+[2024-10-26 02:17:45.441024] - SUCCESS : Channel removed : albedo_var.r
+[2024-10-26 02:17:45.441024] - SUCCESS : Channel removed : backward.x
+[2024-10-26 02:17:45.442020] - SUCCESS : Channel removed : backward.y
+[2024-10-26 02:17:45.442020] - SUCCESS : Channel removed : backward.z
+[2024-10-26 02:17:45.443017] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-10-26 02:17:45.443017] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-10-26 02:17:45.444015] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-10-26 02:17:45.444015] - SUCCESS : Channel removed : forward.x
+[2024-10-26 02:17:45.445012] - SUCCESS : Channel removed : forward.y
+[2024-10-26 02:17:45.445012] - SUCCESS : Channel removed : forward.z
+[2024-10-26 02:17:45.446009] - SUCCESS : Channel removed : normal_mse.x
+[2024-10-26 02:17:45.446009] - SUCCESS : Channel removed : normal_mse.y
+[2024-10-26 02:17:45.447006] - SUCCESS : Channel removed : normal_mse.z
+[2024-10-26 02:17:45.448004] - SUCCESS : Channel removed : normal_var.x
+[2024-10-26 02:17:45.448004] - SUCCESS : Channel removed : normal_var.y
+[2024-10-26 02:17:45.449001] - SUCCESS : Channel removed : normal_var.z
+[2024-10-26 02:17:45.449001] - SUCCESS : Channel removed : specular_mse.b
+[2024-10-26 02:17:45.449001] - SUCCESS : Channel removed : specular_mse.g
+[2024-10-26 02:17:45.449999] - SUCCESS : Channel removed : specular_mse.r
+[2024-10-26 02:21:33.939487] - SUCCESS : Useless channel removed from final render : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_lego_head_0/Denoised_item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:21:33.940484] - SUCCESS : USELESS CHANNELS REMOVED FROM RENDER SEQUENCE
+[2024-10-26 02:21:33.940484] - STATUS : COMBINE ALPHA WITH SEQUENCE FUNCTION
+[2024-10-26 02:21:33.941482] - SUCCESS : Trying to combine final renders : d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_lego_head_0/Denoised_item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr ; d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:21:33.941482] - SUCCESS : Combining d:\work\lighting\bewaffnung\photoshop\input\output_denoise/Denoised_lego_head_0/Denoised_item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr - d:\work\lighting\bewaffnung\photoshop\input\output_denoise\sequence_alpha_folder/item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr
+[2024-10-26 02:21:33.951010] - SUCCESS : ALPHA COMBINE DONE
+[2024-10-26 02:21:33.952007] - STATUS : CLEAN OUTPUT FOLDER FUNCTION
+[2024-10-26 02:21:33.969958] - SUCCESS : DONE
+[2024-10-26 02:21:33.971954] - SUCCESS : Denoising process done...
+[2024-10-26 22:08:44.115295] - SUCCESS : Settings loaded
+[2024-10-26 22:08:44.741332] - SUCCESS : RLE_COMPRESSION

@@ -1,16 +1,12 @@
 {
     "primary": [
-        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-        "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+        "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
     ],
     "aux": {
         "a": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "a"
@@ -20,9 +16,7 @@
         "albedo": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "albedo",
@@ -34,13 +28,14 @@
         "diffuse": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "diffuse",
                     "diffuse_mse",
+                    "directDiffuse",
+                    "directDiffuseLobe",
+                    "indirectDiffuse",
                     "normal",
                     "normal_mse",
                     "normal_var",
@@ -52,37 +47,42 @@
         "specular": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "specular",
-                    "specular_mse"
+                    "specular_mse",
+                    "directSpecular",
+                    "directSpecularGlassLobe",
+                    "directSpecularPrimaryLobe",
+                    "indirectSpecular"
                 ]
             }
         ],
         "color": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "beauty_light1",
                     "beauty_light2",
                     "beauty_light3",
-                    "Ci"
+                    "beauty_light4",
+                    "beauty_light6",
+                    "beauty_light7",
+                    "beauty_light8",
+                    "beauty_light9",
+                    "Ci",
+                    "subsurface",
+                    "directSpecularGlassLobe"
                 ]
             }
         ],
         "sampleCount": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "sampleCount"
@@ -92,9 +92,7 @@
         "mse": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "mse"
@@ -104,9 +102,7 @@
         "zfiltered": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "zfiltered",
@@ -117,9 +113,7 @@
         "zfiltered_var": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "zfiltered_var"
@@ -129,9 +123,7 @@
         "normal_var": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "normal_var"
@@ -141,9 +133,7 @@
         "normal_mse": [
             {
                 "paths": [
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0001.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0002.exr",
-                    "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\UNTITLED_v001_t01\\untitled__RENDER_CAMERAShape_beauty.0003.exr"
+                    "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\lego_head\\item_grenadeMainScene_lookdev_v001__RENDER_CAMERAShape_beauty.0000.exr"
                 ],
                 "layers": [
                     "normal_mse"
@@ -155,7 +145,7 @@
         "asymmetry": 0.0,
         "flow": false,
         "debug": false,
-        "output-dir": "d:\\work\\lighting\\rmd_test_batch_project\\maya\\images\\output_denoise",
+        "output-dir": "d:\\work\\lighting\\bewaffnung\\photoshop\\input\\output_denoise",
         "passes": [
             "albedo",
             "color",
