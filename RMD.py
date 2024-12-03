@@ -347,9 +347,11 @@ class RMD_Application(App[None], DenoiseCore):
 						
 
 
-							self.compression_selection_list = OptionList(id="selection_compression_mode")
+							#self.compression_selection_list = OptionList(id="selection_compression_mode")
+							self.compression_selection_list = ListView(id="selection_compression_mode")
+							yield self.compression_selection_list
 
-							
+							"""
 							for key in self.compression_mode_list.keys():
 								if key == self.compression_mode:
 									self.compression_selection_list.add_option(Option(key,))
@@ -358,6 +360,7 @@ class RMD_Application(App[None], DenoiseCore):
 							yield self.compression_selection_list
 							self.compression_selection_list.highlighted = 1
 							self.compression_selection_list.action_select()
+							"""
 
 							#yield Button("Custom compress", id="only_compress_button")
 							#yield Button("Combine output content", id="only_combine_button")
@@ -403,6 +406,12 @@ class RMD_Application(App[None], DenoiseCore):
 
 
 
+		for key in self.compression_mode_list.keys():
+			label = Label(str(key))
+			self.compression_selection_list.append(ListItem(label))
+
+
+
 
 
 
@@ -420,6 +429,15 @@ class RMD_Application(App[None], DenoiseCore):
 
 			sleep(2)
 
+
+
+
+	def on_list_view_selected(self, event: ListView.Selected ) -> None:
+		if event.list_view.id == "selection_compression_mode":
+			#self.notify("hello world", timeout=3)
+			index = self.compression_selection_list.index
+			self.compression_mode = list(self.compression_mode_list.keys())[index]
+			self.notify(str(self.compression_mode), timeout=3)
 
 
 	def on_input_changed(self, event:Input.Changed) -> None:
@@ -521,11 +539,8 @@ class RMD_Application(App[None], DenoiseCore):
 
 
 
-	def on_option_list_option_selected (self, event: OptionList.OptionMessage) -> None:
-		if event.option_list.id == "selection_compression_mode":
-			#self.display_message_function(str(event.option_index))
-			self.compression_mode = list(self.compression_mode_list.keys())[event.option_index]
-			self.display_message_function(self.compression_mode)
+
+
 
 
 

@@ -10719,3 +10719,676 @@ D:\work\python\rmd\data/final_config.json
 [2024-10-26 02:21:33.971954] - SUCCESS : Denoising process done...
 [2024-10-26 22:08:44.115295] - SUCCESS : Settings loaded
 [2024-10-26 22:08:44.741332] - SUCCESS : RLE_COMPRESSION
+[2024-12-03 15:07:04.719465] - SUCCESS : Settings loaded
+[2024-12-03 15:07:05.532711] - SUCCESS : RLE_COMPRESSION
+[2024-12-03 15:36:53.007347] - SUCCESS : Settings loaded
+[2024-12-03 15:36:53.198115] - SUCCESS : RLE_COMPRESSION
+[2024-12-03 15:38:47.194335] - SUCCESS : Settings loaded
+[2024-12-03 15:40:35.997491] - SUCCESS : Settings loaded
+[2024-12-03 15:40:38.632308] - SUCCESS : Compress after denoise switched to : False
+[2024-12-03 15:42:35.885734] - SUCCESS : Settings loaded
+[2024-12-03 15:42:49.542677] - SUCCESS : Settings loaded
+[2024-12-03 15:42:51.636310] - SUCCESS : ListItem()
+[2024-12-03 15:42:52.537845] - SUCCESS : ListItem()
+[2024-12-03 15:42:52.959479] - SUCCESS : ListItem()
+[2024-12-03 15:42:53.708650] - SUCCESS : ListItem()
+[2024-12-03 15:42:54.035347] - SUCCESS : ListItem()
+[2024-12-03 15:42:54.321866] - SUCCESS : ListItem()
+[2024-12-03 15:43:26.928278] - SUCCESS : Settings loaded
+[2024-12-03 15:43:28.773054] - SUCCESS : 0
+[2024-12-03 15:43:29.170463] - SUCCESS : 6
+[2024-12-03 15:43:29.602906] - SUCCESS : 4
+[2024-12-03 15:43:29.762318] - SUCCESS : 4
+[2024-12-03 15:43:29.987097] - SUCCESS : 7
+[2024-12-03 15:43:30.197446] - SUCCESS : 2
+[2024-12-03 15:43:31.026034] - SUCCESS : 7
+[2024-12-03 15:43:31.175197] - SUCCESS : 7
+[2024-12-03 15:43:31.390482] - SUCCESS : 3
+[2024-12-03 15:43:31.551481] - SUCCESS : 3
+[2024-12-03 15:44:30.667490] - SUCCESS : Settings loaded
+[2024-12-03 15:44:32.169515] - SUCCESS : Combine final renders switched to : False
+[2024-12-03 15:44:32.551769] - SUCCESS : 0
+[2024-12-03 15:44:32.957276] - SUCCESS : 5
+[2024-12-03 15:44:33.236524] - SUCCESS : 1
+[2024-12-03 15:44:33.468452] - SUCCESS : 6
+[2024-12-03 15:44:33.844427] - SUCCESS : 8
+[2024-12-03 15:44:34.228313] - SUCCESS : 2
+[2024-12-03 15:44:34.377360] - SUCCESS : 2
+[2024-12-03 15:44:49.098964] - SUCCESS : Settings loaded
+[2024-12-03 15:44:50.450527] - SUCCESS : hello world
+[2024-12-03 15:44:50.883290] - SUCCESS : hello world
+[2024-12-03 15:44:51.093420] - SUCCESS : hello world
+[2024-12-03 15:45:12.032563] - SUCCESS : Settings loaded
+[2024-12-03 15:45:13.655500] - SUCCESS : Compress after denoise switched to : False
+[2024-12-03 15:45:14.499345] - SUCCESS : Compress after denoise switched to : True
+[2024-12-03 15:46:02.402367] - SUCCESS : Settings loaded
+[2024-12-03 15:46:04.586737] - SUCCESS : Hello World
+[2024-12-03 15:46:05.019502] - SUCCESS : Hello World
+[2024-12-03 15:46:05.716625] - SUCCESS : Hello World
+[2024-12-03 15:46:06.004423] - SUCCESS : Hello World
+[2024-12-03 15:46:06.357324] - SUCCESS : Hello World
+[2024-12-03 15:46:06.634137] - SUCCESS : Hello World
+[2024-12-03 15:46:19.048434] - SUCCESS : Hello World
+[2024-12-03 15:46:19.383566] - SUCCESS : Hello World
+[2024-12-03 15:46:19.679427] - SUCCESS : Hello World
+[2024-12-03 15:46:20.043434] - SUCCESS : Hello World
+[2024-12-03 15:46:20.711471] - SUCCESS : Hello World
+[2024-12-03 15:46:20.861503] - SUCCESS : Hello World
+[2024-12-03 15:46:21.016741] - SUCCESS : Hello World
+[2024-12-03 15:46:21.165506] - SUCCESS : Hello World
+[2024-12-03 15:46:21.305418] - SUCCESS : Hello World
+[2024-12-03 15:46:21.451396] - SUCCESS : Hello World
+[2024-12-03 15:46:24.804044] - SUCCESS : Hello World
+[2024-12-03 15:46:25.635027] - SUCCESS : Hello World
+[2024-12-03 15:46:25.912500] - SUCCESS : Hello World
+[2024-12-03 15:46:26.198565] - SUCCESS : Hello World
+[2024-12-03 15:46:26.368870] - SUCCESS : Hello World
+[2024-12-03 15:46:26.515369] - SUCCESS : Hello World
+[2024-12-03 15:46:26.649447] - SUCCESS : Hello World
+[2024-12-03 15:46:27.232008] - SUCCESS : Hello World
+[2024-12-03 15:46:27.372455] - SUCCESS : Hello World
+[2024-12-03 15:46:27.519473] - SUCCESS : Hello World
+[2024-12-03 15:46:27.659328] - SUCCESS : Hello World
+[2024-12-03 15:47:14.456872] - SUCCESS : Settings loaded
+[2024-12-03 15:47:16.519522] - SUCCESS : Hello World
+[2024-12-03 15:47:16.931452] - SUCCESS : Hello World
+[2024-12-03 15:47:47.248843] - SUCCESS : Settings loaded
+[2024-12-03 15:48:36.120801] - SUCCESS : Settings loaded
+[2024-12-03 15:49:18.722659] - SUCCESS : Settings loaded
+[2024-12-03 15:49:41.305171] - SUCCESS : Settings loaded
+[2024-12-03 15:49:43.404069] - SUCCESS : Compress after denoise switched to : False
+[2024-12-03 15:50:12.778850] - SUCCESS : Settings loaded
+[2024-12-03 15:50:14.334836] - SUCCESS : Compress after denoise switched to : False
+[2024-12-03 15:50:15.496512] - SUCCESS : dict_keys(['DWAB_COMPRESSION', 'RLE_COMPRESSION', 'ZIP_COMPRESSION', 'ZIPS_COMPRESSION', 'PIZ_COMPRESSION', 'PXR24_COMPRESSION', 'B44_COMPRESSION', 'B44A_COMPRESSION', 'DWAA_COMPRESSION'])
+[2024-12-03 15:50:15.967397] - SUCCESS : dict_keys(['DWAB_COMPRESSION', 'RLE_COMPRESSION', 'ZIP_COMPRESSION', 'ZIPS_COMPRESSION', 'PIZ_COMPRESSION', 'PXR24_COMPRESSION', 'B44_COMPRESSION', 'B44A_COMPRESSION', 'DWAA_COMPRESSION'])
+[2024-12-03 15:50:16.274464] - SUCCESS : dict_keys(['DWAB_COMPRESSION', 'RLE_COMPRESSION', 'ZIP_COMPRESSION', 'ZIPS_COMPRESSION', 'PIZ_COMPRESSION', 'PXR24_COMPRESSION', 'B44_COMPRESSION', 'B44A_COMPRESSION', 'DWAA_COMPRESSION'])
+[2024-12-03 15:50:28.476992] - SUCCESS : Settings loaded
+[2024-12-03 15:50:41.950609] - SUCCESS : Settings loaded
+[2024-12-03 15:50:49.186471] - SUCCESS : Settings loaded
+[2024-12-03 15:51:43.378348] - SUCCESS : Settings loaded
+[2024-12-03 15:52:19.092869] - SUCCESS : Settings loaded
+[2024-12-03 15:52:42.972350] - SUCCESS : checking
+[2024-12-03 15:52:42.973347] - SUCCESS : Path updated
+[2024-12-03 15:52:48.496445] - SUCCESS : D:\WORK\LIGHTING\BEWAFFNUNG
+[2024-12-03 15:52:50.409444] - SUCCESS : D:\WORK\LIGHTING\BEWAFFNUNG\maya
+[2024-12-03 15:52:51.507414] - SUCCESS : D:\WORK\LIGHTING\BEWAFFNUNG\maya\images
+[2024-12-03 15:52:52.374478] - SUCCESS : D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01
+[2024-12-03 15:52:57.550476] - SUCCESS : CHECKING SEQUENCE FOLDER
+[2024-12-03 15:52:57.551474] - SUCCESS : D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01
+[2024-12-03 15:52:57.551474] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0001.exr
+[2024-12-03 15:52:57.613448] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0002.exr
+[2024-12-03 15:52:57.916293] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0003.exr
+[2024-12-03 15:52:58.040793] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0004.exr
+[2024-12-03 15:52:58.157500] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0005.exr
+[2024-12-03 15:52:58.265492] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0006.exr
+[2024-12-03 15:52:58.325542] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0007.exr
+[2024-12-03 15:52:58.470635] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0008.exr
+[2024-12-03 15:52:58.474554] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0009.exr
+[2024-12-03 15:52:58.486544] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0010.exr
+[2024-12-03 15:52:58.498486] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0011.exr
+[2024-12-03 15:52:58.501478] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0012.exr
+[2024-12-03 15:52:58.509500] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0013.exr
+[2024-12-03 15:52:58.526568] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0014.exr
+[2024-12-03 15:52:58.535974] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0015.exr
+[2024-12-03 15:52:58.546780] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0016.exr
+[2024-12-03 15:52:58.558638] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0017.exr
+[2024-12-03 15:52:58.569535] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0018.exr
+[2024-12-03 15:52:58.579501] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0019.exr
+[2024-12-03 15:52:58.591452] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0020.exr
+[2024-12-03 15:52:58.596439] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0021.exr
+[2024-12-03 15:52:58.601425] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0022.exr
+[2024-12-03 15:52:58.607409] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0023.exr
+[2024-12-03 15:52:58.613393] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0024.exr
+[2024-12-03 15:52:58.619510] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0025.exr
+[2024-12-03 15:52:58.627721] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0026.exr
+[2024-12-03 15:52:58.634704] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0027.exr
+[2024-12-03 15:52:58.645652] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0028.exr
+[2024-12-03 15:52:58.654170] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0029.exr
+[2024-12-03 15:52:58.667637] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0030.exr
+[2024-12-03 15:52:58.678649] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0031.exr
+[2024-12-03 15:52:58.685491] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0032.exr
+[2024-12-03 15:52:58.692474] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0033.exr
+[2024-12-03 15:52:58.699545] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0034.exr
+[2024-12-03 15:52:58.708494] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0035.exr
+[2024-12-03 15:52:58.716379] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0036.exr
+[2024-12-03 15:52:58.725960] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0037.exr
+[2024-12-03 15:52:58.735414] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0038.exr
+[2024-12-03 15:52:58.743559] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0039.exr
+[2024-12-03 15:52:58.755672] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0040.exr
+[2024-12-03 15:52:58.773643] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0041.exr
+[2024-12-03 15:52:58.784628] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0042.exr
+[2024-12-03 15:52:58.795515] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0043.exr
+[2024-12-03 15:52:58.803493] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0044.exr
+[2024-12-03 15:52:58.811643] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0045.exr
+[2024-12-03 15:52:58.819529] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0046.exr
+[2024-12-03 15:52:58.828598] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0047.exr
+[2024-12-03 15:52:58.836528] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0048.exr
+[2024-12-03 15:52:58.845612] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0049.exr
+[2024-12-03 15:52:58.853228] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0050.exr
+[2024-12-03 15:52:58.861215] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0051.exr
+[2024-12-03 15:52:58.870185] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0052.exr
+[2024-12-03 15:52:58.878580] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0053.exr
+[2024-12-03 15:52:58.882542] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0054.exr
+[2024-12-03 15:52:58.890783] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0055.exr
+[2024-12-03 15:52:58.900534] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0056.exr
+[2024-12-03 15:52:58.908513] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0057.exr
+[2024-12-03 15:52:58.917760] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0058.exr
+[2024-12-03 15:52:58.933839] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0059.exr
+[2024-12-03 15:52:58.951061] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0060.exr
+[2024-12-03 15:52:58.997814] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0061.exr
+[2024-12-03 15:52:59.016822] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0062.exr
+[2024-12-03 15:52:59.023803] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0063.exr
+[2024-12-03 15:52:59.055541] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0064.exr
+[2024-12-03 15:52:59.062511] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0065.exr
+[2024-12-03 15:52:59.069499] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0066.exr
+[2024-12-03 15:52:59.074396] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0067.exr
+[2024-12-03 15:52:59.079384] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0068.exr
+[2024-12-03 15:52:59.083505] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0069.exr
+[2024-12-03 15:52:59.087496] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0070.exr
+[2024-12-03 15:52:59.091485] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0071.exr
+[2024-12-03 15:52:59.101501] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0072.exr
+[2024-12-03 15:52:59.111479] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0073.exr
+[2024-12-03 15:52:59.116461] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0074.exr
+[2024-12-03 15:52:59.128519] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0075.exr
+[2024-12-03 15:52:59.170405] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0076.exr
+[2024-12-03 15:52:59.177418] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0077.exr
+[2024-12-03 15:52:59.184532] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0078.exr
+[2024-12-03 15:52:59.190516] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0079.exr
+[2024-12-03 15:52:59.196500] - SUCCESS : Checking item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0080.exr
+[2024-12-03 15:52:59.200489] - SUCCESS : Checking final sequence files
+[2024-12-03 15:52:59.200489] - SUCCESS : Average file size in sequence : 59578593.475
+[2024-12-03 15:52:59.200489] - SUCCESS : Number of images in sequence : 80
+[2024-12-03 15:53:01.642429] - SUCCESS : Denoise Process...
+
+
+[2024-12-03 15:53:01.643426] - SUCCESS : Creating Denoise Config for sequence:
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0001.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0002.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0003.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0004.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0005.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0006.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0007.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0008.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0009.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0010.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0011.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0012.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0013.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0014.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0015.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0016.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0017.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0018.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0019.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0020.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0021.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0022.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0023.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0024.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0025.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0026.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0027.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0028.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0029.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0030.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0031.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0032.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0033.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0034.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0035.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0036.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0037.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0038.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0039.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0040.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0041.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0042.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0043.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0044.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0045.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0046.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0047.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0048.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0049.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0050.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0051.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0052.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0053.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0054.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0055.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0056.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0057.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0058.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0059.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0060.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0061.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0062.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0063.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0064.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0065.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0066.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0067.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0068.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0069.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0070.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0071.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0072.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0073.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0074.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0075.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0076.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0077.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0078.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0079.exr
+	- D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0080.exr
+
+[2024-12-03 15:53:01.644423] - ERROR : Output folder doesn't exist!
+[2024-12-03 15:53:01.645420] - STATUS : Output folder created!
+[2024-12-03 15:53:01.693323] - ERROR : missed aov : cpuTime
+[2024-12-03 15:53:01.697353] - MESSAGE : Config for denoise created
+ 	D:\work\python\rmd\data/final_config.json
+[2024-12-03 15:53:07.330384] - STATUS : EXTRACTING ALPHA
+[2024-12-03 15:53:07.331381] - MESSAGE : Alpha folder created
+[2024-12-03 15:53:07.332378] - SUCCESS : Removing channels
+['a', 'A']
+[2024-12-03 15:53:07.333375] - SUCCESS : Compression type changed
+[2024-12-03 15:53:07.333375] - SUCCESS : Channel removed : Ci.b
+[2024-12-03 15:53:07.334373] - SUCCESS : Channel removed : Ci.g
+[2024-12-03 15:53:07.334373] - SUCCESS : Channel removed : Ci.r
+[2024-12-03 15:53:07.335370] - SUCCESS : Channel removed : albedo.b
+[2024-12-03 15:53:07.335370] - SUCCESS : Channel removed : albedo.g
+[2024-12-03 15:53:07.335370] - SUCCESS : Channel removed : albedo.r
+[2024-12-03 15:53:07.336367] - SUCCESS : Channel removed : albedo_mse.b
+[2024-12-03 15:53:07.336367] - SUCCESS : Channel removed : albedo_mse.g
+[2024-12-03 15:53:07.337365] - SUCCESS : Channel removed : albedo_mse.r
+[2024-12-03 15:53:07.337365] - SUCCESS : Channel removed : albedo_var.b
+[2024-12-03 15:53:07.338362] - SUCCESS : Channel removed : albedo_var.g
+[2024-12-03 15:53:07.338362] - SUCCESS : Channel removed : albedo_var.r
+[2024-12-03 15:53:07.339359] - SUCCESS : Channel removed : backward.x
+[2024-12-03 15:53:07.339359] - SUCCESS : Channel removed : backward.y
+[2024-12-03 15:53:07.340357] - SUCCESS : Channel removed : backward.z
+[2024-12-03 15:53:07.340357] - SUCCESS : Channel removed : beauty_lgt1.b
+[2024-12-03 15:53:07.341392] - SUCCESS : Channel removed : beauty_lgt1.g
+[2024-12-03 15:53:07.341392] - SUCCESS : Channel removed : beauty_lgt1.r
+[2024-12-03 15:53:07.342352] - SUCCESS : Channel removed : beauty_lgt2.b
+[2024-12-03 15:53:07.342352] - SUCCESS : Channel removed : beauty_lgt2.g
+[2024-12-03 15:53:07.343349] - SUCCESS : Channel removed : beauty_lgt2.r
+[2024-12-03 15:53:07.343349] - SUCCESS : Channel removed : beauty_lgt3.b
+[2024-12-03 15:53:07.344346] - SUCCESS : Channel removed : beauty_lgt3.g
+[2024-12-03 15:53:07.344346] - SUCCESS : Channel removed : beauty_lgt3.r
+[2024-12-03 15:53:07.345343] - SUCCESS : Channel removed : beauty_lgt4.b
+[2024-12-03 15:53:07.345343] - SUCCESS : Channel removed : beauty_lgt4.g
+[2024-12-03 15:53:07.346341] - SUCCESS : Channel removed : beauty_lgt4.r
+[2024-12-03 15:53:07.346341] - SUCCESS : Channel removed : beauty_lgt5.b
+[2024-12-03 15:53:07.347338] - SUCCESS : Channel removed : beauty_lgt5.g
+[2024-12-03 15:53:07.347674] - SUCCESS : Channel removed : beauty_lgt5.r
+[2024-12-03 15:53:07.348335] - SUCCESS : Channel removed : cpuTime
+[2024-12-03 15:53:07.348335] - SUCCESS : Channel removed : diffuse.b
+[2024-12-03 15:53:07.348335] - SUCCESS : Channel removed : diffuse.g
+[2024-12-03 15:53:07.349337] - SUCCESS : Channel removed : diffuse.r
+[2024-12-03 15:53:07.349337] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-12-03 15:53:07.350332] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-12-03 15:53:07.350332] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-12-03 15:53:07.351483] - SUCCESS : Channel removed : forward.x
+[2024-12-03 15:53:07.351483] - SUCCESS : Channel removed : forward.y
+[2024-12-03 15:53:07.351483] - SUCCESS : Channel removed : forward.z
+[2024-12-03 15:53:07.352478] - SUCCESS : Channel removed : mse.b
+[2024-12-03 15:53:07.352478] - SUCCESS : Channel removed : mse.g
+[2024-12-03 15:53:07.353275] - SUCCESS : Channel removed : mse.r
+[2024-12-03 15:53:07.353275] - SUCCESS : Channel removed : normal.x
+[2024-12-03 15:53:07.354525] - SUCCESS : Channel removed : normal.y
+[2024-12-03 15:53:07.354525] - SUCCESS : Channel removed : normal.z
+[2024-12-03 15:53:07.355271] - SUCCESS : Channel removed : normal_mse.x
+[2024-12-03 15:53:07.355271] - SUCCESS : Channel removed : normal_mse.y
+[2024-12-03 15:53:07.356273] - SUCCESS : Channel removed : normal_mse.z
+[2024-12-03 15:53:07.356273] - SUCCESS : Channel removed : normal_var.x
+[2024-12-03 15:53:07.356273] - SUCCESS : Channel removed : normal_var.y
+[2024-12-03 15:53:07.357268] - SUCCESS : Channel removed : normal_var.z
+[2024-12-03 15:53:07.357904] - SUCCESS : Channel removed : sampleCount
+[2024-12-03 15:53:07.357904] - SUCCESS : Channel removed : specular.b
+[2024-12-03 15:53:07.358899] - SUCCESS : Channel removed : specular.g
+[2024-12-03 15:53:07.358899] - SUCCESS : Channel removed : specular.r
+[2024-12-03 15:53:07.359902] - SUCCESS : Channel removed : specular_mse.b
+[2024-12-03 15:53:07.359902] - SUCCESS : Channel removed : specular_mse.g
+[2024-12-03 15:53:07.359902] - SUCCESS : Channel removed : specular_mse.r
+[2024-12-03 15:53:07.360896] - SUCCESS : Channel removed : zfiltered
+[2024-12-03 15:53:07.361783] - SUCCESS : Channel removed : zfiltered_var
+[2024-12-03 15:53:07.915365] - SUCCESS : Alpha extracted in : D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\output_denoise
+[2024-12-03 15:53:07.916362] - SUCCESS : Removing channels
+['a', 'A']
+[2024-12-03 15:53:07.917359] - SUCCESS : Compression type changed
+[2024-12-03 15:53:07.917359] - SUCCESS : Channel removed : Ci.b
+[2024-12-03 15:53:07.918376] - SUCCESS : Channel removed : Ci.g
+[2024-12-03 15:53:07.918376] - SUCCESS : Channel removed : Ci.r
+[2024-12-03 15:53:07.919354] - SUCCESS : Channel removed : albedo.b
+[2024-12-03 15:53:07.920178] - SUCCESS : Channel removed : albedo.g
+[2024-12-03 15:53:07.920178] - SUCCESS : Channel removed : albedo.r
+[2024-12-03 15:53:07.921172] - SUCCESS : Channel removed : albedo_mse.b
+[2024-12-03 15:53:07.921172] - SUCCESS : Channel removed : albedo_mse.g
+[2024-12-03 15:53:07.922169] - SUCCESS : Channel removed : albedo_mse.r
+[2024-12-03 15:53:07.922169] - SUCCESS : Channel removed : albedo_var.b
+[2024-12-03 15:53:07.923167] - SUCCESS : Channel removed : albedo_var.g
+[2024-12-03 15:53:07.923167] - SUCCESS : Channel removed : albedo_var.r
+[2024-12-03 15:53:07.924047] - SUCCESS : Channel removed : backward.x
+[2024-12-03 15:53:07.924047] - SUCCESS : Channel removed : backward.y
+[2024-12-03 15:53:07.925046] - SUCCESS : Channel removed : backward.z
+[2024-12-03 15:53:07.925368] - SUCCESS : Channel removed : beauty_lgt1.b
+[2024-12-03 15:53:07.926043] - SUCCESS : Channel removed : beauty_lgt1.g
+[2024-12-03 15:53:07.926043] - SUCCESS : Channel removed : beauty_lgt1.r
+[2024-12-03 15:53:07.927041] - SUCCESS : Channel removed : beauty_lgt2.b
+[2024-12-03 15:53:07.927041] - SUCCESS : Channel removed : beauty_lgt2.g
+[2024-12-03 15:53:07.927963] - SUCCESS : Channel removed : beauty_lgt2.r
+[2024-12-03 15:53:07.927963] - SUCCESS : Channel removed : beauty_lgt3.b
+[2024-12-03 15:53:07.927963] - SUCCESS : Channel removed : beauty_lgt3.g
+[2024-12-03 15:53:07.928960] - SUCCESS : Channel removed : beauty_lgt3.r
+[2024-12-03 15:53:07.928960] - SUCCESS : Channel removed : beauty_lgt4.b
+[2024-12-03 15:53:07.929790] - SUCCESS : Channel removed : beauty_lgt4.g
+[2024-12-03 15:53:07.929790] - SUCCESS : Channel removed : beauty_lgt4.r
+[2024-12-03 15:53:07.930785] - SUCCESS : Channel removed : beauty_lgt5.b
+[2024-12-03 15:53:07.930785] - SUCCESS : Channel removed : beauty_lgt5.g
+[2024-12-03 15:53:07.931782] - SUCCESS : Channel removed : beauty_lgt5.r
+[2024-12-03 15:53:07.932064] - SUCCESS : Channel removed : cpuTime
+[2024-12-03 15:53:07.932779] - SUCCESS : Channel removed : diffuse.b
+[2024-12-03 15:53:07.932779] - SUCCESS : Channel removed : diffuse.g
+[2024-12-03 15:53:07.933463] - SUCCESS : Channel removed : diffuse.r
+[2024-12-03 15:53:07.933463] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-12-03 15:53:07.934459] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-12-03 15:53:07.934459] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-12-03 15:53:07.935333] - SUCCESS : Channel removed : forward.x
+[2024-12-03 15:53:07.935333] - SUCCESS : Channel removed : forward.y
+[2024-12-03 15:53:07.936325] - SUCCESS : Channel removed : forward.z
+[2024-12-03 15:53:07.937124] - SUCCESS : Channel removed : mse.b
+[2024-12-03 15:53:07.937124] - SUCCESS : Channel removed : mse.g
+[2024-12-03 15:53:07.937124] - SUCCESS : Channel removed : mse.r
+[2024-12-03 15:53:07.938123] - SUCCESS : Channel removed : normal.x
+[2024-12-03 15:53:07.938123] - SUCCESS : Channel removed : normal.y
+[2024-12-03 15:53:07.939278] - SUCCESS : Channel removed : normal.z
+[2024-12-03 15:53:07.939278] - SUCCESS : Channel removed : normal_mse.x
+[2024-12-03 15:53:07.940118] - SUCCESS : Channel removed : normal_mse.y
+[2024-12-03 15:53:07.940893] - SUCCESS : Channel removed : normal_mse.z
+[2024-12-03 15:53:07.940893] - SUCCESS : Channel removed : normal_var.x
+[2024-12-03 15:53:07.940893] - SUCCESS : Channel removed : normal_var.y
+[2024-12-03 15:53:07.941887] - SUCCESS : Channel removed : normal_var.z
+[2024-12-03 15:53:07.942728] - SUCCESS : Channel removed : sampleCount
+[2024-12-03 15:53:07.942728] - SUCCESS : Channel removed : specular.b
+[2024-12-03 15:53:07.942728] - SUCCESS : Channel removed : specular.g
+[2024-12-03 15:53:07.943724] - SUCCESS : Channel removed : specular.r
+[2024-12-03 15:53:07.943724] - SUCCESS : Channel removed : specular_mse.b
+[2024-12-03 15:53:07.944655] - SUCCESS : Channel removed : specular_mse.g
+[2024-12-03 15:53:07.944655] - SUCCESS : Channel removed : specular_mse.r
+[2024-12-03 15:53:07.945647] - SUCCESS : Channel removed : zfiltered
+[2024-12-03 15:53:07.945647] - SUCCESS : Channel removed : zfiltered_var
+[2024-12-03 15:53:08.495524] - ERROR : Error trying to remove channel from file: D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0002.exr
+[2024-12-03 15:53:08.496521] - ERROR : Impossible to extract alpha from : D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0002.exr
+[2024-12-03 15:53:08.497518] - SUCCESS : Removing channels
+['a', 'A']
+[2024-12-03 15:53:08.497518] - SUCCESS : Compression type changed
+[2024-12-03 15:53:08.498515] - SUCCESS : Channel removed : Ci.b
+[2024-12-03 15:53:08.498515] - SUCCESS : Channel removed : Ci.g
+[2024-12-03 15:53:08.499513] - SUCCESS : Channel removed : Ci.r
+[2024-12-03 15:53:08.499513] - SUCCESS : Channel removed : albedo.b
+[2024-12-03 15:53:08.500510] - SUCCESS : Channel removed : albedo.g
+[2024-12-03 15:53:08.500510] - SUCCESS : Channel removed : albedo.r
+[2024-12-03 15:53:08.501507] - SUCCESS : Channel removed : albedo_mse.b
+[2024-12-03 15:53:08.501507] - SUCCESS : Channel removed : albedo_mse.g
+[2024-12-03 15:53:08.502505] - SUCCESS : Channel removed : albedo_mse.r
+[2024-12-03 15:53:08.502505] - SUCCESS : Channel removed : albedo_var.b
+[2024-12-03 15:53:08.503502] - SUCCESS : Channel removed : albedo_var.g
+[2024-12-03 15:53:08.503502] - SUCCESS : Channel removed : albedo_var.r
+[2024-12-03 15:53:08.503502] - SUCCESS : Channel removed : backward.x
+[2024-12-03 15:53:08.504499] - SUCCESS : Channel removed : backward.y
+[2024-12-03 15:53:08.504499] - SUCCESS : Channel removed : backward.z
+[2024-12-03 15:53:08.505497] - SUCCESS : Channel removed : beauty_lgt1.b
+[2024-12-03 15:53:08.505497] - SUCCESS : Channel removed : beauty_lgt1.g
+[2024-12-03 15:53:08.506494] - SUCCESS : Channel removed : beauty_lgt1.r
+[2024-12-03 15:53:08.506494] - SUCCESS : Channel removed : beauty_lgt2.b
+[2024-12-03 15:53:08.507491] - SUCCESS : Channel removed : beauty_lgt2.g
+[2024-12-03 15:53:08.507491] - SUCCESS : Channel removed : beauty_lgt2.r
+[2024-12-03 15:53:08.508489] - SUCCESS : Channel removed : beauty_lgt3.b
+[2024-12-03 15:53:08.508489] - SUCCESS : Channel removed : beauty_lgt3.g
+[2024-12-03 15:53:08.509486] - SUCCESS : Channel removed : beauty_lgt3.r
+[2024-12-03 15:53:08.509486] - SUCCESS : Channel removed : beauty_lgt4.b
+[2024-12-03 15:53:08.510484] - SUCCESS : Channel removed : beauty_lgt4.g
+[2024-12-03 15:53:08.510484] - SUCCESS : Channel removed : beauty_lgt4.r
+[2024-12-03 15:53:08.510484] - SUCCESS : Channel removed : beauty_lgt5.b
+[2024-12-03 15:53:08.511481] - SUCCESS : Channel removed : beauty_lgt5.g
+[2024-12-03 15:53:08.511481] - SUCCESS : Channel removed : beauty_lgt5.r
+[2024-12-03 15:53:08.512478] - SUCCESS : Channel removed : cpuTime
+[2024-12-03 15:53:08.512478] - SUCCESS : Channel removed : diffuse.b
+[2024-12-03 15:53:08.513476] - SUCCESS : Channel removed : diffuse.g
+[2024-12-03 15:53:08.513476] - SUCCESS : Channel removed : diffuse.r
+[2024-12-03 15:53:08.514473] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-12-03 15:53:08.514473] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-12-03 15:53:08.515470] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-12-03 15:53:08.515470] - SUCCESS : Channel removed : forward.x
+[2024-12-03 15:53:08.515470] - SUCCESS : Channel removed : forward.y
+[2024-12-03 15:53:08.516467] - SUCCESS : Channel removed : forward.z
+[2024-12-03 15:53:08.517016] - SUCCESS : Channel removed : mse.b
+[2024-12-03 15:53:08.517465] - SUCCESS : Channel removed : mse.g
+[2024-12-03 15:53:08.517465] - SUCCESS : Channel removed : mse.r
+[2024-12-03 15:53:08.518462] - SUCCESS : Channel removed : normal.x
+[2024-12-03 15:53:08.518462] - SUCCESS : Channel removed : normal.y
+[2024-12-03 15:53:08.519507] - SUCCESS : Channel removed : normal.z
+[2024-12-03 15:53:08.519507] - SUCCESS : Channel removed : normal_mse.x
+[2024-12-03 15:53:08.519507] - SUCCESS : Channel removed : normal_mse.y
+[2024-12-03 15:53:08.520501] - SUCCESS : Channel removed : normal_mse.z
+[2024-12-03 15:53:08.520501] - SUCCESS : Channel removed : normal_var.x
+[2024-12-03 15:53:08.521499] - SUCCESS : Channel removed : normal_var.y
+[2024-12-03 15:53:08.521499] - SUCCESS : Channel removed : normal_var.z
+[2024-12-03 15:53:08.521499] - SUCCESS : Channel removed : sampleCount
+[2024-12-03 15:53:08.522965] - SUCCESS : Channel removed : specular.b
+[2024-12-03 15:53:08.522965] - SUCCESS : Channel removed : specular.g
+[2024-12-03 15:53:08.523699] - SUCCESS : Channel removed : specular.r
+[2024-12-03 15:53:08.523964] - SUCCESS : Channel removed : specular_mse.b
+[2024-12-03 15:53:08.523964] - SUCCESS : Channel removed : specular_mse.g
+[2024-12-03 15:53:08.524961] - SUCCESS : Channel removed : specular_mse.r
+[2024-12-03 15:53:08.524961] - SUCCESS : Channel removed : zfiltered
+[2024-12-03 15:53:08.525959] - SUCCESS : Channel removed : zfiltered_var
+[2024-12-03 15:53:09.073856] - ERROR : Error trying to remove channel from file: D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0003.exr
+[2024-12-03 15:53:09.073856] - ERROR : Impossible to extract alpha from : D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0003.exr
+[2024-12-03 15:53:09.074853] - SUCCESS : Removing channels
+['a', 'A']
+[2024-12-03 15:53:09.075876] - SUCCESS : Compression type changed
+[2024-12-03 15:53:09.075876] - SUCCESS : Channel removed : Ci.b
+[2024-12-03 15:53:09.076881] - SUCCESS : Channel removed : Ci.g
+[2024-12-03 15:53:09.076881] - SUCCESS : Channel removed : Ci.r
+[2024-12-03 15:53:09.077871] - SUCCESS : Channel removed : albedo.b
+[2024-12-03 15:53:09.077871] - SUCCESS : Channel removed : albedo.g
+[2024-12-03 15:53:09.078843] - SUCCESS : Channel removed : albedo.r
+[2024-12-03 15:53:09.078843] - SUCCESS : Channel removed : albedo_mse.b
+[2024-12-03 15:53:09.079840] - SUCCESS : Channel removed : albedo_mse.g
+[2024-12-03 15:53:09.079840] - SUCCESS : Channel removed : albedo_mse.r
+[2024-12-03 15:53:09.080837] - SUCCESS : Channel removed : albedo_var.b
+[2024-12-03 15:53:09.080837] - SUCCESS : Channel removed : albedo_var.g
+[2024-12-03 15:53:09.082039] - SUCCESS : Channel removed : albedo_var.r
+[2024-12-03 15:53:09.082039] - SUCCESS : Channel removed : backward.x
+[2024-12-03 15:53:09.082039] - SUCCESS : Channel removed : backward.y
+[2024-12-03 15:53:09.083029] - SUCCESS : Channel removed : backward.z
+[2024-12-03 15:53:09.083029] - SUCCESS : Channel removed : beauty_lgt1.b
+[2024-12-03 15:53:09.084028] - SUCCESS : Channel removed : beauty_lgt1.g
+[2024-12-03 15:53:09.084028] - SUCCESS : Channel removed : beauty_lgt1.r
+[2024-12-03 15:53:09.085026] - SUCCESS : Channel removed : beauty_lgt2.b
+[2024-12-03 15:53:09.085026] - SUCCESS : Channel removed : beauty_lgt2.g
+[2024-12-03 15:53:09.086023] - SUCCESS : Channel removed : beauty_lgt2.r
+[2024-12-03 15:53:09.086023] - SUCCESS : Channel removed : beauty_lgt3.b
+[2024-12-03 15:53:09.087020] - SUCCESS : Channel removed : beauty_lgt3.g
+[2024-12-03 15:53:09.087020] - SUCCESS : Channel removed : beauty_lgt3.r
+[2024-12-03 15:53:09.088218] - SUCCESS : Channel removed : beauty_lgt4.b
+[2024-12-03 15:53:09.088218] - SUCCESS : Channel removed : beauty_lgt4.g
+[2024-12-03 15:53:09.088218] - SUCCESS : Channel removed : beauty_lgt4.r
+[2024-12-03 15:53:09.089217] - SUCCESS : Channel removed : beauty_lgt5.b
+[2024-12-03 15:53:09.089217] - SUCCESS : Channel removed : beauty_lgt5.g
+[2024-12-03 15:53:09.090215] - SUCCESS : Channel removed : beauty_lgt5.r
+[2024-12-03 15:53:09.090215] - SUCCESS : Channel removed : cpuTime
+[2024-12-03 15:53:09.091212] - SUCCESS : Channel removed : diffuse.b
+[2024-12-03 15:53:09.091212] - SUCCESS : Channel removed : diffuse.g
+[2024-12-03 15:53:09.092209] - SUCCESS : Channel removed : diffuse.r
+[2024-12-03 15:53:09.092475] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-12-03 15:53:09.093207] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-12-03 15:53:09.093207] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-12-03 15:53:09.094204] - SUCCESS : Channel removed : forward.x
+[2024-12-03 15:53:09.094204] - SUCCESS : Channel removed : forward.y
+[2024-12-03 15:53:09.094204] - SUCCESS : Channel removed : forward.z
+[2024-12-03 15:53:09.095232] - SUCCESS : Channel removed : mse.b
+[2024-12-03 15:53:09.095232] - SUCCESS : Channel removed : mse.g
+[2024-12-03 15:53:09.096228] - SUCCESS : Channel removed : mse.r
+[2024-12-03 15:53:09.096228] - SUCCESS : Channel removed : normal.x
+[2024-12-03 15:53:09.097063] - SUCCESS : Channel removed : normal.y
+[2024-12-03 15:53:09.097063] - SUCCESS : Channel removed : normal.z
+[2024-12-03 15:53:09.098059] - SUCCESS : Channel removed : normal_mse.x
+[2024-12-03 15:53:09.098819] - SUCCESS : Channel removed : normal_mse.y
+[2024-12-03 15:53:09.098819] - SUCCESS : Channel removed : normal_mse.z
+[2024-12-03 15:53:09.099439] - SUCCESS : Channel removed : normal_var.x
+[2024-12-03 15:53:09.099814] - SUCCESS : Channel removed : normal_var.y
+[2024-12-03 15:53:09.099814] - SUCCESS : Channel removed : normal_var.z
+[2024-12-03 15:53:09.100812] - SUCCESS : Channel removed : sampleCount
+[2024-12-03 15:53:09.100812] - SUCCESS : Channel removed : specular.b
+[2024-12-03 15:53:09.101615] - SUCCESS : Channel removed : specular.g
+[2024-12-03 15:53:09.101615] - SUCCESS : Channel removed : specular.r
+[2024-12-03 15:53:09.102608] - SUCCESS : Channel removed : specular_mse.b
+[2024-12-03 15:53:09.102608] - SUCCESS : Channel removed : specular_mse.g
+[2024-12-03 15:53:09.103445] - SUCCESS : Channel removed : specular_mse.r
+[2024-12-03 15:53:09.103445] - SUCCESS : Channel removed : zfiltered
+[2024-12-03 15:53:09.104441] - SUCCESS : Channel removed : zfiltered_var
+[2024-12-03 15:53:09.703428] - ERROR : Error trying to remove channel from file: D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0004.exr
+[2024-12-03 15:53:09.704425] - ERROR : Impossible to extract alpha from : D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\item_grenade_shot_sq01_sh01_v001_v001_t01\item_grenade_shot_sq01_sh01_v001__RENDER_CAMERAShape_beauty.0004.exr
+[2024-12-03 15:53:09.704425] - SUCCESS : Removing channels
+['a', 'A']
+[2024-12-03 15:53:09.705423] - SUCCESS : Compression type changed
+[2024-12-03 15:53:09.706420] - SUCCESS : Channel removed : Ci.b
+[2024-12-03 15:53:09.706420] - SUCCESS : Channel removed : Ci.g
+[2024-12-03 15:53:09.707418] - SUCCESS : Channel removed : Ci.r
+[2024-12-03 15:53:09.707418] - SUCCESS : Channel removed : albedo.b
+[2024-12-03 15:53:09.707418] - SUCCESS : Channel removed : albedo.g
+[2024-12-03 15:53:09.708415] - SUCCESS : Channel removed : albedo.r
+[2024-12-03 15:53:09.708415] - SUCCESS : Channel removed : albedo_mse.b
+[2024-12-03 15:53:09.709412] - SUCCESS : Channel removed : albedo_mse.g
+[2024-12-03 15:53:09.709412] - SUCCESS : Channel removed : albedo_mse.r
+[2024-12-03 15:53:09.710409] - SUCCESS : Channel removed : albedo_var.b
+[2024-12-03 15:53:09.710409] - SUCCESS : Channel removed : albedo_var.g
+[2024-12-03 15:53:09.711407] - SUCCESS : Channel removed : albedo_var.r
+[2024-12-03 15:53:09.711407] - SUCCESS : Channel removed : backward.x
+[2024-12-03 15:53:09.712404] - SUCCESS : Channel removed : backward.y
+[2024-12-03 15:53:09.712404] - SUCCESS : Channel removed : backward.z
+[2024-12-03 15:53:09.713401] - SUCCESS : Channel removed : beauty_lgt1.b
+[2024-12-03 15:53:09.713401] - SUCCESS : Channel removed : beauty_lgt1.g
+[2024-12-03 15:53:09.714398] - SUCCESS : Channel removed : beauty_lgt1.r
+[2024-12-03 15:53:09.714398] - SUCCESS : Channel removed : beauty_lgt2.b
+[2024-12-03 15:53:09.714398] - SUCCESS : Channel removed : beauty_lgt2.g
+[2024-12-03 15:53:09.715395] - SUCCESS : Channel removed : beauty_lgt2.r
+[2024-12-03 15:53:09.715395] - SUCCESS : Channel removed : beauty_lgt3.b
+[2024-12-03 15:53:09.716394] - SUCCESS : Channel removed : beauty_lgt3.g
+[2024-12-03 15:53:09.716394] - SUCCESS : Channel removed : beauty_lgt3.r
+[2024-12-03 15:53:09.717390] - SUCCESS : Channel removed : beauty_lgt4.b
+[2024-12-03 15:53:09.717390] - SUCCESS : Channel removed : beauty_lgt4.g
+[2024-12-03 15:53:09.718388] - SUCCESS : Channel removed : beauty_lgt4.r
+[2024-12-03 15:53:09.718388] - SUCCESS : Channel removed : beauty_lgt5.b
+[2024-12-03 15:53:09.719385] - SUCCESS : Channel removed : beauty_lgt5.g
+[2024-12-03 15:53:09.719385] - SUCCESS : Channel removed : beauty_lgt5.r
+[2024-12-03 15:53:09.720383] - SUCCESS : Channel removed : cpuTime
+[2024-12-03 15:53:09.720383] - SUCCESS : Channel removed : diffuse.b
+[2024-12-03 15:53:09.721381] - SUCCESS : Channel removed : diffuse.g
+[2024-12-03 15:53:09.721381] - SUCCESS : Channel removed : diffuse.r
+[2024-12-03 15:53:09.721381] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-12-03 15:53:09.722377] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-12-03 15:53:09.722377] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-12-03 15:53:09.723580] - SUCCESS : Channel removed : forward.x
+[2024-12-03 15:53:09.723580] - SUCCESS : Channel removed : forward.y
+[2024-12-03 15:53:09.724572] - SUCCESS : Channel removed : forward.z
+[2024-12-03 15:53:09.724572] - SUCCESS : Channel removed : mse.b
+[2024-12-03 15:53:09.724572] - SUCCESS : Channel removed : mse.g
+[2024-12-03 15:53:09.726002] - SUCCESS : Channel removed : mse.r
+[2024-12-03 15:53:09.726002] - SUCCESS : Channel removed : normal.x
+[2024-12-03 15:53:09.726002] - SUCCESS : Channel removed : normal.y
+[2024-12-03 15:53:09.726994] - SUCCESS : Channel removed : normal.z
+[2024-12-03 15:53:09.727814] - SUCCESS : Channel removed : normal_mse.x
+[2024-12-03 15:53:09.727819] - SUCCESS : Channel removed : normal_mse.y
+[2024-12-03 15:53:09.727819] - SUCCESS : Channel removed : normal_mse.z
+[2024-12-03 15:53:09.728813] - SUCCESS : Channel removed : normal_var.x
+[2024-12-03 15:53:09.728813] - SUCCESS : Channel removed : normal_var.y
+[2024-12-03 15:53:09.729589] - SUCCESS : Channel removed : normal_var.z
+[2024-12-03 15:53:09.729589] - SUCCESS : Channel removed : sampleCount
+[2024-12-03 15:53:09.730585] - SUCCESS : Channel removed : specular.b
+[2024-12-03 15:53:09.731335] - SUCCESS : Channel removed : specular.g
+[2024-12-03 15:53:09.731335] - SUCCESS : Channel removed : specular.r
+[2024-12-03 15:53:09.731335] - SUCCESS : Channel removed : specular_mse.b
+[2024-12-03 15:53:09.732331] - SUCCESS : Channel removed : specular_mse.g
+[2024-12-03 15:53:09.732331] - SUCCESS : Channel removed : specular_mse.r
+[2024-12-03 15:53:09.733140] - SUCCESS : Channel removed : zfiltered
+[2024-12-03 15:53:09.733140] - SUCCESS : Channel removed : zfiltered_var
+[2024-12-03 15:53:10.312152] - SUCCESS : Alpha extracted in : D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\output_denoise
+[2024-12-03 15:53:10.313150] - SUCCESS : Removing channels
+['a', 'A']
+[2024-12-03 15:53:10.313150] - SUCCESS : Compression type changed
+[2024-12-03 15:53:10.314148] - SUCCESS : Channel removed : Ci.b
+[2024-12-03 15:53:10.314148] - SUCCESS : Channel removed : Ci.g
+[2024-12-03 15:53:10.315144] - SUCCESS : Channel removed : Ci.r
+[2024-12-03 15:53:10.316142] - SUCCESS : Channel removed : albedo.b
+[2024-12-03 15:53:10.316142] - SUCCESS : Channel removed : albedo.g
+[2024-12-03 15:53:10.317139] - SUCCESS : Channel removed : albedo.r
+[2024-12-03 15:53:10.317139] - SUCCESS : Channel removed : albedo_mse.b
+[2024-12-03 15:53:10.317139] - SUCCESS : Channel removed : albedo_mse.g
+[2024-12-03 15:53:10.318136] - SUCCESS : Channel removed : albedo_mse.r
+[2024-12-03 15:53:10.318136] - SUCCESS : Channel removed : albedo_var.b
+[2024-12-03 15:53:10.319134] - SUCCESS : Channel removed : albedo_var.g
+[2024-12-03 15:53:10.319996] - SUCCESS : Channel removed : albedo_var.r
+[2024-12-03 15:53:10.319996] - SUCCESS : Channel removed : backward.x
+[2024-12-03 15:53:10.320992] - SUCCESS : Channel removed : backward.y
+[2024-12-03 15:53:10.320992] - SUCCESS : Channel removed : backward.z
+[2024-12-03 15:53:10.321989] - SUCCESS : Channel removed : beauty_lgt1.b
+[2024-12-03 15:53:10.321989] - SUCCESS : Channel removed : beauty_lgt1.g
+[2024-12-03 15:53:10.321989] - SUCCESS : Channel removed : beauty_lgt1.r
+[2024-12-03 15:53:10.322986] - SUCCESS : Channel removed : beauty_lgt2.b
+[2024-12-03 15:53:10.323482] - SUCCESS : Channel removed : beauty_lgt2.g
+[2024-12-03 15:53:10.323984] - SUCCESS : Channel removed : beauty_lgt2.r
+[2024-12-03 15:53:10.323984] - SUCCESS : Channel removed : beauty_lgt3.b
+[2024-12-03 15:53:10.324981] - SUCCESS : Channel removed : beauty_lgt3.g
+[2024-12-03 15:53:10.324981] - SUCCESS : Channel removed : beauty_lgt3.r
+[2024-12-03 15:53:10.325978] - SUCCESS : Channel removed : beauty_lgt4.b
+[2024-12-03 15:53:10.326627] - SUCCESS : Channel removed : beauty_lgt4.g
+[2024-12-03 15:53:10.326627] - SUCCESS : Channel removed : beauty_lgt4.r
+[2024-12-03 15:53:10.326627] - SUCCESS : Channel removed : beauty_lgt5.b
+[2024-12-03 15:53:10.327623] - SUCCESS : Channel removed : beauty_lgt5.g
+[2024-12-03 15:53:10.327623] - SUCCESS : Channel removed : beauty_lgt5.r
+[2024-12-03 15:53:10.328549] - SUCCESS : Channel removed : cpuTime
+[2024-12-03 15:53:10.328549] - SUCCESS : Channel removed : diffuse.b
+[2024-12-03 15:53:10.329549] - SUCCESS : Channel removed : diffuse.g
+[2024-12-03 15:53:10.329549] - SUCCESS : Channel removed : diffuse.r
+[2024-12-03 15:53:10.330696] - SUCCESS : Channel removed : diffuse_mse.b
+[2024-12-03 15:53:10.330696] - SUCCESS : Channel removed : diffuse_mse.g
+[2024-12-03 15:53:10.331543] - SUCCESS : Channel removed : diffuse_mse.r
+[2024-12-03 15:53:10.331543] - SUCCESS : Channel removed : forward.x
+[2024-12-03 15:53:10.332237] - SUCCESS : Channel removed : forward.y
+[2024-12-03 15:53:10.332237] - SUCCESS : Channel removed : forward.z
+[2024-12-03 15:53:10.333233] - SUCCESS : Channel removed : mse.b
+[2024-12-03 15:53:10.333233] - SUCCESS : Channel removed : mse.g
+[2024-12-03 15:53:10.334230] - SUCCESS : Channel removed : mse.r
+[2024-12-03 15:53:10.334230] - SUCCESS : Channel removed : normal.x
+[2024-12-03 15:53:10.335233] - SUCCESS : Channel removed : normal.y
+[2024-12-03 15:53:10.335233] - SUCCESS : Channel removed : normal.z
+[2024-12-03 15:53:10.336227] - SUCCESS : Channel removed : normal_mse.x
+[2024-12-03 15:53:10.336227] - SUCCESS : Channel removed : normal_mse.y
+[2024-12-03 15:53:10.337225] - SUCCESS : Channel removed : normal_mse.z
+[2024-12-03 15:53:10.337225] - SUCCESS : Channel removed : normal_var.x
+[2024-12-03 15:53:10.338222] - SUCCESS : Channel removed : normal_var.y
+[2024-12-03 15:53:10.338222] - SUCCESS : Channel removed : normal_var.z
+[2024-12-03 15:53:10.338222] - SUCCESS : Channel removed : sampleCount
+[2024-12-03 15:53:10.339219] - SUCCESS : Channel removed : specular.b
+[2024-12-03 15:53:10.340044] - SUCCESS : Channel removed : specular.g
+[2024-12-03 15:53:10.340044] - SUCCESS : Channel removed : specular.r
+[2024-12-03 15:53:10.340044] - SUCCESS : Channel removed : specular_mse.b
+[2024-12-03 15:53:10.341038] - SUCCESS : Channel removed : specular_mse.g
+[2024-12-03 15:53:10.341038] - SUCCESS : Channel removed : specular_mse.r
+[2024-12-03 15:53:10.342035] - SUCCESS : Channel removed : zfiltered
+[2024-12-03 15:53:10.342035] - SUCCESS : Channel removed : zfiltered_var
+[2024-12-03 15:53:10.897822] - SUCCESS : Alpha extracted in : D:\WORK\LIGHTING\BEWAFFNUNG\maya\images\output_denoise
+[2024-12-03 15:53:10.898819] - SUCCESS : Removing channels
+['a', 'A']
+[2024-12-03 15:53:10.899817] - SUCCESS : Compression type changed
+[2024-12-03 15:53:10.899817] - SUCCESS : Channel removed : Ci.b
+[2024-12-03 15:53:10.900814] - SUCCESS : Channel removed : Ci.g
+[2024-12-03 15:53:10.901381] - SUCCESS : Channel removed : Ci.r
+[2024-12-03 15:53:10.901811] - SUCCESS : Channel removed : albedo.b
+[2024-12-03 15:53:10.901811] - SUCCESS : Channel removed : albedo.g
+[2024-12-03 15:53:10.901811] - SUCCESS : Channel removed : albedo.r
