@@ -1,0 +1,22 @@
+
+
+
+#horizontal_container_main {
+	align: center middle;
+	background: $background;
+}
+
+
+#verticalscroll_leftcolumn_main, #verticalscroll_rightcolumn_main {
+	background: $panel;
+
+	max-width: 40%;
+
+	margin-right: 20;
+	margin-left: 20;
+}
+
+#listview_log {
+	height: 90%;
+}
+
