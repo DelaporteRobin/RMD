@@ -7,16 +7,38 @@
 }
 
 
-#verticalscroll_leftcolumn_main, #verticalscroll_rightcolumn_main {
+#verticalscroll_leftcolumn_main {
 	background: $panel;
 
-	max-width: 40%;
+	max-width: 30%;
+	margin-right: 5;
+}
 
-	margin-right: 20;
-	margin-left: 20;
+
+#verticalscroll_rightcolumn_main {
+	background: $panel;
+
+	max-width: 50%;
+	margin-left: 10;
 }
 
 #listview_log {
 	height: 90%;
+
 }
 
+
+#collapsible_input_output {
+	max-height: 40%;
+}
+
+
+#directorytree_input, #directorytree_output {
+	height: 90%;
+	border: solid $primary;
+}
+
+
+#listview_log {
+	border: solid $primary;
+}

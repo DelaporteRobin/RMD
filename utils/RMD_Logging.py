@@ -58,7 +58,7 @@ class RMD_LOG:
 		self.add_to_log_function(message, "ERROR", "text-error", time)
 
 
-
+	
 	def add_to_log_function(self, message, severity, color, time):
 		if time == True:
 			label = Label("[%s] %s : %s"%(severity, str(datetime.now()), str(message)))
