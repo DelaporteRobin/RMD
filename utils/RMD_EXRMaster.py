@@ -48,13 +48,66 @@ class RMD_EXR():
 
 	#AS A THREAD
 	def check_input_sequence_function(self):
+
+		SEQUENCE_SIZE = 0
+		SEQUENCE_LENGTH = 0
+		SEQUENCE_SIMILARITY = {}
+		SEQUENCE_CHANNEL_CACHE = []
+
 		try:
 			self.call_from_thread(self.display_notification_function, "CHECKING INPUT SEQUENCE")
 			self.call_from_thread(self.display_notification_function, self.input_path)
 
 			#get the content in the input path
-			for item in os.listdir(self.input_path):
-				if os.path.isfile(os.path.join(self.input_path,item))==True:
-					self.call_from_thread(self.display_message_function, "  %s"%item, False)
+			folder_content = os.listdir(self.input_path)
+
+
+			self.call_from_thread(self.display_notification_function, "Separating sequences...")
+
+
+
+			for i in range(len(folder_content)):
+
+
+				
+				if (os.path.isfile(os.path.join(self.input_path,folder_content[i]))==True) and (os.path.splitext(folder_content[i])[1] == ".exr"):
+
+					#try to create the dictionnary of similarity inside of the sequence folder
+					if i == 0:
+						SEQUENCE_SIMILARITY[os.path.splitext(folder_content[i])[0].split(".")[0]] = [folder_content[i]]
+					else:
+						#check for each key of the dictionnary if the similarity is high enough
+						#if yes add the file to the existing key
+						#else create a new key
+						added = False
+						for key in SEQUENCE_SIMILARITY:
+							ratio = Levenshtein.ratio(os.path.splitext(folder_content[i])[0].split(".")[0], key)
+							if ratio > 0.8:
+								filelist = SEQUENCE_SIMILARITY[key]
+								filelist.append(folder_content[i])
+								SEQUENCE_SIMILARITY[key] = filelist
+								added=True
+								break
+							
+						#create a new key in the dictionnary
+						if added == False:
+							SEQUENCE_SIMILARITY[os.path.splitext(folder_content[i])[0].split(".")[0]] = [folder_content[i]]
+							
+
+					#PROCESS TO CHECK EACH EXR FILE
+					#self.call_from_thread(self.display_message_function, "  %s"%folder_content[i], False)
+
+
+
+			for sequence_name, sequence_frames in SEQUENCE_SIMILARITY.items():
+				self.call_from_thread(self.display_message_function, "SEQUENCE DETECTED : %s"%key)
+
+				#CHECKING EACH FRAMES FOR THIS SEQUENCE
+				try:
+					input_file = OpenEXR
+
+				
+
+
 		except Exception as e:
 			self.call_from_thread(self.display_error_function, e)

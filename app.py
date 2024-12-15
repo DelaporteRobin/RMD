@@ -30,8 +30,11 @@ import colorama
 
 #IMPORT RMD MODULES
 import config
+
 from utils.RMD_EXRMaster import RMD_EXR
 from utils.RMD_Logging import RMD_LOG
+
+from styles.theme_file import *
 
 
 
@@ -90,7 +93,7 @@ class RMD_APP(App, RMD_LOG, RMD_EXR):
 
 
 				with Collapsible(title="INPUT OUTPUT FOLDER", id="collapsible_input_output"):
-					self.input_drive_path = Input("Root path")
+					self.input_drive_path = Input(placeholder="Root path", id="input_drive_path")
 					yield self.input_drive_path
 					with Horizontal(id="horizontal_inputoutput_container"):
 
@@ -140,6 +143,14 @@ class RMD_APP(App, RMD_LOG, RMD_EXR):
 		self.display_success_function("TUI Built successfully")
 
 
+		#loading themes
+		for theme in theme_registry:
+			self.register_theme(theme)
+		#apply the theme specified in config file
+		self.theme = "downtown"
+
+
+
 
 
 
@@ -175,6 +186,16 @@ class RMD_APP(App, RMD_LOG, RMD_EXR):
 			self.label_output_folder.update(self.output_path)
 
 			self.display_message_function("Output Path : %s"%self.output_path)
+
+
+	def on_input_submitted(self, event: Input.Submitted) -> None:
+		if event.control.id == "input_drive_path":
+			if os.path.isdir(self.input_drive_path.value)==True:
+				self.directorytree_input.path = self.input_drive_path.value
+				self.directorytree_output.path = self.input_drive_path.value
+				self.display_message_function("Starting path changed : %s"%self.input_drive_path.value)
+			else:
+				self.display_error_function("This folder path isn't valid")
 
 		
 			
