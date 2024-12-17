@@ -66,4 +66,5 @@ class RMD_LOG:
 			label = Label(str(message))
 		label.styles.color = self.color_dictionnary[color]
 		self.listview_log.append(ListItem(label))
+		self.listview_log.scroll_end()
 

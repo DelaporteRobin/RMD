@@ -27,6 +27,16 @@
 
 }
 
+#listview_sequence {
+	border: solid $primary;
+	max-height: 20%;
+}
+
+#selectionlist_channels {
+	border: solid $primary;
+	height:1fr;
+}
+
 
 #collapsible_input_output {
 	max-height: 40%;
@@ -38,7 +48,18 @@
 	border: solid $primary;
 }
 
-
+#plotext-size {
+	height:30%;
+}
 #listview_log {
-	border: solid $primary;
+	overflow-x:auto;
+	overflow-y:auto;
+	/*border: solid $primary;*/
+	width:100%;
+	height:auto;
+	max-height:90%;
+}
+
+ListItem {
+	width:auto;
 }

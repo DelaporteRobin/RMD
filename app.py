@@ -16,6 +16,8 @@ from textual import work
 from textual.containers import Horizontal, Vertical, Container, VerticalScroll
 from textual import on
 
+from textual_plotext import PlotextPlot
+
 import threading
 from pathlib import Path
 from datetime import datetime
@@ -33,6 +35,7 @@ import config
 
 from utils.RMD_EXRMaster import RMD_EXR
 from utils.RMD_Logging import RMD_LOG
+from utils.RMD_Config import RMD_CONFIG
 
 from styles.theme_file import *
 
@@ -51,7 +54,7 @@ class DirectoryTree_FILES(DirectoryTree):
 
 
 
-class RMD_APP(App, RMD_LOG, RMD_EXR):
+class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG):
 
 	CSS_PATH = ["styles/layout.tcss"]
 	def __init__(self):
@@ -68,6 +71,17 @@ class RMD_APP(App, RMD_LOG, RMD_EXR):
 		self.font_title = "ansi_shadow"
 
 		
+
+
+		self.SEQUENCE_SIZE = 0
+		self.SEQUENCE_LENGTH = 0
+		self.SEQUENCE_SIMILARITY = {}
+		self.SEQUENCE_SKIP_FRAMES = []
+		self.SEQUENCE_FRAME_LIST = []
+		self.SEQUENCE_FRAME_INDEX_LIST = []
+		self.SEQUENCE_FRAME_SIZE_LIST = []
+		self.FINAL_SEQUENCE_DICTIONNARY = {}
+
 
 
 
@@ -113,13 +127,34 @@ class RMD_APP(App, RMD_LOG, RMD_EXR):
 							self.directorytree_output.border_title = "Output Folder"
 							yield self.directorytree_output
 
-				with Horizontal(id = "horizontal_denoisesettings_container"):
-					with VerticalScroll(id="vertical_checksequence_container"):
-						yield Button("CHECK INPUT SEQUENCE", id="button_checkinput")
+				yield Button("CHECK INPUT SEQUENCE", id="button_checkinput")
+				#yield Button("TEST", id="button_test")
+
+				self.listview_sequence = ListView(id="listview_sequence")
+				yield self.listview_sequence
+				self.listview_sequence.border_title = "Sequence List"
+
+				with Horizontal(id="horizontal_denoisesettings_container"):
+					with Vertical(id="vertical_channelcontainer"):
+						self.selectionlist_channels = SelectionList(id="selectionlist_channels")
+						yield self.selectionlist_channels
+						self.selectionlist_channels.border_title = "Channel List"
+					with Vertical(id="vertical_denoisesettingscontainer"):
+						yield Button("DENOISE", id="button_denoise")
+				
+
+
 
 
 
 			with VerticalScroll(id="verticalscroll_rightcolumn_main"):
+
+				self.plotext_size = PlotextPlot(id="plotext_size")
+				yield self.plotext_size
+
+				self.plotext_size.visible = False
+				self.plotext_size.styles.height = 0
+
 				self.listview_log = ListView(id="listview_log")
 				yield self.listview_log
 
@@ -137,8 +172,7 @@ class RMD_APP(App, RMD_LOG, RMD_EXR):
 		
 		for line in config.WELCOME.splitlines():
 			self.display_notification_function(line, False)
-		
-		
+
 
 		self.display_success_function("TUI Built successfully")
 
@@ -162,6 +196,18 @@ class RMD_APP(App, RMD_LOG, RMD_EXR):
 
 			self.thread_check_input = threading.Thread(target=self.check_input_sequence_function, args=())
 			self.thread_check_input.start()
+
+
+		if event.button.id == "button_test":
+			self.update_plotext(["bonjour","bonsoir"], [10, 20])
+
+
+		if event.button.id == "button_denoise":
+			self.thread_create_config = threading.Thread(target=self.create_config_function, args=())
+			self.thread_create_config.start()
+
+
+			
 
 
 
@@ -197,6 +243,87 @@ class RMD_APP(App, RMD_LOG, RMD_EXR):
 			else:
 				self.display_error_function("This folder path isn't valid")
 
+
+	def on_selection_list_selection_toggled(self, event: SelectionList.SelectionToggled) -> None:
+		if event.control.id == "selectionlist_channels":
+			#self.display_message_function(event.selection_index)
+			#update the value in the channel dictionnary for that sequence
+			sequence_name = list(self.FINAL_SEQUENCE_DICTIONNARY.keys())[self.listview_sequence.index]
+			sequence_data = self.FINAL_SEQUENCE_DICTIONNARY[sequence_name]
+
+			channel_list = sequence_data["CHANNEL_LIST"]
+			channel_list[event.selection_index] = (channel_list[event.selection_index][0], not channel_list[event.selection_index][1])
+
+			sequence_data["CHANNEL_LIST"] = channel_list
+			self.FINAL_SEQUENCE_DICTIONNARY[sequence_name] = sequence_data
+
+
+
+	def on_list_view_selected(self, event: ListView.Selected) -> None:
+		if event.control.id == "listview_sequence":
+			sequence_data = self.FINAL_SEQUENCE_DICTIONNARY[list(self.FINAL_SEQUENCE_DICTIONNARY.keys())[self.listview_sequence.index]]
+
+			try:
+				self.update_plotext(sequence_data["FRAME_INDEX_LIST"], sequence_data["FRAME_SIZE_LIST"])
+			except Exception as e:
+				tb = traceback.format_exc()  # Retourne l'exception complète sous forme de chaîne
+
+				# Extraire l'information sur la dernière ligne où l'erreur s'est produite
+				last_traceback = traceback.extract_tb(e.__traceback__)[-1]
+				file_name = last_traceback.filename
+				line_number = last_traceback.lineno
+				line_content = last_traceback.line
+				
+				self.display_error_function("Error happened while updating plotext")
+				self.display_error_function("%s\n%s\n%s"%(file_name, line_number, line_content), False)
+				#self.update_plotext(self.FINAL_SEQUENCE_DICTIONNARY["FRAME_INDEX_LIST"], self.FINAL_SEQUENCE_DICTIONNARY["FRAME_SIZE_LIST"])
+			else:
+				self.display_success_function("Plotext updated")
+
+			try:
+				#clear selection list
+				self.selectionlist_channels.clear_options()
+
+		
+				for channel in sequence_data["CHANNEL_LIST"]:
+				#add new channels to selection list
+					self.selectionlist_channels.add_option((channel[0], channel[0], channel[1]))
+			except Exception as e:
+				self.display_error_function("Error happened while updating channel list")
+				self.display_error_function(e)
+			else:
+				self.display_success_function("Channels list updated")
+
+
+	def update_plotext(self, title, number):
+		self.plotext_size.visible = True 
+		self.plotext_size.styles.height = "30%"
+		self.listview_log.styles.height = "70%"
+
+		self.display_message_function("called")
+		
+		self.plt = self.query_one("#plotext_size").plt
+		self.plt.clear_data()
+		self.plt.bar(title,number)
+		self.plt.xlim(min(title),max(title)*1.5)
+		self.plt.ylim(0,max(number)*1.5)
+		self.plt.show()
+
+		self.plotext_size.refresh()
+
+		self.display_message_function("done")
+
+
+
+	def update_sequencelist(self):
+		#clear the sequence list
+		self.listview_sequence.clear()
+
+
+	
+		for sequence_name in self.FINAL_SEQUENCE_DICTIONNARY:
+			self.listview_sequence.append(ListItem(Label(sequence_name)))
+		
 		
 			
 
