@@ -23,6 +23,7 @@ from textual import events
 from textual import work
 from textual.containers import Horizontal, Vertical, Container, VerticalScroll
 from textual import on
+from config import *
 
 
 
@@ -132,6 +133,13 @@ class RMD_EXR():
 						self.call_from_thread(self.display_message_function, "  %s"%os.path.basename(frame))
 						self.call_from_thread(self.display_message_function, "     %s"%list(render_data.keys()))
 
+						#CHECK IF ALL REQUIRED AOV ARE IN THE CHANNEL LIST FOR THIS SEQUENCE
+						#creating the channel list for this frame
+						frame_channel_list = list({channel.split('.')[0] for channel in render_data})
+						for required_channel in AOV_REQUIRED:
+							if required_channel not in frame_channel_list:
+								self.call_from_thread(self.display_error_function, "       required channel missing for this frame : %s"%required_channel)
+
 						if self.SEQUENCE_CHANNEL_LIST == []:
 							self.SEQUENCE_CHANNEL_LIST = render_data
 							self.call_from_thread(self.display_message_function, "     CHANNEL LIST CACHE CREATED")
@@ -189,7 +197,7 @@ class RMD_EXR():
 			line_content = last_traceback.line
 			
 			self.call_from_thread(self.display_error_function, "Error happened while checking sequence")
-			self.call_from_thread(self.display_error_function, "%s\n%s\n%s"%(file_name,line_number,line_content), False)
+			self.call_from_thread(self.display_error_function, "%s\n%s\n%s\n%s"%(file_name,line_number,line_content, e), False)
 	
 			return None
 

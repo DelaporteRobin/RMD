@@ -31,11 +31,13 @@ import colorama
 
 
 #IMPORT RMD MODULES
+from config import *
 import config
 
 from utils.RMD_EXRMaster import RMD_EXR
 from utils.RMD_Logging import RMD_LOG
 from utils.RMD_Config import RMD_CONFIG
+from utils.RMD_Denoise import RMD_DENOISE
 
 from styles.theme_file import *
 
@@ -54,7 +56,7 @@ class DirectoryTree_FILES(DirectoryTree):
 
 
 
-class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG):
+class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 
 	CSS_PATH = ["styles/layout.tcss"]
 	def __init__(self):
@@ -82,6 +84,8 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG):
 		self.SEQUENCE_FRAME_SIZE_LIST = []
 		self.FINAL_SEQUENCE_DICTIONNARY = {}
 
+		self.CONFIG_LIST = []
+
 
 
 
@@ -102,7 +106,7 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG):
 
 		with Horizontal(id="horizontal_container_main"):
 			with VerticalScroll(id="verticalscroll_leftcolumn_main"):
-				self.label_title = Label(pyfiglet.figlet_format("RMD %s"%str(config.VERSION), font=self.font_title))
+				self.label_title = Label(pyfiglet.figlet_format("RMD %s"%str(config.VERSION), font=ASCII_FONT_LOBBY))
 				yield self.label_title
 
 
@@ -188,14 +192,20 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG):
 
 
 
+
+
+
+
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		if event.button.id == "button_checkinput":
 
 			#self.check_input_sequence_function()
 			#START THE FUNCTION AS A THREAD?
 
-			self.thread_check_input = threading.Thread(target=self.check_input_sequence_function, args=())
+			self.thread_check_input = threading.Thread(target=self.check_input_sequence_function, daemon=True,args=())
 			self.thread_check_input.start()
+
+			#self.thread_check_if_alive = threading.Thread(target=self.check_thread_alive_function, daemon=True, args=(self.thread_check_input))
 
 
 		if event.button.id == "button_test":
@@ -203,8 +213,19 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG):
 
 
 		if event.button.id == "button_denoise":
-			self.thread_create_config = threading.Thread(target=self.create_config_function, args=())
+			"""
+
+			self.thread_create_config = threading.Thread(target=self.create_config_function, daemon=True,args=())
 			self.thread_create_config.start()
+			"""
+			with self.suspend():
+				self.create_config_function()
+
+
+
+
+
+
 
 
 			

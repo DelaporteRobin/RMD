@@ -9,6 +9,9 @@ VERSION = 0.2
 AUTHOR = "DelaporteRobin"
 REPO = "https://github.com/DelaporteRobin/RMD"
 
+ASCII_FONT_LOBBY = "ansi_shadow"
+ASCII_FONT_TERMINAL = "ansi_shadow"
+
 
 #WELCOME TEXT
 WELCOME = """
@@ -22,13 +25,14 @@ Go star the Repo to support my work
 """%(VERSION, AUTHOR, REPO)
 
 
-PIXAR_PATH = "C:/Program Files/Pixar/"
+PIXAR_PATH = "C:/Program Files/Pixar/RenderManProServer-26.2"
+
 
 AOV_REQUIRED = [
 	"Ci",
 	"a", 
 	"mse",
-	"SampleCount",
+	"sampleCount",
 	"albedo",
 	"albedo_mse",
 	"diffuse",

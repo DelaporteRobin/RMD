@@ -13,10 +13,10 @@ The TUI design was made using the Textual library, go check their [WEBSITE](http
 
 
 ### Tasklist for dev
-- [ ] Include independant combine process (without using Denoise algorythm)
-- [ ] Include independant compress process (without using Denoise algorythm)
-- [ ] Return if wanted a full data set about the input sequence informations
-- [ ] Create a "Single Render Denoise" mode, instead of trying to denoise a sequence
+- Independant Combine / Compress feature
+- create a function to automatically find the right proserver version available on your computer
+- create a dataset about input sequence frames
+
 
 
 
