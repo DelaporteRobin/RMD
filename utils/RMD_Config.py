@@ -66,9 +66,9 @@ class RMD_CONFIG():
 				self.display_notification_function("Creating json config for sequence : %s"%sequence_name)
 
 				for channel in sequence_data["CHANNEL_LIST"]:
-					if channel[1] == True:
-						final_sequence_channel_list.append(channel[0])
-						self.display_message_function("  %s"%channel[0], False)
+					#if channel[1] == True:
+					final_sequence_channel_list.append(channel[0])
+					self.display_message_function("  %s"%channel[0], False)
 
 
 				config_dictionnary = {}

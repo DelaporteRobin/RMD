@@ -85,6 +85,11 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 		self.FINAL_SEQUENCE_DICTIONNARY = {}
 
 		self.CONFIG_LIST = []
+		self.COMBINED_SEQUENCE_LIST = []
+		self.ALPHA_SEQUENCE_LIST = []
+
+		self.COMPRESSION_MODE = "DWAB_COMPRESSION"
+
 
 
 
@@ -131,6 +136,13 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 							self.directorytree_output.border_title = "Output Folder"
 							yield self.directorytree_output
 
+
+				with Collapsible(title = "RENDERMAN PRO SERVER PATH", id="collapsible_rendermanproserver"):
+					self.input_proserverpath = Input(placeholder = "Renderman ProServer path")
+					yield self.input_proserverpath
+
+					yield Button("Automatic ProServer Search")
+
 				yield Button("CHECK INPUT SEQUENCE", id="button_checkinput")
 				#yield Button("TEST", id="button_test")
 
@@ -144,6 +156,12 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 						yield self.selectionlist_channels
 						self.selectionlist_channels.border_title = "Channel List"
 					with Vertical(id="vertical_denoisesettingscontainer"):
+
+						self.listview_compression = ListView(id="listview_compression")
+						yield self.listview_compression
+						self.listview_compression.border_title = "Compression Mode List"
+
+
 						yield Button("DENOISE", id="button_denoise")
 				
 
@@ -176,6 +194,10 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 		
 		for line in config.WELCOME.splitlines():
 			self.display_notification_function(line, False)
+
+
+		for compression_mode in COMPRESSION_ALGORYTHM:
+			self.listview_compression.append(ListItem(Label(compression_mode)))
 
 
 		self.display_success_function("TUI Built successfully")
@@ -219,7 +241,25 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 			self.thread_create_config.start()
 			"""
 			with self.suspend():
+
+				"""
+				DENOISING STEPS
+				(if checked)
+
+				- denoise
+
+				compress render
+					- create alpha copy
+					- use combine script from renderman
+
+				remove useless channels from final sequence
+				"""
 				self.create_config_function()
+				#self.create_alpha_copy_function()
+
+
+
+
 
 
 

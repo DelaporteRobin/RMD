@@ -10,7 +10,7 @@ AUTHOR = "DelaporteRobin"
 REPO = "https://github.com/DelaporteRobin/RMD"
 
 ASCII_FONT_LOBBY = "ansi_shadow"
-ASCII_FONT_TERMINAL = "ansi_shadow"
+ASCII_FONT_TERMINAL = "crawford2"
 
 
 #WELCOME TEXT

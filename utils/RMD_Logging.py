@@ -29,31 +29,46 @@ class RMD_LOG:
 
 
 	def display_message_function(self, message, time=True):
-		print("[%s] MESSAGE - %s"%(str(datetime.now()), str(message)))
+		if time==False:
+			print(str(message))
+		else:
+			print("[%s] MESSAGE - %s"%(str(datetime.now()), str(message)))
 
 		self.add_to_log_function(message, "MESSAGE", "text-secondary", time)
 
 
 	def display_notification_function(self, message, time=True):
-		print(colored("[%s] NOTIFICATION"%str(datetime.now()), "cyan")," - %s"%(str(message)))
+		if time==False:
+			print(colored(str(message), "cyan"))
+		else:
+			print(colored("[%s] NOTIFICATION"%str(datetime.now()), "cyan")," - %s"%(str(message)))
 
 		self.add_to_log_function(message, "NOTIFICATION", "text-accent", time)
 
 
 	def display_warning_function(self, message, time=True):
-		print(colored("[%s] WARNING"%str(datetime.now()), "yellow")," - %s"%(str(message)))
+		if time==False:
+			print(colored(str(message), "yellow"))
+		else:
+			print(colored("[%s] WARNING"%str(datetime.now()), "yellow")," - %s"%(str(message)))
 
 		self.add_to_log_function(message, "WARNING", "text-warning", time)
 
 
 	def display_success_function(self, message, time=True):
-		print(colored("[%s] SUCCESS"%str(datetime.now()), "green")," - %s"%(str(message)))
+		if time==False:
+			print(colored(str(message), "green"))
+		else:
+			print(colored("[%s] SUCCESS"%str(datetime.now()), "green")," - %s"%(str(message)))
 
 		self.add_to_log_function(message, "SUCCESS", "text-success", time)
 
 
 	def display_error_function(self, message, time=True):
-		print(colored("[%s] ERROR"%str(datetime.now()), "red")," - %s"%(str(message)))
+		if time == False:
+			print(colored(str(message), "red"))
+		else:
+			print(colored("[%s] ERROR"%str(datetime.now()), "red")," - %s"%(str(message)))
 
 		self.add_to_log_function(message, "ERROR", "text-error", time)
 

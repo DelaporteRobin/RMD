@@ -63,3 +63,13 @@
 ListItem {
 	width:auto;
 }
+
+#listview_compression {
+	border: round $primary;
+	max-height:40%;
+}
+
+#button_denoise {
+	width:100%;
+	background: $primary;
+}
