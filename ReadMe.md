@@ -7,7 +7,7 @@ It also include some features to remove unwanted channels from the final Denoise
 as well as compression methods, which in certain case can divide the file weight by 12.
 
 
-![RMD Interface](https://github.com/DelaporteRobin/RMD/styles/images/RMD_LOBBY.svg)
+![RMD Interface](images/img_RMD.svg)
 
 
 You can read the documentation [HERE](https://www.notion.so/a13a63a10cde4ebda42246b9a3c6e408?pvs=4)
