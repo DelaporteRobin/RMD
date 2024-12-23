@@ -1,9 +1,0 @@
-/* Style TCSS for the main Renderman Denoising Application */
-/* By Quazar */ 
-
-
-
-/* Defining all the colors for the application stylesheet */
-$primary: #6bace9;
-$primary-darken-1: #3c82c4;
-$primary-darken-2: #2b69a3;
