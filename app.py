@@ -5,6 +5,7 @@ import os
 import sys
 import pyfiglet
 import copy
+import json
 
 from textual.app import App, ComposeResult
 from textual.widgets import Input, Log, Rule, Collapsible, Checkbox, SelectionList, LoadingIndicator, DataTable, Sparkline, DirectoryTree, Rule, Label, Button, Static, ListView, ListItem, OptionList, Header, SelectionList, Footer, Markdown, TabbedContent, TabPane, Input, DirectoryTree, Select, Tabs
@@ -111,11 +112,12 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 
 		with Horizontal(id="horizontal_container_main"):
 			with VerticalScroll(id="verticalscroll_leftcolumn_main"):
-				self.label_title = Label(pyfiglet.figlet_format("RMD %s"%str(config.VERSION), font=ASCII_FONT_LOBBY))
+				self.label_title = Label(pyfiglet.figlet_format("RMD %s"%str(config.VERSION), font=ASCII_FONT_LOBBY), id="label_title")
 				yield self.label_title
 
 
 				with Collapsible(title="INPUT OUTPUT FOLDER", id="collapsible_input_output"):
+					
 					self.input_drive_path = Input(placeholder="Root path", id="input_drive_path")
 					yield self.input_drive_path
 					with Horizontal(id="horizontal_inputoutput_container"):
@@ -138,10 +140,11 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 
 
 				with Collapsible(title = "RENDERMAN PRO SERVER PATH", id="collapsible_rendermanproserver"):
+					
 					self.input_proserverpath = Input(placeholder = "Renderman ProServer path")
 					yield self.input_proserverpath
 
-					yield Button("Automatic ProServer Search")
+					yield Button("Automatic ProServer Search", id="button_proserver")
 
 				yield Button("CHECK INPUT SEQUENCE", id="button_checkinput")
 				#yield Button("TEST", id="button_test")
@@ -156,6 +159,8 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 						yield self.selectionlist_channels
 						self.selectionlist_channels.border_title = "Channel List"
 					with Vertical(id="vertical_denoisesettingscontainer"):
+
+
 
 						self.listview_compression = ListView(id="listview_compression")
 						yield self.listview_compression
@@ -199,12 +204,18 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 		for compression_mode in COMPRESSION_ALGORYTHM:
 			self.listview_compression.append(ListItem(Label(compression_mode)))
 
+		self.listview_compression.index = 0
+
+
+
+		self.load_personnal_settings_function()
+
 
 		self.display_success_function("TUI Built successfully")
 
 
 		#loading themes
-		for theme in theme_registry:
+		for theme in THEME_REGISTRY:
 			self.register_theme(theme)
 		#apply the theme specified in config file
 		self.theme = "downtown"
@@ -219,6 +230,11 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 
 
 	def on_button_pressed(self, event: Button.Pressed) -> None:
+
+		if event.button.id == "button_proserver":
+			self.find_renderman_proserver_function()
+
+
 		if event.button.id == "button_checkinput":
 
 			#self.check_input_sequence_function()
@@ -261,14 +277,28 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 
 
 
+	def on_collapsible_expanded(self, event: Collapsible.Expanded) -> None:
 
+		#set a default color (white?)
+		color = "white"
+		#get the primary color of the current theme
+		for theme in THEME_REGISTRY:
+			if theme.name == self.theme:
+				color = theme.primary
+				self.display_message_function(color)
+		value = self.query_one("#%s"%event.control.id)
+		value.styles.border = ("vkey",color)
+	
 
-
-
-
-
-
-			
+	def on_collapsible_collapsed(self, event: Collapsible.Collapsed) -> None:
+		color = "white"
+		#get the primary color of the current theme
+		for theme in THEME_REGISTRY:
+			if theme.name == self.theme:
+				color = theme.background
+				self.display_message_function(color)
+		value = self.query_one("#%s"%event.control.id)
+		value.styles.border = ("hkey", color)
 
 
 
@@ -321,6 +351,33 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 
 
 	def on_list_view_selected(self, event: ListView.Selected) -> None:
+		if event.control.id == "listview_compression":
+			self.display_message_function("Compression mode changed : %s"%list(COMPRESSION_ALGORYTHM.keys())[self.listview_compression.index])
+
+			user_config = {}
+
+			if os.path.isfile(os.path.join(os.getcwd(), "config/user_config.json"))==True:
+				#load user config
+				try:
+					with open(os.path.join(os.getcwd(), "config/user_config.json"), "r") as read_file:
+						user_config = json.load(read_file)
+				except Exception as e:
+					self.display_error_function("Impossible to load user config")
+					self.display_error_function(e)
+				
+			
+
+			user_config["COMPRESSION_MODE"] = list(COMPRESSION_ALGORYTHM.keys())[self.listview_compression.index]
+
+			#save the new config
+			try:
+				with open(os.path.join(os.getcwd(), "config/user_config.json"), "w") as save_file:
+					json.dump(user_config, save_file, indent=4)
+			except Exception as e:
+				self.display_error_function("Impossible to save config file")
+				self.display_error_function(e)
+			
+
 		if event.control.id == "listview_sequence":
 			sequence_data = self.FINAL_SEQUENCE_DICTIONNARY[list(self.FINAL_SEQUENCE_DICTIONNARY.keys())[self.listview_sequence.index]]
 

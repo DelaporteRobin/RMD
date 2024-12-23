@@ -48,7 +48,7 @@ class RMD_DENOISE:
 			self.display_notification_function("LAUNCHING DENOISE TASK FOR %s"%sequence_name.upper())
 			try:
 				print("Launching Renderman Command")
-				#os.system('"%s/bin/denoise_batch.exe" -j %s' % (PIXAR_PATH, os.path.join(os.getcwd(), "config/config_%s.json"%sequence_name)))
+				os.system('"%s/bin/denoise_batch.exe" -j %s' % (PIXAR_PATH, os.path.join(os.getcwd(), "config/config_%s.json"%sequence_name)))
 			except Exception as e:
 				self.display_error_function("Impossible to call denoising process")
 				self.display_error_function(e)
@@ -56,10 +56,10 @@ class RMD_DENOISE:
 				
 
 
-				#self.create_alpha_copy_function(sequence_name, sequence_data)
-				#self.combine_exr_function(sequence_name, sequence_data)
-				#self.combine_alpha_with_sequence_function(sequence_name, sequence_data)
-				#self.remove_useless_channels_function(sequence_name, sequence_data)
+				self.create_alpha_copy_function(sequence_name, sequence_data)
+				self.combine_exr_function(sequence_name, sequence_data)
+				self.combine_alpha_with_sequence_function(sequence_name, sequence_data)
+				self.remove_useless_channels_function(sequence_name, sequence_data)
 				self.clean_output_folder_function()
 
 
@@ -292,6 +292,9 @@ class RMD_DENOISE:
 					value = self.remove_channel_function(file, file, [channel[0]], True)
 
 		self.display_success_function("USELESS CHANNELS REMOVED FROM SEQUENCE")
+
+
+
 
 
 

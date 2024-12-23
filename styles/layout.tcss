@@ -6,7 +6,9 @@
 	background: $background;
 }
 
-
+#label_title {
+	color:#ff6947;
+}
 #verticalscroll_leftcolumn_main {
 	background: $panel;
 
@@ -16,7 +18,7 @@
 
 
 #verticalscroll_rightcolumn_main {
-	background: $panel;
+	background: $surface;
 
 	max-width: 50%;
 	margin-left: 10;
@@ -29,7 +31,7 @@
 
 #listview_sequence {
 	border: solid $primary;
-	max-height: 20%;
+	max-height: 15%;
 }
 
 #selectionlist_channels {
@@ -43,21 +45,36 @@
 }
 
 
+
+#button_checkinput {
+	background: $primary;
+
+	margin-top:1;
+	margin-bottom:1;
+
+	width:50%;
+}
+
 #directorytree_input, #directorytree_output {
 	height: 90%;
 	border: solid $primary;
 }
 
 #plotext-size {
-	height:30%;
+	max-height:30%;
 }
 #listview_log {
+
+	background: $surface;
+	margin-right: 5;
+	margin-left: 5;
+
 	overflow-x:auto;
 	overflow-y:auto;
 	/*border: solid $primary;*/
 	width:100%;
 	height:auto;
-	max-height:90%;
+	max-height:100%;
 }
 
 ListItem {

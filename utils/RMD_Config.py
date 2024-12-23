@@ -30,6 +30,104 @@ from config import *
 class RMD_CONFIG():
 
 
+	def find_renderman_proserver_function(self):
+		if os.path.isdir("C:/Program Files/Pixar")==False:
+			self.display_error_function("Impossible to find Pixar folder!")
+			return
+		else:
+			proserver_list = []
+
+			for item in os.listdir("C:/Program Files/Pixar"):
+				if os.path.isdir(os.path.join("C:/Program Files/Pixar", item))==True and (item.startswith("RenderManProServer")):
+					proserver_list.append(os.path.join("C:/Program Files/Pixar", item))
+			if len(proserver_list) != 0:
+				self.display_success_function("Last proserver version : %s"%proserver_list[-1])
+			else:
+				self.display_error_function("Impossible to find proserver version")
+				return
+
+			if os.path.isfile(os.path.join(os.getcwd(), "config/user_config.json"))==False:
+				#create the new folder
+				os.makedirs(os.path.join(os.getcwd(), "config"), exist_ok=True)
+
+				user_config = {}
+				
+
+			else:
+				#read the file
+				try:
+					with open(os.path.join(os.getcwd(), "config/user_config.json"), "r") as read_file:
+						user_config = json.load(read_file)
+				except Exception as e:
+					self.display_error_function("Impossible to read user config file!")
+					self.display_error_function(e)
+					return
+
+			user_config["RENDERMAN_PROSERVER"] = proserver_list[-1]
+
+			#save the new file
+			try:
+				with open(os.path.join(os.getcwd(), "config/user_config.json"), "w") as save_file:
+					json.dump(user_config,save_file, indent=4)
+
+			except Exception as e:
+				self.display_error_function("Impossible to save user file")
+				self.display_error_function(e)
+			else:
+				self.display_success_function("User config saved")
+
+			#change the textfield content
+			#self.input_proserverpath.clear()
+			self.input_proserverpath.value = str(user_config["RENDERMAN_PROSERVER"])
+
+
+
+
+
+
+
+
+
+
+
+	def load_personnal_settings_function(self):
+		if os.path.isfile(os.path.join(os.getcwd(), "config/user_config.json"))==True:
+			try:
+				with open(os.path.join(os.getcwd(), "config/user_config.json"), "r") as read_file:
+					user_config = json.load(read_file)
+
+			except Exception as e:
+				self.display_error_function("Impossible to load user config file")
+				self.display_error_function(e)
+				return
+
+			else:
+				self.display_success_function("User config loaded")
+
+
+			if "RENDERMAN_PROSERVER" in user_config:
+				self.input_proserverpath.value = user_config["RENDERMAN_PROSERVER"]
+
+			if "COMPRESSION_MODE" in user_config:
+				self.listview_compression.index = list(COMPRESSION_ALGORYTHM.keys()).index(user_config["COMPRESSION_MODE"])
+				self.display_notification_function("Compression mode loaded : %s"%user_config["COMPRESSION_MODE"])
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	def create_config_function(self):
 		crossframe_value = True

@@ -83,3 +83,15 @@ class RMD_LOG:
 		self.listview_log.append(ListItem(label))
 		self.listview_log.scroll_end()
 
+
+		try:
+			os.makedirs(os.path.join(os.getcwd(), "log"), exist_ok=True)
+			with open(os.path.join(os.getcwd(), "log/log_rmd.log"), "a") as save_file:
+				if time == True:
+					save_file.write("[%s] %s : %s\n"%(str(datetime.now()),severity, str(message)))
+				else:
+					save_file.write("%s\n"%str(message))
+		except:
+			pass 
+
+

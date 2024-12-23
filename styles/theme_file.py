@@ -1,11 +1,11 @@
 from textual.theme import Theme
 
 
-downtown_theme = Theme(
+DOWNTOWN_THEME = Theme(
 	name="downtown",
 	primary="#e41d59",
 	secondary="#f76120",
-	accent="#fd653d",
+	accent="#ff6947",
 	foreground="#eacbd5",
 	background="#29232e",
 	success="#b7c664",
@@ -16,7 +16,7 @@ downtown_theme = Theme(
 	dark=True,
 	)
 
-abyss_theme = Theme(
+ABYSS_THEME = Theme(
 	name="abyss",
 	primary="#8699da",
 	secondary="#48b6bb",
@@ -24,4 +24,4 @@ abyss_theme = Theme(
 
 
 
-theme_registry = [downtown_theme, abyss_theme]
+THEME_REGISTRY = [DOWNTOWN_THEME, ABYSS_THEME]
