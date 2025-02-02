@@ -252,7 +252,7 @@ class RMD_CONFIG():
 				try:
 					with open(config_path, "w") as save_config:
 						json.dump(config_dictionnary, save_config, indent=4)
-				except Exception as e:
+				except Exceptionon as e:
 					self.display_error_function("    Impossible to save json file")
 					self.display_error_function("    %s"%e)
 				else:
