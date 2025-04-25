@@ -250,6 +250,13 @@ class RMD_DENOISE:
 		self.display_message_function("\n", False)
 		self.display_notification_function("COMBINE ALPHA WITH SEQUENCE FUNCTION")
 
+		self.display_notification_function("DISPLAY COMBINED LIST CONTENT")
+		for item in self.COMBINED_SEQUENCE_LIST:
+			self.display_message_function(item)
+		self.display_notification_function("DISPLAY ALPHA LIST CONTENT")
+		for item in self.ALPHA_SEQUENCE_LIST:
+			self.display_message_function(item)
+
 		if len(self.COMBINED_SEQUENCE_LIST)==0 or len(self.ALPHA_SEQUENCE_LIST) == 0:
 			self.display_error_function("Impossible to combine alpha sequence with denoised sequence")
 
