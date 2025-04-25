@@ -252,10 +252,10 @@ class RMD_DENOISE:
 
 		if len(self.COMBINED_SEQUENCE_LIST)==0 or len(self.ALPHA_SEQUENCE_LIST) == 0:
 			self.display_error_function("Impossible to combine alpha sequence with denoised sequence")
-			return 
+
 		if len(self.COMBINED_SEQUENCE_LIST) != len(self.ALPHA_SEQUENCE_LIST):
 			self.display_error_function("Alpha list length is different from Denoised list length!")
-			return
+			
 
 
 		for i in range(len(self.COMBINED_SEQUENCE_LIST)):
