@@ -46,6 +46,8 @@ class RMD_DENOISE:
 
 
 			self.display_notification_function("LAUNCHING DENOISE TASK FOR %s"%sequence_name.upper())
+			#self.display_message_function("CONFIG PATH : %s"%os.path.join(os.getcwd(), "config/config_%s.json"%sequence_name))
+
 			try:
 				print("Launching Renderman Command")
 				os.system('"%s/bin/denoise_batch.exe" -j %s' % (PIXAR_PATH, os.path.join(os.getcwd(), "config/config_%s.json"%sequence_name)))

@@ -218,7 +218,7 @@ class RMD_APP(App, RMD_LOG, RMD_EXR, RMD_CONFIG, RMD_DENOISE):
 		for theme in THEME_REGISTRY:
 			self.register_theme(theme)
 		#apply the theme specified in config file
-		self.theme = "downtown"
+		self.theme = "abyss"
 
 
 
